@@ -1,0 +1,9 @@
+- title: Home
+  label: Home
+  slug: /
+- title: Afosto Platform Documentation
+  label: Platform
+  slug: /platform
+- title: Afosto Point of Sale Documentation
+  label: POS
+  slug: /pos

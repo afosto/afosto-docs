@@ -1,0 +1,59 @@
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+
+permalinks: pretty
+
+# Server
+source: "."
+destination: ./_gh_pages
+host: 0.0.0.0
+port: 9001
+baseurl: ""
+url: ""
+encoding: UTF-8
+exclude:
+  - .git/
+  - .github/
+  - assets/scss/
+  - build/
+  - js/
+  - node_modules/
+  - nuget/
+  - scss/
+  - vendor/
+  - CODE_OF_CONDUCT.md
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - package.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - sache.json
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
+
+
+# Social
+title: Afosto Application Documentation
+email: support@afosto.com
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+github:             afosto
+twitter:            afosto
+facebook:           afosto
+social_image_path:  /assets/brand/afosto-social.jpg
+social_logo_path:   /assets/brand/afosto-social-logo.jpg
+
+toc:
+  min_level:        2
+  max_level:        4

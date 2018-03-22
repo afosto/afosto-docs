@@ -1,0 +1,36 @@
+{
+  "name": "helptest",
+  "version": "1.0.0",
+  "description": "manuals for Afosto customers",
+  "main": "index.html",
+  "repository": "git@github.com:afosto/helptest.git",
+  "author": "gijsbotje <botje_gijs@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "css": "yarn css:lint && yarn css:compile && yarn css:prefix && yarn css:minify",
+    "css:watch": "watch 'yarn css' scss",
+    "css:lint": "stylelint --config build/.stylelintrc --syntax scss \"/scss/**/*.scss\" --cache --cache-location \".stylelintcache/\"",
+    "css:prefix": "postcss --config build/postcss.config.js --replace \"assets/css/main.css\" \"!assets/css/main.min.css\"",
+    "css:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss assets/css/main.css",
+    "css:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/main.min.css assets/css/main.css",
+    "dist": "yarn css",
+    "watch": "watch 'yarn dist' scss",
+    "serve": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "clean-css-cli": "^4.1.11",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^5.0.0",
+    "stylelint": "^9.1.3",
+    "stylelint-config-recommended-scss": "^3.1.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^2.5.0",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
