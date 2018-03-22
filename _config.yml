@@ -13,7 +13,7 @@ destination: ./_gh_pages
 host: 0.0.0.0
 port: 9001
 baseurl: ""
-url: ""
+url: "https://afosto.github.io/afosto-docs"
 encoding: UTF-8
 exclude:
   - .git/
@@ -38,8 +38,10 @@ exclude:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-toc
 
+whitelist:
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 # Social
 title: Afosto Application Documentation
