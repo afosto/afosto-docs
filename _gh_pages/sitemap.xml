@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/jekyll/update/2018/03/19/welcome-to-jekyll.html</loc>
-<lastmod>2018-03-19T09:51:26+01:00</lastmod>
-</url>
-<url>
-<loc>/platform/update/release/2018/03/20/release-notes-37.html</loc>
+<loc>http://0.0.0.0:9001/platform/update/release/2018/03/20/release-notes-37.html</loc>
 <lastmod>2018-03-20T10:44:00+01:00</lastmod>
 </url>
 <url>
-<loc>/</loc>
+<loc>http://0.0.0.0:9001/pos/afrekenen.html</loc>
 </url>
 <url>
-<loc>/pos/</loc>
+<loc>http://0.0.0.0:9001/</loc>
 </url>
 <url>
-<loc>/platform/producten/toevoegen.html</loc>
+<loc>http://0.0.0.0:9001/pos/installatie.html</loc>
 </url>
 <url>
-<loc>/platform/paginas/toevoegen.html</loc>
+<loc>http://0.0.0.0:9001/platform/producten/toevoegen.html</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:9001/platform/paginas/toevoegen.html</loc>
 </url>
 </urlset>
