@@ -15,5 +15,5 @@ Voordat je start met de installatie is het goed de volgende zaken te checken:
 Je kan de kassa openen door naar [pos2.afosto.com](http://pos2.afosto.com/){:target="_blank"}
 Je zal dan uitkomen op onderstaande scherm.
 
-![start de POS installatie](/assets/img/pos-installation-1.png){:class="img-fluid"}
+![start de POS installatie]({{site.url}}/assets/img/pos-installation-1.png){:class="img-fluid"}
 De browser controleert ondertussen een aantal belangrijke dingen.
