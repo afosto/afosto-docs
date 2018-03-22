@@ -40,6 +40,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-toc
 
+whitelist:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
 
 # Social
 title: Afosto Application Documentation
