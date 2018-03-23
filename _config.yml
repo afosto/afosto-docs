@@ -7,6 +7,8 @@ kramdown:
 
 permalinks: pretty
 
+show_excerpts: false
+
 # Server
 source: "."
 destination: ./_gh_pages
@@ -38,10 +40,12 @@ exclude:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
 
 whitelist:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
 
 # Social
 title: Afosto Application Documentation
@@ -52,9 +56,16 @@ description: >-
   Google search results) and in your feed.xml site description.
 github:             afosto
 twitter:            afosto
+twitter_url:        "https://twitter.com/afosto"
 facebook:           afosto
+facebook_url:       "https://www.facebook.com/afosto/"
 social_image_path:  /assets/brand/afosto-social.jpg
 social_logo_path:   /assets/brand/afosto-social-logo.jpg
+
+
+afosto_url:         "https://afosto.com"
+github_url:         "https://github.com/afosto"
+api_url:            "https://docs.afosto.com/"
 
 toc:
   min_level:        2
