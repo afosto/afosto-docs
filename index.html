@@ -11,7 +11,7 @@ title: homepage afosto docs
         <div class="col-12 {% if forloop.first == false %}col-md-6{% endif %}">
           <div class="card h-100">
             <div class="card-body">
-              {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+              {% assign date_format = site.afosto.date_format | default: "%-d-%m-%Y" %}
               <h3>
                 <a class="post-link" href="{{ site.url | append: post.url }}">
                   {{ post.title | escape }}

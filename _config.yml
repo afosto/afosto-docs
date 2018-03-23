@@ -5,7 +5,7 @@ highlighter: rouge
 kramdown:
   auto_ids: true
 
-permalinks: pretty
+permalink: /blog/:year/:title.htm
 
 show_excerpts: false
 
