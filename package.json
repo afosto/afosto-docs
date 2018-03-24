@@ -13,9 +13,11 @@
     "css:prefix": "postcss --config build/postcss.config.js --replace \"assets/css/main.css\" \"!assets/css/main.min.css\"",
     "css:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss assets/css/main.css",
     "css:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/main.min.css assets/css/main.css",
+    "js:dist": "cp -R node_modules/bootstrap/dist/js/ assets/js/ && cp node_modules/jquery/dist/jquery.slim.js assets/js/ && cp -R node_modules/popper.js/dist/umd/ assets/js/",
     "dist": "yarn css",
     "watch": "watch 'yarn dist' scss",
-    "serve": "bundle exec jekyll liveserve",
+    "write": "bundle exec jekyll liveserve",
+    "serve": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build"
   },
   "devDependencies": {
@@ -31,6 +33,8 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.0.0",
+    "jquery": "3.2.1",
+    "popper.js": "1.12.9"
   }
 }
