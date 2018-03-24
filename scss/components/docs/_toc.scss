@@ -1,8 +1,29 @@
-.af-toc {
+.af-sidebar-toc {
   position: sticky;
   top: 3.625rem;
   height: calc(100vh - 3.625rem);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   overflow: auto;
+  font-size: 14px;
+  border-left: 1px solid $gray-200;
+  
+  ul {
+    padding-left: 0;
+    list-style: none;
+    
+    > li > ul {
+      padding-left: .75rem;
+    }
+  }
+  
+  a {
+    color: $gray-500;
+    text-decoration: none;
+    transition: .1s ease;
+    
+    &:hover {
+      color: theme-color(primary);
+    }
+  }
 }

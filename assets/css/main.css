@@ -8120,13 +8120,34 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 2rem;
 }
 
-.af-toc {
+.af-sidebar-toc {
   position: -webkit-sticky;
   position: sticky;
   top: 3.625rem;
   height: calc(100vh - 3.625rem);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   overflow: auto;
+  font-size: 14px;
+  border-left: 1px solid #e9ecef;
+}
+
+.af-sidebar-toc ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.af-sidebar-toc ul > li > ul {
+  padding-left: .75rem;
+}
+
+.af-sidebar-toc a {
+  color: #adb5bd;
+  text-decoration: none;
+  transition: .1s ease;
+}
+
+.af-sidebar-toc a:hover {
+  color: #5D6DBD;
 }
 /*# sourceMappingURL=main.css.map */
