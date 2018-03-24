@@ -8096,11 +8096,37 @@ a.text-dark:hover, a.text-dark:focus {
   vertical-align: text-top;
 }
 
+#main-navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1090;
+}
+
 #main-navbar a {
   text-decoration: none;
 }
 
+#main-navbar a:not(.btn) {
+  transition: color .2s ease;
+}
+
 #main-navbar .navbar-brand {
   font-size: 1rem;
+}
+
+.af-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.af-toc {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3.625rem;
+  height: calc(100vh - 3.625rem);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow: auto;
 }
 /*# sourceMappingURL=main.css.map */
