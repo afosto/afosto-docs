@@ -1,0 +1,34 @@
+- title: pos
+  pages:
+    - title: POS installatie
+      label: Insallatie
+      slug: /pos/installatie/
+    - title: Afrekenen op de Afosto POS
+      label: Afrekenen
+      slug: /pos/afrekenen/
+    - title: Reseveren op de Afosto POS
+      label: Reservering
+      slug: /pos/reserveringen/
+    - title: POS menu
+      label: Menu
+      slug: /pos/menu/
+
+
+- title: platform
+  pages:
+    - title: Paginas beheren in het Afosto Platform
+      label: Paginas
+      slug: /platform/paginas/toevoegen
+      pages:
+        - title: Paginas toevoegen in het Afosto Platform
+          label: Toevoegen
+          slug: /platform/paginas/toevoegen
+
+    - title: Producten beheren in het Afosto Platform
+      label: Producten
+      slug: /platform/paginas/toevoegen
+      pages:
+        - title: Producten toevoegen in het Afosto Platform
+          label: Toevoegen
+          slug: /platform/producten/toevoegen
+
