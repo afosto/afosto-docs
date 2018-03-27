@@ -8137,11 +8137,17 @@ a.text-dark:hover, a.text-dark:focus {
   list-style: none;
 }
 
+.af-sidebar-toc ul li {
+  display: block;
+}
+
 .af-sidebar-toc ul > li > ul {
   padding-left: .75rem;
 }
 
 .af-sidebar-toc a {
+  display: block;
+  padding: .125rem .75rem;
   color: #adb5bd;
   text-decoration: none;
   transition: .1s ease;

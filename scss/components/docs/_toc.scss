@@ -12,12 +12,18 @@
     padding-left: 0;
     list-style: none;
     
+    li {
+      display: block;
+    }
+    
     > li > ul {
       padding-left: .75rem;
     }
   }
   
   a {
+    display: block;
+    padding: .125rem .75rem;
     color: $gray-500;
     text-decoration: none;
     transition: .1s ease;
