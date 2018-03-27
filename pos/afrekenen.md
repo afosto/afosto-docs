@@ -1,8 +1,8 @@
 ---
 layout: docs
-title: Product toevoegen
+title: Afrekenen
 description: Producten toevoegen kan op verschillende manieren binnen het afosto platform.
-group: producten
+group: afrekenen
 parent: pos
 toc: true
 redirect_from:

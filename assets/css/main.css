@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8089,6 +8090,11 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .navbar-social-icon {
   display: inline-block;
   width: 1rem;
@@ -8118,6 +8124,62 @@ a.text-dark:hover, a.text-dark:focus {
 .af-content {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.af-sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3.625rem;
+  height: calc(100vh - 3.625rem);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: auto;
+  border-right: 1px solid #e9ecef;
+}
+
+.af-sidebar a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.af-sidebar a:hover {
+  color: #5D6DBD;
+}
+
+.af-sidebar .af-toc-item {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.af-sidebar .af-toc-item .af-toc-link {
+  display: block;
+  font-weight: 600;
+}
+
+.af-sidebar .af-toc-item:not(:first-child).active {
+  margin-top: 1rem;
+}
+
+.af-sidebar .af-toc-item.active {
+  margin-bottom: 1rem;
+}
+
+.af-sidebar .af-toc-item.active > .af-toc-link {
+  color: #5D6DBD;
+}
+
+.af-sidebar .af-toc-item.active .af-sidenav {
+  display: block;
+  margin-left: .5rem;
+}
+
+.af-sidebar .af-toc-item.active .af-sidenav .af-toc-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.af-sidebar .af-toc-item .af-sidenav {
+  display: none;
 }
 
 .af-sidebar-toc {

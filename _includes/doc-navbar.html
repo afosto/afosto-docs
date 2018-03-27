@@ -14,9 +14,6 @@
           {%- assign active = 'active' -%}
         {%- endif -%}
 
-        <code>page group: {{page.group}}</code>
-        <code>group slug: {{group_slug}}</code>
-
         <div class="af-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
           <a class="af-toc-link" href="{{ site.url | append: group.slug }}" title="{{group.title}}">
             {{ group.label }}
@@ -31,8 +28,8 @@
                 {%- assign active = 'active af-sidenav-active' -%}
               {%- endif -%}
 
-              <li{% unless active == nil %} class="{{ active }}"{% endunless %}>
-                <a href="{{ site.url | append: doc.slug }}" title="{{doc.title}}">
+              <li class="af-toc-subitem{% unless active == nil %} {{ active }}{% endunless %}">
+                <a class="af-toc-link" href="{{ site.url | append: doc.slug }}" title="{{doc.title}}">
                   {{ doc.label }}
                 </a>
 

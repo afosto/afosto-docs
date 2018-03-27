@@ -1,13 +1,13 @@
 - title: pos
   pages:
     - title: POS installatie
-      label: Insallatie
+      label: Installatie
       slug: /pos/installatie/
     - title: Afrekenen op de Afosto POS
       label: Afrekenen
       slug: /pos/afrekenen/
     - title: Reseveren op de Afosto POS
-      label: Reservering
+      label: Reserveringen
       slug: /pos/reserveringen/
     - title: POS menu
       label: Menu
