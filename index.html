@@ -4,31 +4,31 @@ title: homepage afosto docs
 ---
 
 <div class="container-fluid pt-4">
-    <div class="row">
-        <div class="col-12 col-md-7">
-            <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-12 {% if forloop.first == false %}col-md-6{% endif %}">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                                <h3>
-                                    <a class="post-link" href="{{ post.url | relative_url }}">
-                                        {{ post.title | escape }}
-                                    </a>
-                                </h3>
-                                <span class="post-meta d-block">{{ post.sub_title }}</span>
-                                <small class="post-meta text-muted">{{ post.date | date: date_format }}</small>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-
+  <div class="row">
+    <div class="col-12 col-md-7">
+      <div class="row">
+        {% for post in site.posts %}
+        <div class="col-12 {% if forloop.first == false %}col-md-6{% endif %}">
+          <div class="card h-100">
+            <div class="card-body">
+              {% assign date_format = site.afosto.date_format | default: "%-d-%m-%Y" %}
+              <h3>
+                <a class="post-link" href="{{ site.url | append: post.url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <span class="post-meta d-block">{{ post.sub_title }}</span>
+              <small class="post-meta text-muted">{{ post.date | date: date_format }}</small>
             </div>
+          </div>
         </div>
-        <div class="col-12 col-md-5">
+        {% endfor %}
 
-        </div>
+      </div>
     </div>
+    <div class="col-12 col-md-5">
+
+    </div>
+  </div>
 </div>
 
