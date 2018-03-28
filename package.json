@@ -9,12 +9,14 @@
   "scripts": {
     "css": "yarn css:lint && yarn css:compile && yarn css:prefix && yarn css:minify",
     "css:watch": "watch 'yarn css' scss",
-    "css:lint": "stylelint --config build/.stylelintrc --syntax scss \"/scss/**/*.scss\" --cache --cache-location \".stylelintcache/\"",
+    "css:lint": "stylelint --config .stylelintrc --syntax scss \"/scss/**/*.scss\" --cache --cache-location \".stylelintcache/\"",
     "css:prefix": "postcss --config build/postcss.config.js --replace \"assets/css/main.css\" \"!assets/css/main.min.css\"",
     "css:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss assets/css/main.css",
     "css:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/main.min.css assets/css/main.css",
+    "js:dist": "cp -R node_modules/bootstrap/dist/js/ assets/js/ && cp node_modules/jquery/dist/jquery.slim.js assets/js/ && cp -R node_modules/popper.js/dist/umd/ assets/js/ && cp -R node_modules/docsearch.js/dist/cdn/ assets/js",
     "dist": "yarn css",
     "watch": "watch 'yarn dist' scss",
+    "write": "bundle exec jekyll liveserve",
     "serve": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build"
   },
@@ -31,6 +33,9 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.0.0",
+    "docsearch.js": "^2.5.2",
+    "jquery": "3.2.1",
+    "popper.js": "1.12.9"
   }
 }

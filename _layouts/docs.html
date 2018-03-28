@@ -7,22 +7,23 @@
     {% include navbar.html %}
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
-        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+        <div class="col-12 col-md-3 col-xl-2 af-sidebar">
         </div>
 
         {% if page.toc %}
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-            {{ content | toc_only }}
+          <div class="order-md-2 col-12 col-md-2 af-sidebar-toc">
+            {% capture itemClass %}toc-entry.toc-h%level%{% endcapture %}
+            {% include toc.html html=content class="af-page-toc" item_class=itemClass h_min=1 h_max=4 %}
           </div>
         {% endif %}
 
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
-          <h1 class="bd-title" id="content">{{ page.title | smartify }}</h1>
-          <p class="bd-lead">{{ page.description | smartify }}</p>
+        <main class="col-12 col-md-9 col-xl-8 af-content" role="main">
+          <h1 class="af-title" id="content">{{ page.title | smartify }}</h1>
+          <p class="af-lead">{{ page.description | smartify }}</p>
           {{ content }}
         </main>
       </div>
     </div>
-
+    {% include scripts.html %}
   </body>
 </html>

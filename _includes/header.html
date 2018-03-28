@@ -3,7 +3,8 @@
 <meta name="description" content="{{ page.description | default: site.description | smartify }}">
 <meta name="author" content="{{ site.authors }}">
 <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+<meta name="robots" content="noindex, nofollow">
+<link href="{{ site.url }}/assets/css/main.css" rel="stylesheet">
 
 <title>
   {%- if page.title -%}
@@ -13,7 +14,7 @@
   {%- endif -%}
 </title>
 
-<link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+<link href="{{ site.url }}/assets/js/docsearch.min.css" rel="stylesheet">
 
 {% include favicons.html %}
 

@@ -11,6 +11,9 @@ GEM
     eventmachine (1.2.5)
     ffi (1.9.23)
     forwardable-extended (2.6.0)
+    hawkins (2.0.5)
+      em-websocket (~> 0.5)
+      jekyll (~> 3.1)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -27,14 +30,14 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.9.3)
+      jekyll (~> 3.3)
     jekyll-redirect-from (0.13.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
-    jekyll-toc (0.5.2)
-      nokogiri (~> 1.6)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     kramdown (1.16.2)
@@ -44,9 +47,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.2)
@@ -66,10 +66,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hawkins
   jekyll (~> 3.7, >= 3.7.3)
+  jekyll-feed (~> 0.6)
   jekyll-redirect-from (~> 0.13.0)
   jekyll-sitemap (~> 1.2)
-  jekyll-toc (~> 0.5.2)
 
 BUNDLED WITH
    1.16.1

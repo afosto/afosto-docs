@@ -1,9 +1,15 @@
 - title: Home
   label: Home
   slug: /
-- title: Afosto Platform Documentation
+- title: Afosto platform Documentatie
   label: Platform
-  slug: /platform
-- title: Afosto Point of Sale Documentation
+  slug: /platform/producten/toevoegen
+- title: Afosto point of Sale Documentatie
   label: POS
-  slug: /pos
+  slug: /pos/installatie
+- title: Afosto thema editor Documentatie
+  label: Thema editor
+  slug: /thema-editor/basis-kennis
+- title: Afosto plugins Documentatie
+  label: Plugins
+  slug: /plugins/overzicht

@@ -20,6 +20,6 @@ Elk product begint
 | **naam** |De naam van het product.|
 | **Korte beschrijving** |Een korte samenvatting van het product.|
 | **Beschrijving** |Een uitgebreide beschrijving van het product.|
-
+{: .table.table-bordered }
 #### gerty jungeh
 das een gast
