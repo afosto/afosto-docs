@@ -8173,13 +8173,17 @@ body {
   margin-left: .5rem;
 }
 
-.af-sidebar .af-toc-item.active .af-sidenav .af-toc-link {
+.af-sidebar .af-toc-item .af-sidenav {
+  display: none;
+}
+
+.af-sidebar .af-toc-item .af-sidenav .af-toc-link {
   font-size: 14px;
   font-weight: 400;
 }
 
-.af-sidebar .af-toc-item .af-sidenav {
-  display: none;
+.af-sidebar .af-toc-item .af-sidenav-active .af-toc-link {
+  color: #5D6DBD;
 }
 
 .af-sidebar-toc {

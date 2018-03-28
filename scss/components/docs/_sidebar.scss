@@ -39,16 +39,20 @@
       .af-sidenav {
         display: block;
         margin-left: .5rem;
-        
-        .af-toc-link {
-          font-size: 14px;
-          font-weight: 400;
-        }
       }
     }
     
     .af-sidenav {
       display: none;
+
+      .af-toc-link {
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      &-active .af-toc-link {
+        color: theme-color(primary);
+      }
     }
   }
 }

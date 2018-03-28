@@ -2,7 +2,7 @@
 layout: docs
 title: Product toevoegen
 description: Producten toevoegen kan op verschillende manieren binnen het afosto platform.
-group: producten
+group: paginas
 parent: platform
 toc: true
 redirect_from:
