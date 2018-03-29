@@ -6,18 +6,19 @@
   padding-bottom: 1rem;
   overflow: auto;
   font-size: 14px;
-  border-left: 1px solid $gray-200;
   
-  ul {
+  .af-page-toc {
     padding-left: 0;
     list-style: none;
+    border-left: 2px solid theme-color(primary);
     
     li {
       display: block;
     }
     
-    > li > ul {
+    li > ul {
       padding-left: .75rem;
+      list-style: none;
     }
   }
   

@@ -2,13 +2,12 @@
   position: sticky;
   top: 3.625rem;
   height: calc(100vh - 3.625rem);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 1.5rem;
   overflow: auto;
-  border-right: 1px solid $gray-200;
+  background-color: $gray-100;
   
   a {
-    color: $gray-600;
+    color: $gray-700;
     text-decoration: none;
     
     &:hover {
@@ -17,11 +16,10 @@
   }
   
   .af-toc-item {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-    
     .af-toc-link {
       display: block;
+      padding-top: .25rem;
+      padding-bottom: .25rem;
       font-weight: 600;
     }
     
@@ -33,6 +31,7 @@
       margin-bottom: 1rem;
       
       > .af-toc-link {
+        font-weight: 700;
         color: theme-color(primary);
       }
       
@@ -51,6 +50,7 @@
       }
 
       &-active .af-toc-link {
+        font-weight: 700;
         color: theme-color(primary);
       }
     }

@@ -39,9 +39,13 @@
       label: Paginas
       slug: /platform/paginas/toevoegen
       pages:
-        - title: Paginas toevoegen in het Afosto Platform
+        - title: Pagina's toevoegen in het Afosto Platform
           label: Toevoegen
           slug: /platform/paginas/toevoegen
+        - title: Pagina's verwijderen in het Afosto Platform
+          label: Verwijderen
+          slug: /platform/paginas/verwijderen
+
 
     - title: Producten beheren in het Afosto Platform
       label: Producten

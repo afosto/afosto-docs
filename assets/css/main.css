@@ -8131,14 +8131,13 @@ body {
   position: sticky;
   top: 3.625rem;
   height: calc(100vh - 3.625rem);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 1.5rem;
   overflow: auto;
-  border-right: 1px solid #e9ecef;
+  background-color: #f8f9fa;
 }
 
 .af-sidebar a {
-  color: #6c757d;
+  color: #495057;
   text-decoration: none;
 }
 
@@ -8146,13 +8145,10 @@ body {
   color: #5D6DBD;
 }
 
-.af-sidebar .af-toc-item {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
-}
-
 .af-sidebar .af-toc-item .af-toc-link {
   display: block;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
   font-weight: 600;
 }
 
@@ -8165,6 +8161,7 @@ body {
 }
 
 .af-sidebar .af-toc-item.active > .af-toc-link {
+  font-weight: 700;
   color: #5D6DBD;
 }
 
@@ -8183,6 +8180,7 @@ body {
 }
 
 .af-sidebar .af-toc-item .af-sidenav-active .af-toc-link {
+  font-weight: 700;
   color: #5D6DBD;
 }
 
@@ -8195,20 +8193,21 @@ body {
   padding-bottom: 1rem;
   overflow: auto;
   font-size: 14px;
-  border-left: 1px solid #e9ecef;
 }
 
-.af-sidebar-toc ul {
+.af-sidebar-toc .af-page-toc {
   padding-left: 0;
   list-style: none;
+  border-left: 2px solid #5D6DBD;
 }
 
-.af-sidebar-toc ul li {
+.af-sidebar-toc .af-page-toc li {
   display: block;
 }
 
-.af-sidebar-toc ul > li > ul {
+.af-sidebar-toc .af-page-toc li > ul {
   padding-left: .75rem;
+  list-style: none;
 }
 
 .af-sidebar-toc a {
