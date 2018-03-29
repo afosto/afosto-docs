@@ -2,19 +2,19 @@
   pages:
     - title: POS installatie
       label: Installatie
-      slug: /pos/installatie/
+      slug: /pos/installatie
     - title: Afrekenen op de Afosto POS
       label: Afrekenen
-      slug: /pos/afrekenen/
+      slug: /pos/afrekenen
     - title: Reseveren op de Afosto POS
       label: Reserveringen
-      slug: /pos/reserveringen/
+      slug: /pos/reserveringen
     - title: POS menu
       label: Menu
-      slug: /pos/menu/
+      slug: /pos/menu
     - title: POS hardware
       label: Hardware
-      slug: /pos/hardware/
+      slug: /pos/hardware
       pages:
         - title: Geschikte schermen voor de Afosto POS
           label: Schermen
