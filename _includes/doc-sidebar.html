@@ -1,0 +1,44 @@
+<nav class="af-links" id="af-docs-nav">
+  {%- assign page_slug = page.url | split: '/' | last -%}
+  {%- assign parent = page.url | split: '/' -%}
+  {%- assign parent = parent[1] -%}
+
+  {%- for parent in site.data.sidebar_nav -%}
+
+    {%- if parent.title == page.parent -%}
+      {%- for group in parent.pages -%}
+        {%- assign link = group.pages | first -%}
+        {%- assign group_slug = group.label|downcase -%}
+        {%- assign active = nil -%}
+        {%- if page.group == group_slug -%}
+          {%- assign active = 'active' -%}
+        {%- endif -%}
+
+        <div class="af-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+          <a class="af-toc-link" href="{{ site.url | append: group.slug }}" title="{{ group.title }}">
+            {{ group.label }}
+          </a>
+          {%- if group.pages|size > 0 -%}
+            <ul class="nav af-sidenav">
+              {%- for doc in group.pages -%}
+                {%- assign doc_slug = doc.label|downcase -%}
+                {%- assign active = nil -%}
+
+                {%- if page.group == group_slug and page_slug == doc_slug -%}
+                  {%- assign active = 'active af-sidenav-active' -%}
+                {%- endif -%}
+
+                <li class="af-toc-subitem{% unless active == nil %} {{ active }}{% endunless %}">
+                  <a class="af-toc-link" href="{{ site.url | append: doc.slug }}" title="{{ doc.title }}">
+                    {{ doc.label }}
+                  </a>
+
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+</nav>

@@ -1,6 +1,6 @@
-- title: Home
-  label: Home
-  slug: /
+- title: Blog
+  label: Blog
+  slug: /blog
 - title: Afosto platform Documentatie
   label: Platform
   slug: /platform/producten/toevoegen
