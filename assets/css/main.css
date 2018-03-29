@@ -8091,6 +8091,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
