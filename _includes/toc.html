@@ -71,9 +71,8 @@ An ordered or unordered list representing the table of contents of a markdown bl
 {% endcapture %}{% assign tocWorkspace = '' %}{{ my_toc | markdownify | strip }}
 
 
+{% assign af_toc_list = [] %}
 
-
-{% capture af_toc %}{% endcapture %}
 {% assign orderedList = include.ordered | default: false %}
 {% assign minHeader = include.h_min | default: 1 %}
 {% assign maxHeader = include.h_max | default: 6 %}
@@ -99,20 +98,18 @@ An ordered or unordered list representing the table of contents of a markdown bl
   {% assign _idWorkspace = _workspace[0] | split: 'id="' %}
   {% assign _idWorkspace = _idWorkspace[1] | split: '"' %}
   {% assign html_id = _idWorkspace[0] %}
+  {% capture _hAttrToStrip %}{{ _workspace[0] | split: '>' | first }}>{% endcapture %}
 
   {% assign header = _workspace[0] | replace: _hAttrToStrip, '' %}
   {% assign space = '' %}
   {% for i in (1..indentAmount) %}
-    {% assign space = space | prepend: '--' %}
+    {% assign space = space | prepend: '-' %}
   {% endfor %}
 
+  {% assign current_object = { "level": {{ headerLevel }}, "label": "{{space}}{{ header | strip_html }}", "link": "#{{ html_id }}" } %}
 
-  {% unless include.item_class == blank %}
-    {% capture listItemClass %}{:.{{ include.item_class | replace: '%level%', headerLevel }}}{% endcapture %}
-  {% endunless %}
-  {% capture af_toc %}{{ af_toc }}
-  {{ space }}{{ header | strip_html }}](#{{ html_id }}){% endcapture %}
+  {% assign af_toc_list = af_toc_list | push: current_object %}
 
 {% endfor %}
 
-{{af_toc}}
+{{af_toc_list | first }}
