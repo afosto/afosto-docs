@@ -12,12 +12,10 @@ redirect_from:
 ---
 
 # Niewsbrief plugin
-Om gebruik te maken van de niewsbrief plugin zal het een en ander ingesteld moeten worden 
+Om gebruik te maken van de nieuwsbrief plugin dienen de volgende zaken te worden ingesteld
 * Afzender
 * Instellen van emails
 * verwerking in het template.
-
-
 
 
 
@@ -32,10 +30,10 @@ en bestaande lijsten bewerken
 ### instellen van het template
 ga naar de [plugin](https://app.afosto.com/plugins/90-newsletter),
 
-### Template variablen
-De volgende variablen kunnen worden gebruikt om de mail template's en mail onderwerp te creeren.
+### Template variabelen
+De volgende variabelen kunnen worden gebruikt om de email vorm te geven.
 
-> |twig paramater|waarde   | notes |
+> |twig paramater|waarde   | beschrijving |
 > |------|-------------|---|
 > |{{object.channel.domain}}|www.afosto.com| de url van de website |          
 > |{{object.channel.name}}|Afosto| de naam van de website|                
@@ -71,6 +69,7 @@ nadat de instellingen zijn ingevuld en opgeslagen is het instelwerk afgerond en 
 mocht je gebruik willen maken van een specifieke nieuwsbrief kun je de te gebruiken nieuwsbrief gebruiken
 Dit zul je normaliter boven in je template definieren.
 > **twig bestand** : *layouts/footer.twig*
+
 ```twig
          {% set newsletter = pluginData.newsletter[<nieuwsbrief id>] %}             
 ```
