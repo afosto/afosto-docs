@@ -1,3 +1,5 @@
+$toc-level-padding: .75rem;
+
 .af-sidebar-toc {
   position: sticky;
   top: 3.625rem;
@@ -20,24 +22,25 @@
     }
     
     .nav-item > ul {
-      padding-left: .75rem;
+      padding-left: 0;
       list-style: none;
     }
   }
   
   .nav-link {
+    position: relative;
     display: block;
-    padding: .125rem .75rem;
+    padding: .125rem $toc-level-padding;
     color: $gray-500;
     text-decoration: none;
     transition: .1s ease;
     
     &::before {
       position: absolute;
+      top: 0;
+      bottom: 0;
       left: 0;
       width: 2px;
-      height: 25px;
-      margin-top: -2px;
       content: "";
       background-color: theme-color(primary);
       transition: .1s ease;
@@ -56,5 +59,18 @@
         transform: scaleX(1);
       }
     }
+  }
+  
+  .toc-h3 .nav-link {
+    padding-left: $toc-level-padding * 2;
+  }
+  .toc-h4 .nav-link {
+    padding-left: $toc-level-padding * 3;
+  }
+  .toc-h5 .nav-link {
+    padding-left: $toc-level-padding * 4;
+  }
+  .toc-h6 .nav-link {
+    padding-left: $toc-level-padding * 5;
   }
 }
