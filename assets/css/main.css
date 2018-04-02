@@ -8523,13 +8523,14 @@ body {
 }
 
 .af-sidebar-toc .nav.af-page-toc .nav-item > ul {
-  padding-left: .75rem;
+  padding-left: 0;
   list-style: none;
 }
 
 .af-sidebar-toc .nav-link {
+  position: relative;
   display: block;
-  padding: .125rem .75rem;
+  padding: 0.125rem 0.75rem;
   color: #adb5bd;
   text-decoration: none;
   transition: .1s ease;
@@ -8537,10 +8538,10 @@ body {
 
 .af-sidebar-toc .nav-link::before {
   position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
   width: 2px;
-  height: 25px;
-  margin-top: -2px;
   content: "";
   background-color: #5D6DBD;
   transition: .1s ease;
@@ -8561,5 +8562,21 @@ body {
 .af-sidebar-toc .nav-link.active::before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.af-sidebar-toc .toc-h3 .nav-link {
+  padding-left: 1.5rem;
+}
+
+.af-sidebar-toc .toc-h4 .nav-link {
+  padding-left: 2.25rem;
+}
+
+.af-sidebar-toc .toc-h5 .nav-link {
+  padding-left: 3rem;
+}
+
+.af-sidebar-toc .toc-h6 .nav-link {
+  padding-left: 3.75rem;
 }
 /*# sourceMappingURL=main.css.map */
