@@ -13,7 +13,7 @@
     "css:prefix": "postcss --config build/postcss.config.js --replace \"assets/css/main.css\" \"!assets/css/main.min.css\"",
     "css:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/main.scss assets/css/main.css",
     "css:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output assets/css/main.min.css assets/css/main.css",
-    "js:dist": "cp -R node_modules/bootstrap/dist/js/ assets/js/ && cp node_modules/jquery/dist/jquery.slim.js assets/js/ && cp -R node_modules/popper.js/dist/umd/ assets/js/ && cp -R node_modules/docsearch.js/dist/cdn/ assets/js",
+    "js:dist": "cp -R node_modules/bootstrap/dist/js/ assets/js/ && cp node_modules/jquery/dist/jquery.slim.js assets/js/ && cp -R node_modules/popper.js/dist/umd/ assets/js/ && cp -R node_modules/docsearch.js/dist/cdn/ assets/js && cp node_modules/anchor-js/anchor.min.js assets/js",
     "dist": "yarn css",
     "watch": "watch 'yarn dist' scss",
     "write": "bundle exec jekyll liveserve",
@@ -33,6 +33,7 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
+    "anchor-js": "^4.1.0",
     "bootstrap": "^4.0.0",
     "docsearch.js": "^2.5.2",
     "jquery": "3.2.1",
