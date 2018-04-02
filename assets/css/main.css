@@ -8441,6 +8441,39 @@ body {
   padding-bottom: 2rem;
 }
 
+.af-content > h2[id],
+.af-content > h3[id],
+.af-content > h4[id] {
+  pointer-events: none;
+}
+
+.af-content > h2[id] > div,
+.af-content > h2[id] > a,
+.af-content > h3[id] > div,
+.af-content > h3[id] > a,
+.af-content > h4[id] > div,
+.af-content > h4[id] > a {
+  pointer-events: auto;
+}
+
+.af-content > h2[id]::before,
+.af-content > h3[id]::before,
+.af-content > h4[id]::before {
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  visibility: hidden;
+  content: "";
+}
+
+.af-content > h2:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.af-content > h3 {
+  margin-top: 1.5rem;
+}
+
 .af-sidebar {
   position: -webkit-sticky;
   position: sticky;
