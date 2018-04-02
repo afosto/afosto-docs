@@ -58,7 +58,7 @@ An ordered or unordered list representing the table of contents of a markdown bl
 {% capture listItemClass %}{:.{{ include.item_class | replace: '%level%', headerLevel }}}{% endcapture %}
 {% endunless %}
 {% capture my_toc %}{{ my_toc }}
-{{ space }}{{ listModifier }} {{ listItemClass }} [{% if include.sanitize %}{{ header | strip_html }}{% else %}{{ header }}{% endif %}](#{{ html_id }}){% endcapture %}
+{{ space }}{{ listModifier }} {{ listItemClass }} [{% if include.sanitize %}{{ header | strip_html }}{% else %}{{ header }}{% endif %}](#{{ html_id }}){:class="nav-link"}{% endcapture %}
 {% endfor %}
 {% if include.class %}
 {% capture my_toc %}{:.{{ include.class }}}

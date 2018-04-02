@@ -6,30 +6,55 @@
   padding-bottom: 1rem;
   overflow: auto;
   font-size: 14px;
-  border-left: 1px solid $gray-200;
   
-  ul {
+  
+  .nav.af-page-toc {
+    position: relative;
+    display: block;
     padding-left: 0;
     list-style: none;
+    border-left: 2px solid theme-color(primary);
     
-    li {
+    .nav-item {
       display: block;
     }
     
-    > li > ul {
+    .nav-item > ul {
       padding-left: .75rem;
+      list-style: none;
     }
   }
   
-  a {
+  .nav-link {
     display: block;
     padding: .125rem .75rem;
     color: $gray-500;
     text-decoration: none;
     transition: .1s ease;
     
+    &::before {
+      position: absolute;
+      left: 0;
+      width: 2px;
+      height: 25px;
+      margin-top: -2px;
+      content: "";
+      background-color: theme-color(primary);
+      transition: .1s ease;
+      transform: scaleX(0);
+      transform-origin: left center;
+    }
+    
     &:hover {
       color: theme-color(primary);
+    }
+    
+    &.active {
+      color: theme-color(primary);
+      
+      &::before {
+        transform: scaleX(1);
+      }
     }
   }
 }

@@ -2,7 +2,8 @@
 layout: docs
 title: Installatie
 description: Installeer eenvoudig in een aantal stappen de Afosto POS.
-group: POS
+group: installatie
+parent: pos
 toc: true
 redirect_from:
   - /pos/
