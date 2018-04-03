@@ -1,0 +1,58 @@
+.af-sidebar {
+  position: sticky;
+  top: 3.625rem;
+  height: calc(100vh - 3.625rem);
+  padding: 1rem 1.5rem;
+  overflow: auto;
+  background-color: $gray-100;
+  
+  a {
+    color: $gray-700;
+    text-decoration: none;
+    
+    &:hover {
+      color: theme-color(primary);
+    }
+  }
+  
+  .af-toc-item {
+    .af-toc-link {
+      display: block;
+      padding-top: .25rem;
+      padding-bottom: .25rem;
+      font-weight: 600;
+    }
+    
+    &:not(:first-child).active {
+      margin-top: 1rem;
+    }
+    
+    &.active {
+      margin-bottom: 1rem;
+      
+      > .af-toc-link {
+        font-weight: 700;
+        color: theme-color(primary);
+      }
+      
+      .af-sidenav {
+        display: block;
+        margin-left: .5rem;
+      }
+    }
+    
+    .af-sidenav {
+      display: none;
+
+      .af-toc-link {
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      &-active .af-toc-link {
+        font-weight: 700;
+        color: theme-color(primary);
+      }
+    }
+  }
+}
