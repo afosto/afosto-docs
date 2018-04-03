@@ -19,6 +19,7 @@ Het is aan te raden om hier het nummer van de leverancier voor te gebruiken. Wan
 ### Naam _(verplicht)_  
 De naam van een product is belangrijk voor de zoekmachines, de url en natuurlijk klantvriendelijkheid.
 Het is aan te raden de naam volgens een patroon op te zetten, Voor een schoenenwinkel kan dit bijvoorbeeld zijn:
+> Voorbeeld:  
 > {Merk} {type} {categorie_enkelvoud} {kleur}  
 > Puma xjt sandaal zwart
 
@@ -40,14 +41,14 @@ De verkoopprijs is inclusief BTW. De verkoopprijs is op attribuutniveau (bijvoor
 _Formaat: 00.00 (een punt gebruiken als decimaalteken)_  
 Wanneer deze waarde is ingevuld wordt deze in Afosto geplaatst.
 
-### BTW
+### BTW _(verplicht)_
 _Formaat: 21 (zonder het procentteken)_
 
 ### Collecties
 _Formaat: collectie1;collectie2_  
 De menu-items kunnen (gedeeltelijk) worden ingericht met behulp van collecties. Een product kan aan meerdere collecties zijn toegewezen. 
 
-### Gewicht
+### Gewicht _(verplicht)_
 _Formaat: rond getal tussen de 0 en 12002_   
 Gewicht wordt gebruikt om de verzendkosten te berekenen. Er kunnen hier een aantal puntnen worden opgegeven. Het systeem berekend aan de hand hiervan de verzenkosten.
 
@@ -80,6 +81,10 @@ Hier kan het grootboekrekeningnummer worden opgegeven. Dit wordt gebruikt voor r
 _Formaat: tekst_  
 Hier kan de leverancier opgegeven. Deze wordt gebruikt voor de uitgebreide rapportage.
 
+### Afbeeldingen
+_Formaat: url, scheidingsteken: ;_  
+Afbeeldingen kunnen geimporteerd worden vanaf een URL. De gehele URL dient in het bestand worden geplaatst. Ook is het mogelijk om meerdere afbeeldingen te importeren, dit kan gedaan wor
+
 ### Parent
 _Formaat: 1 (anders leeglaten)_  
 Het veld parent wordt gebruikt voor het kenmerken van een product met meerdere opties. Bijvoorbeeld schoenen in een verschillende maat. In onderstaande tabel een voorbeeld:  
@@ -92,6 +97,8 @@ Het veld parent wordt gebruikt voor het kenmerken van een product met meerdere o
 |1003|schoen type xx||38|
 |1004|schoen type xx||39|  
 
+> Producten met 1 variant dienen op dezelfde wijze geimporteerd te worden.
+
 ### Attribuut
 _Formaat: getal of tekst_  
 Het veld attribuut is bijvoorbeeld de maat zoals in het voorbeeld gegeven onder _Parent_. De kolomnaam is relevant, want deze wordt overgenomen bij een import. Het is zaak maar 1 attribuut per product te hebben.
@@ -103,6 +110,24 @@ _Formaat: getal of tekst_
 Het is mogelijk tot 50 specificaties aan te maken. Specificaties worden voor diverse doeleinden gebruikt. Natuurlijk om bij een product te tonen, maar ook voor het opbouwen van breadcrumbs, filters, gekoppelde producten of voor het automatisch genereren van Titles, Seo titles, enzovoort. 
 
 >Specificaties kunnen gebruikt worden om op te filteren.  
+
+
+### Basisbestand
+Als basis kunnen de kolommen uit onderstaande tabel gebruikt worden.  
+|Kolomnaam|Toelichting|
+|---|---|
+|Artikelnummer||
+|Ean (barcode)||
+|Naam||
+|Korte omschrijving||
+|Omschrijving||
+|Kostprijs||
+|Prijs||
+|Actieprijs||
+|BTW||
+|Gewicht||
+|Groobtoekrekening||
+|Leverancier||
 
 
 
