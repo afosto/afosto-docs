@@ -61,15 +61,11 @@
 
 - title: plugins
   pages:
-    - title: Plugins beheren in het Afosto Platform
-      label: Plugins
+    - title: Overzicht van de plugins binnen het Afosto Platform
+      label: Overzicht
       slug: /plugins/overzicht
-      pages:
-        - title: Overzicht van de plugins binnen het Afosto Platform
-          label: Overzicht
-          slug: /plugins/overzicht
-        - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
-          label: Watermerk
-          slug: /plugins/watermerk
+    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
+      label: Watermerk
+      slug: /plugins/watermerk
 
 
