@@ -3,8 +3,11 @@ layout: docs
 title: Opbouw importbestand
 description: Hier wordt uitgelegd hoe je een importbestand het beste kan opbouwen. 
 group: producten
+parent: platform
 toc: true
 redirect_from:
+  - /producten/importeren
+  - /importeren/
 ---
 _datum: 28 maart 2018 (bewerkt)_
 
@@ -114,6 +117,7 @@ Het is mogelijk tot 50 specificaties aan te maken. Specificaties worden voor div
 
 ### Basisbestand
 Als basis kunnen de kolommen uit onderstaande tabel gebruikt worden.  
+
 |Kolomnaam|Toelichting|
 |---|---|
 |Artikelnummer||
@@ -128,6 +132,7 @@ Als basis kunnen de kolommen uit onderstaande tabel gebruikt worden.
 |Gewicht||
 |Groobtoekrekening||
 |Leverancier||
+{: .table.table-bordered}
 
 
 
