@@ -15,7 +15,7 @@ destination: ./_gh_pages
 host: 0.0.0.0
 port: 9001
 baseurl: ""
-url: "https://afosto.github.io/afosto-docs"
+url: "http://help.afosto.com"
 encoding: UTF-8
 exclude:
   - .git/
@@ -36,6 +36,7 @@ exclude:
   - package-lock.json
   - README.md
   - sache.json
+  - .idea
 
 plugins:
   - jekyll-redirect-from
