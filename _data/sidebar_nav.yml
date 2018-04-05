@@ -31,6 +31,9 @@
         - title: Geschikte PIN-apparaten voor de Afosto POS
           label: PIN-apparaten
           slug: /pos/hardware/pin-apparaten
+    - title: POS Vaak gestelde vragen
+      label: FAQS
+      slug: /pos/faqs
 
 
 - title: platform
