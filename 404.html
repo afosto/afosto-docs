@@ -1,28 +1,10 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>README</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-# huppakee --- layout: home title: homepage afosto docs ---
-<div class="container pt-4">
-<h1 id="hello-world">Hello World!</h1>
-{% for post in site.posts %}
-{% assign date_format = site.minima.date_format | default: &quot;%b %-d, %Y&quot; %} <span class="post-meta">{{ post.date | date: date_format }}</span>
-<h3 id="post.title-escape"><a href="%7B%7B%20post.url%20%7C%20relative_url%20%7D%7D" class="post-link">{{ post.title | escape }}</a></h3>
-{% endfor %}
+---
+layout: default
+title: Pagina niet gevonden
+---
+
+<div class="container pt-5">
+  <h1 class="display-3">
+    Pagina bestaat niet.
+  </h1>
 </div>
-</body>
-</html>

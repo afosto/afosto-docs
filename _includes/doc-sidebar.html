@@ -3,7 +3,32 @@
   {%- assign parent = page.url | split: '/' -%}
   {%- assign parent = parent[1] -%}
 
-  {%- for parent in site.data.sidebar_nav -%}
+  {% assign col = page.collection %}
+
+  {% for menu_item in site[col] %}
+    {%- assign active = nil -%}
+    {%- if menu_item.url == page.url -%}
+      {%- assign active = 'active' -%}
+    {%- endif -%}
+
+    <div class="af-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+      <a class="af-toc-link" href="{{ site.url | append: menu_item.url }}" title="{{ menu_item.title }}">
+        {% if menu_item.label %}
+          {{ menu_item.label }}
+        {% else %}
+          {{ menu_item.title }}
+        {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</nav>
+
+<nav class="af-links" id="af-docs-nav">
+  {%- assign page_slug = page.url | split: '/' | last -%}
+  {%- assign parent = page.url | split: '/' -%}
+  {%- assign parent = parent[1] -%}
+
+  {%- for parent in site.col -%}
 
     {%- if parent.title == page.parent -%}
       {%- for group in parent.pages -%}

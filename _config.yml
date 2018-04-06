@@ -5,9 +5,24 @@ highlighter: rouge
 kramdown:
   auto_ids: true
 
-permalink: /blog/:year/:title.htm
-
 show_excerpts: false
+
+collections:
+  posts:
+    output: false
+    permalink: /blog/:year/:title.htm
+  pos:
+    output: true
+    permalink: /:collection/:path/
+  platform:
+    output: true
+    permalink: /:collection/:path/
+  plugins:
+    output: true
+    permalink: /:collection/:path/
+  thema-editor:
+    output: true
+    permalink: /:collection/:path/
 
 # Server
 source: "."

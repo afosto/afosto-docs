@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Opbouw importbestand
+label: Importeren
 description: Hier wordt uitgelegd hoe je een importbestand het beste kan opbouwen. 
 group: producten
 toc: true
