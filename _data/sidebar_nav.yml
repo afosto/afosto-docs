@@ -57,6 +57,9 @@
         - title: Producten verwijderen in het Afosto Platform
           label: Verwijderen
           slug: /platform/producten/verwijderen
+        - title: Producten importeren in het Afosto Platform
+          label: Importeren
+          slug: /platform/producten/importeren
 
 
 - title: plugins
@@ -67,5 +70,8 @@
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
       label: Watermerk
       slug: /plugins/watermerk
+    - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
+      label: Inventariseren
+      slug: /plugins/inventariseren
 
 
