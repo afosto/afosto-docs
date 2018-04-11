@@ -60,4 +60,7 @@
         - title: Producten verwijderen in het Afosto Platform
           label: Verwijderen
           slug: /platform/producten/verwijderen
+    - title: Platform Vaak gestelde vragen
+      label: FAQS
+      slug: /platform/faqs
 

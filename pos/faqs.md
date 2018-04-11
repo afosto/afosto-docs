@@ -16,3 +16,8 @@ Dit is niet mogelijk. Individuele producten kunnen wel worden afgeprijsd.
 
 ## Zijn gedeelde betalingen mogelijk?
 Ja, je kan een gedeelte bijvoorbeeld met pin betalen en het overige gedeelte met cash.
+
+
+## Kan er een opmerking bij een klant geplaatst worden?
+Nee, je kunt geen extra informatie bij ee klant opslaan op de kassa.
+
