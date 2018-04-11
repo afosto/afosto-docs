@@ -42,5 +42,5 @@ Bij het opslaan van deze lijst worden de aanpassingen opgeslagen als productmuta
 * Producten in de lijst _aandacht vereist_ worden opgeslagen met het oorspronkelijke aantal.
 * Producten in de lijst _aangepast_ worden opgeslagen met het nieuwe (geïnventariseerde) aantal.
 * Producten in de lijst _ongewijzigd_ worden opgeslagen met het oorspronkelijke aantal.
-* Producten in de lijst _niet geïnventariseerd_ worden opgeslagen met het oorspronkelijke aantal
+* Producten in de lijst _niet geïnventariseerd_ worden opgeslagen met het oorspronkelijke aantal.
  
