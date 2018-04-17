@@ -11,22 +11,20 @@ redirect from:
 
 ## Omschrijving
 
-```-----BEGIN CERTIFICATE-----
-   MIIFaTCCBFGgAwIBAgIQVH5KNiiZ7pXjmO7MRgVVxTANBgkqhkiG9w0BAQsFADCB
-   Vm6m0PYoAqBqfCFc7AHdwOmONgHQP6J6kzchXnwwz3hgFCtWNiBv9ltRLoG/
-   -----END CERTIFICATE-----
-   -----BEGIN CERTIFICATE-----
-   MIIGCDCCA/CgAwIBAgIQKy5u6tl1NmwUim7bo3yMBzANBgkqhkiG9w0BAQwFADCB
-   lBlGGSW4gNfL1IYoakRwJiNiqZ+Gb7+6kHDSVneFeO/qJakXzlByjAA6quPbYzSf
-   +AZxAeKCINT+b72x
-   -----END CERTIFICATE-----
-   -----BEGIN CERTIFICATE-----
-   MIIFdDCCBFygAwIBAgIQJ2buVutJ846r13Ci/ITeIjANBgkqhkiG9w0BAQwFADBv
-   MQswCQYDVQQGEwJTRTEUMBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsTHUFk
-   pu/xO28QOG8=
-   -----END CERTIFICATE-----
-   -----BEGIN CERTIFICATE-----
-   MIIENjCCAx6gAwIBAgIBATANBgkqhkiG9w0BAQUFADBvMQswCQYDVQQGEwJTRTEU
-   c4g/VhsxOBi0cQ+azcgOno4uG+GMmIPLHzHxREzGBHNJdmAPx/i9F4BrLunMTA5a
-   mnkPIAou1Z5jJh5VkpTYghdae9C8x49OhgQ=
-   -----END CERTIFICATE-----```
+1. Ga naar sslcertificaten.nl
+2. Kies het gewenste product
+3. Kies welk type certificaat.  
+Dit kan zowel een standaard certificaat zijn, een multidomein of een wildcard.
+In het geval van een website welke goed functioneert op www.domein.nl en domein.nl is het aan te raden een mulit domein certificaat aan te schaffen.
+4. Kies de gewenste leverancier. 
+
+5. Certificaat valideren.
+    1. Stap 1 CSR genereren
+    Deze stap dient door Afosto SAAS uitgevoerd te worden. Er wordt een code gegenereerd die ingevuld kan worden.
+    Wat hiervoor aangeleverd dient te worden zijn:
+    Landcode (2 letters) / provincie/ plaats / bedrijfsnaam / bedrijfsonderdeel (winkel /webshop) / domeinnaam (zonder www) / E-mailadres behorende bij de webshop
+    
+
+   
+   
+   
