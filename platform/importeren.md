@@ -6,8 +6,7 @@ group: producten
 parent: platform
 toc: true
 redirect_from:
-  - /producten/importeren
-  - /importeren/
+    - /platform/
 ---
 _datum: 28 maart 2018 (bewerkt)_
 
