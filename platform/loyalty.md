@@ -37,7 +37,7 @@ Heb je alles naar wens ingevuld, dan kun je de instellingen opslaan.
 
 ### Spaarpunten activeren per verkoopkanaal
 Na het aanmaken van een spaarprogramma dient deze nog per verkoopkanaal geactiveerd te worden.
-Bij de instellingen van een verkoopkanaal vind je het item 'Loyalty campagne'. hier kun je een campagne koppelen aan een verkoopkanaal.
+Bij de instellingen van een verkoopkanaal vind je het item 'Loyalty campagne'. hier kun je een campagne koppelen aan een verkoopkanaal.  
 ![Loyaltycampagne activeren per verkoopkanaal]({{site.url}}/assets/img/activate_loyaty.png){:class="img-fluid"}  
   
 Hier kan gekozen worden voor het activeren van de gewenste campagne. Er kan 1 campagne worden geselecteerd per verkoopkanaal. Ik kan wel voor verkoopkanaal A een andere campagne instellen als voor verkoopkanaal B.

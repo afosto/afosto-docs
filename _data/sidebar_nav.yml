@@ -10,7 +10,11 @@
   pages:
     - title: Producten beheren in het Afosto Platform
       label: Producten
-      slug: /platform/importeren
+      slug: /platform/producten/importeren
+      pages:
+        - title: Producten importeren
+          label: Importeren
+          slug: /platform/producten/importeren
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
