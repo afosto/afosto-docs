@@ -9,5 +9,6 @@ toc: true
 |Naam|Omschrijving|
 |---|---|
 |[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|
+|[Inventariseren](/plugins/inventariseren)|Inventariseer je producten|
 {: .table.table-bordered }
 

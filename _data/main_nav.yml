@@ -1,15 +1,9 @@
-- title: Blog
-  label: Blog
-  slug: /blog
 - title: Afosto platform Documentatie
   label: Platform
-  slug: /platform/producten/toevoegen
+  slug: /platform/producten/importeren
 - title: Afosto point of Sale Documentatie
-  label: POS
+  label: Kassa
   slug: /pos/installatie
-- title: Afosto thema editor Documentatie
-  label: Thema editor
-  slug: /thema-editor/basis-kennis
 - title: Afosto plugins Documentatie
   label: Plugins
   slug: /plugins/overzicht
