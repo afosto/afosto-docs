@@ -3,6 +3,13 @@
     - title: Kassa installatie
       label: Installatie
       slug: /kassa/installatie
+    - title: Hardware
+      label: Hardware
+      slug: /kassa/hardware/zd410d
+      pages:
+        - title: Zebra ZD410d labelprinter
+          label: Zebra ZD410d
+          slug: /kassa/hardware/zd410d
 
 
 
@@ -18,13 +25,6 @@
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
-    - title: Instellingen voor je Afosto Webshop
-      label: Webshop
-      slug: /platform/webshop/ssl-certificaat
-      pages:
-      - title: Webshop SSL certificaat
-        label: SSL certificaat
-        slug: /platform/webshop/ssl-certificaat
     - title: Platform Vaak gestelde vragen
       label: FAQS
       slug: /platform/faqs
@@ -44,6 +44,8 @@
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
       label: Watermerk
       slug: /plugins/watermerk
+
+
 
 
 
