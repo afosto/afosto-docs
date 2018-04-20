@@ -18,38 +18,34 @@ Deze plugin zorgt ervoor dat afbeeldingen voorzien worden van eenw watermerk. Di
 In Afosto wordt een afbeelding in een aantal varianten opgeslagen. Per variant kan worden ingesteld of deze wordt voorzien van een watermerk. Daarnaast kan worden ingesteld of eenw watermerk wordt ingesteld op het product en/of een algemene afbeelding.
 
 ### Size 50
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: de afbeelding met formaat 50x50px wordt voorzien van een watermerk.
 
 ### Size 100
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: de afbeelding met formaat 100x100px wordt voorzien van een watermerk.
 
 ### Size 200
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: de afbeelding met formaat 200x200px wordt voorzien van een watermerk.
 
 ### Size 400
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: de afbeelding met formaat 400x400px wordt voorzien van een watermerk.
 
 ### Size Default
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: de originele afbeelding wordt voorzien van een watermerk.
 
 ### Type Product
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: Voor producten wordt het watermerk voor bovestaande afmetingen toegevoegd.
 
 
 ### Type Image
-_Formaat: checkbox_
+_Formaat: checkbox_  
 Aangevinkt wil zeggen: Voor afbeeldingen (exclusief productafbeeldingen) wordt het watermerk voor bovestaande afmetingen toegevoegd.
 
 ### Watermark Url
-_Formaat: url_
-<<<<<<< HEAD
-Hier kan de locatie van het watermerk worden opgegeven. Hier dien je de volledige url in te vullen. 
-=======
+_Formaat: url_  
 Hier kan de locatie van het watermerk worden opgegeven. Hier dien je de volledige url in op te geven. 
->>>>>>> plugins

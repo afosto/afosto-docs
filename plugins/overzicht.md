@@ -10,8 +10,8 @@ redirect_from:
 ---
 |Naam|Omschrijving|
 |---|---|
-|[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|
 |[Inventariseren](/plugins/inventariseren)|Inventariseer je producten|
+|[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|
+|[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|
 {: .table.table-bordered }
 
-### TODO
