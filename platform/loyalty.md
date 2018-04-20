@@ -1,15 +1,13 @@
 ---
 layout: docs
 title: Loyaliteitsprogramma
-description: punten sparen en verzilveren
-group: platform
+description: "Binnen Afosto is het mogelijk om je klanten punten te laten sparen en op verschillende manieren laten te verzilveren. Er kunnen meerdere campagnes worden aangemaakt, welke bijdrage aan de spaarpunten van een klant. Zo kun je in een actieweek bijvoorbeeld een speciale spaarcampagne instellen."
+group: loyaliteitsprogramma
 parent: platform
 toc: true
 redirect from:
-- /platform/
+- /loyalty/
 ---
-## Omschrijving
-Binnen Afosto is het mogelijk om je klanten punten te laten sparen en op verschillende manieren laten te verzilveren. Er kunnen meerdere campagnes worden aangemaakt, welke bijdrage aan de spaarpunten van een klant. Zo kun je in een actieweek bijvoorbeeld een speciale spaarcampagne instellen. 
 ## Instellingen
 De instellingen van de de loyalty zijn te vinden in het bovenste menu.  
 ![loyalty]({{site.url}}/assets/img/loyalty_menu.png){:class="img-fluid"}  

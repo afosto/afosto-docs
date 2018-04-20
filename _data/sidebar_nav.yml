@@ -1,8 +1,8 @@
-- title: pos
+- title: kassa
   pages:
-    - title: POS installatie
+    - title: Kassa installatie
       label: Installatie
-      slug: /pos/installatie
+      slug: /kassa/installatie
 
 
 
@@ -18,6 +18,16 @@
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
+    - title: Instellingen voor je Afosto Webshop
+      label: Webshop
+      slug: /platform/webshop/ssl-certificaat
+      pages:
+      - title: Webshop SSL certificaat
+        label: SSL certificaat
+        slug: /platform/webshop/ssl-certificaat
+    - title: Platform Vaak gestelde vragen
+      label: FAQS
+      slug: /platform/faqs
 
 
 - title: plugins
@@ -25,11 +35,15 @@
     - title: Overzicht van de plugins binnen het Afosto Platform
       label: Overzicht
       slug: /plugins/overzicht
-    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
-      label: Watermerk
-      slug: /plugins/watermerk
     - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
       label: Inventariseren
       slug: /plugins/inventariseren
+    - title: Een tool om snel producten te zoeken en een barcode aan te passen
+      label: Product identificatie
+      slug: /plugins/pid
+    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
+      label: Watermerk
+      slug: /plugins/watermerk
+
 
 

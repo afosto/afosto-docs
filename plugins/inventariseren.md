@@ -1,20 +1,17 @@
 ---
-layout: docs
+layout: plugin
 title: Producten inventariseren
-description: Hier wordt uitgelegd hoe je producten kunt inventariseren. 
-group: plugins
+description: "Met deze plugin kan de voorraad worden geïnventariseerd. De plugin is ook geoptimaliseerd voor mobiel en tablet. Dit in tegenstelling tot het platform."
+plugin_name: Inventarisatie
+plugin_url: "https://app.afosto.com/inventory/index" 
+group: inventariseren
 parent: plugins
 toc: true
 redirect_from:
 - /inventariseren
 ---
-## Pluginnaam
-Inventarisatie
 
-## Omschrijving
-Met deze plugin kan de voorraad worden geïnventariseerd. De plugin is ook geoptimaliseerd voor mobiel en tablet. Dit in tegenstelling tot het platform.
-
-## Plugin Instellingen
+## Plugin instellingen
 Plugin Instellingen zijn voor deze plugin niet van toepassing.
 
 ## Gebruik
