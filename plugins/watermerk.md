@@ -1,21 +1,18 @@
 ---
-layout: docs
+layout: plugin
 title: Watermerk
-description: Voeg een watermerk toe aan afbeeldingen.
-group: plugins
+description: "Deze plugin zorgt ervoor dat afbeeldingen voorzien worden van een watermerk. Dit gebeurt op grond van een aantal instellingen."
+plugin_name: Watermark images
+plugin_url: "https://app.afosto.com/plugins/78-watermark-image"
+group: watermerk
 parent: plugins
 toc: true
 redirect_from:
   - /watermerk
 ---
-## Pluginnaam
-Watermark images
-
-## Omschrijving
-Deze plugin zorgt ervoor dat afbeeldingen voorzien worden van eenw watermerk. Dit gebeurt op grond van een aantal instellingen.
 
 ## Instellingen
-In Afosto wordt een afbeelding in een aantal varianten opgeslagen. Per variant kan worden ingesteld of deze wordt voorzien van een watermerk. Daarnaast kan worden ingesteld of eenw watermerk wordt ingesteld op het product en/of een algemene afbeelding.
+In Afosto wordt een afbeelding in een aantal varianten opgeslagen. Per variant kan worden ingesteld of deze wordt voorzien van een watermerk. Daarnaast kan worden ingesteld of een watermerk wordt ingesteld op het product en/of een algemene afbeelding.
 
 ### Size 50
 _Formaat: checkbox_  

@@ -1,9 +1,9 @@
 - title: Afosto platform Documentatie
   label: Platform
   slug: /platform/producten/importeren
-- title: Afosto point of Sale Documentatie
+- title: Afosto Kassa Documentatie
   label: Kassa
-  slug: /pos/installatie
+  slug: /kassa/installatie
 - title: Afosto plugins Documentatie
   label: Plugins
   slug: /plugins/overzicht

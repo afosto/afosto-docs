@@ -21,7 +21,7 @@
           {%- if group.pages|size > 0 -%}
             <ul class="nav af-sidenav">
               {%- for doc in group.pages -%}
-                {%- assign doc_slug = doc.label|downcase -%}
+                {%- assign doc_slug = doc.label|downcase |replace: ' ', '-' -%}
                 {%- assign active = nil -%}
 
                 {%- if page.group == group_slug and page_slug == doc_slug -%}

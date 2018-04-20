@@ -12,6 +12,6 @@ redirect_from:
 Het is mogelijk om producten en klanten te exporteren naar excel.
 
 
-## met welke partijen is er een koppeling.
+## met welke partijen is er een koppeling?
 Op [afosto.com](https://afosto.com/integraties/){:target="_blank"} staat een overzicht van beschikbare koppelingen/integraties.
 Daarnaast is het mogelijk om een nieuwe koppeling te maken. Voor de mogelijkheden kan contact worden opgenomen via sales@afosto.com.

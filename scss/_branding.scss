@@ -261,14 +261,14 @@ $h6-font-size:                $font-size-base;
 
 $headings-margin-bottom:      ($spacer / 2);
 $headings-font-family:        inherit;
-$headings-font-weight:        500;
+$headings-font-weight:        600;
 $headings-line-height:        1.2;
 $headings-color:              inherit;
 
-$display1-size:               6rem;
-$display2-size:               5.5rem;
-$display3-size:               4.5rem;
-$display4-size:               3.5rem;
+$display1-size:               $h1-font-size;
+$display2-size:               $h2-font-size;
+$display3-size:               $h3-font-size;
+$display4-size:               $h4-font-size;
 
 $display1-weight:             300;
 $display2-weight:             300;

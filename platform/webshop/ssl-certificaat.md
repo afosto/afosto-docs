@@ -2,7 +2,7 @@
 layout: docs
 title: SSL certificaat
 description: Het aanleveren van een SSL certificaat
-group: platform
+group: webshop
 parent: platform
 toc: true
 redirect from:

@@ -1,8 +1,8 @@
-- title: pos
+- title: kassa
   pages:
-    - title: POS installatie
+    - title: Kassa installatie
       label: Installatie
-      slug: /pos/installatie
+      slug: /kassa/installatie
 
 
 
@@ -18,6 +18,13 @@
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
+    - title: Instellingen voor je Afosto Webshop
+      label: Webshop
+      slug: /platform/webshop/ssl-certificaat
+      pages:
+      - title: Webshop SSL certificaat
+        label: SSL certificaat
+        slug: /platform/webshop/ssl-certificaat
     - title: Platform Vaak gestelde vragen
       label: FAQS
       slug: /platform/faqs

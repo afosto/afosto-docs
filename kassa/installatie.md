@@ -1,12 +1,12 @@
 ---
 layout: docs
 title: Installatie
-description: Installeer eenvoudig in een aantal stappen de Afosto POS.
+description: Installeer eenvoudig in een aantal stappen de Afosto Kassa.
 group: installatie
-parent: pos
+parent: kassa
 toc: true
 redirect_from:
-  - /pos/
+  - /kassa/
 ---
 ## Vereisten
 Voordat je start met de installatie is het goed de volgende zaken te checken:
