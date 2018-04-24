@@ -10,6 +10,11 @@ toc: true
 redirect_from:
   - /watermerk
 ---
+## Pluginnaam
+Watermark images
+
+## Omschrijving
+Deze plugin zorgt ervoor dat afbeeldingen voorzien worden van een watermerk. Dit gebeurt op grond van een aantal instellingen. Het watermerk is op contractniveau in te stellen. Dat wil zeggen dat het geldt voor alle foto's welke bij de instellingen zijn opgegeven. Je kunt dus niet voor shop a en shop b binnen hetzelfde contract verschillende watermerken tonen.
 
 ## Instellingen
 In Afosto wordt een afbeelding in een aantal varianten opgeslagen. Per variant kan worden ingesteld of deze wordt voorzien van een watermerk. Daarnaast kan worden ingesteld of een watermerk wordt ingesteld op het product en/of een algemene afbeelding.
