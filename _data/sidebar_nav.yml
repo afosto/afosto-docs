@@ -22,6 +22,13 @@
         - title: Producten importeren
           label: Importeren
           slug: /platform/producten/importeren
+    - title: Batches uitvoeren
+      label: Batches
+      slug: /platform/batches/coupons_wijzigen
+      pages:
+        - title: Coupons wijzigen als batch
+          label: Coupons wijzigen
+          slug: /platform/batches/coupons_wijzigen
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
@@ -44,9 +51,7 @@
     - title: Een tool om snel producten te zoeken en een barcode aan te passen
       label: Product identificatie
       slug: /plugins/pid
-    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
-      label: Watermerk
-      slug: /plugins/watermerk
+
 
 
 
