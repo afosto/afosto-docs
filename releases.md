@@ -18,3 +18,5 @@ _Kassa_
 _Platform_
 * Toegevoegd bij onderdeel 'kassa > Betaalmethodes': Een extra betaalmethode kunnen toevoegen.
 
+## Updates voor 25-04-2018
+_Oudere releasenotes zijn te vinden op [wiki.afosto.com](https://wiki.afosto.com/display/PUB/Updates)_
