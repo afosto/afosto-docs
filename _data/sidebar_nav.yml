@@ -51,6 +51,9 @@
     - title: Een tool om snel producten te zoeken en een barcode aan te passen
       label: Product identificatie
       slug: /plugins/pid
+    - title: Een koppeling met Freshdesk
+      label: Freshdesk koppeling
+      slug: /plugins/freshdesk
 
 
 
