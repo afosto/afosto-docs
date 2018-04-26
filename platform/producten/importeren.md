@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Producten importeren
-description: Hier wordt uitgelegd hoe je een importbestand voor je producten het beste kan opbouwen. 
+description: Hier wordt uitgelegd hoe je een importbestand voor je producten het beste kan opbouwen om deze te kunnen importeren. Daarnaast is het belangrijk de headers van je import juist te benoemen, dan worden deze automatisch overgenomen voor het importeren.
 group: producten
 parent: platform
 toc: true

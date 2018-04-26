@@ -10,6 +10,7 @@ redirect_from:
 ---
 |Naam|Omschrijving|
 |---|---|
+|[Freshdesk](/plugins/freshdesk)|Maak een koppeling met het ticketsysteeem Freshdesk|
 |[Inventariseren](/plugins/inventariseren)|Inventariseer je producten|
 |[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|
 |[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|

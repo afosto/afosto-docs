@@ -23,3 +23,10 @@ Op Afosto kun je magazijnen koppelen aan een winkelgroep. Een winkelgroep is wee
 * Selecteer hier bij het gewenste verkoopkanaal de voorraad
 
 Nu wordt er een kolom toegevoegd aan je overzicht welke de voorraad van het betreffende verkoopkanaal weergeeft.
+
+## Hoe verwijder ik een productgroep?
+* Ga in het bovenste menu naar 'Administratie' -> 'Productgroepen'
+* Open de productgroep welke verwijdert dient te worden
+* Klik op verwijderen
+
+De producgroep wordt nu verwijderd.
