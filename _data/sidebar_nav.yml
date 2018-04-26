@@ -2,7 +2,7 @@
   pages:
     - title: Kassa installatie
       label: Installatie
-      slug: /kassa/installatie
+      slug: /kassa/hardware/zd410d
     - title: Hardware
       label: Hardware
       slug: /kassa/hardware/zd410d
@@ -15,6 +15,20 @@
 
 - title: platform
   pages:
+    - title: Op het platform beheer je de instellingen voor de kassa
+      label: Kassa
+      slug: /platform/pos/betaalmethode_toevoegen
+      pages:
+        - title: Hier wordt uitgelegd hoe je een extra betaalmethode kunt toevoegen aan de kassa
+          label: Betaalmethode toevoegen
+          slug: /platform/pos/betaalmethode_toevoegen
+    - title: Op het platform beheer je de instellingen voor de webshop
+      label: Webshop
+      slug: /platform/webshop/dns_instellingen_webshop
+      pages:
+        - title: Met de juiste DNS instellingen kun je de webshop online zetten
+          label: DNS instelingen webshop
+          slug: /platform/webshop/dns_instellingen_webshop
     - title: Producten beheren in het Afosto Platform
       label: Producten
       slug: /platform/producten/importeren
