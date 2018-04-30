@@ -46,7 +46,7 @@
 - title: webshop
   pages:
     - title: Met de juiste DNS instellingen kun je de webshop online zetten
-      label: DNS instelingen webshop
+      label: DNS instellingen webshop
       slug: /webshop/dns-instellingen-webshop
 
 
