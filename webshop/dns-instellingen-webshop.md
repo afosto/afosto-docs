@@ -2,11 +2,12 @@
 layout: docs
 title: DNS instellingen webshop
 description: Met de juiste DNS instellingen kun je de webshop online zetten
-group: webshop
-parent: platform
+group: dns instellingen webshop
+parent: webshop
 toc: true
 redirect_from:
-- /platform/dns_instellingen_webshop
+- /dns-instellingen-webshop
+- /platform/webshop/dns_instellingen_webshop
 ---
 
 ## Wat zijn DNS instellingen?

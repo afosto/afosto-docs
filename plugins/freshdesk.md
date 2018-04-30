@@ -4,7 +4,7 @@ title: Koppeling Freshdesk
 description: Deze plugin zorgt voor een koppeling met Freshdesk
 plugin_name: Freshdesk
 plugin_url: "https://app.afosto.com/plugins/42-freshdesk" 
-group: freshdesk
+group: freshdesk koppeling
 parent: plugins
 toc: true
 redirect_from:

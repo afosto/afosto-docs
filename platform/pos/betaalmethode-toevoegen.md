@@ -6,7 +6,8 @@ group: kassa
 parent: platform
 toc: true
 redirect_from:
-    - /platform/betaalmethode_toevoegen
+    - /platform/betaalmethode-toevoegen
+    - /platform/pos/betaalmethode_toevoegen
 ---
 
 ## Omschrijving
