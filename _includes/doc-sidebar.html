@@ -9,8 +9,9 @@
       {%- for group in parent.pages -%}
         {%- assign link = group.pages | first -%}
         {%- assign group_slug = group.label|downcase -%}
+        {%- assign page_group = page.group|downcase -%}
         {%- assign active = nil -%}
-        {%- if page.group == group_slug -%}
+        {%- if page_group == group_slug -%}
           {%- assign active = 'active' -%}
         {%- endif -%}
 
@@ -24,7 +25,7 @@
                 {%- assign doc_slug = doc.label|downcase |replace: ' ', '-' -%}
                 {%- assign active = nil -%}
 
-                {%- if page.group == group_slug and page_slug == doc_slug -%}
+                {%- if page.group == group_slug and page_slug|downcase == doc_slug -%}
                   {%- assign active = 'active af-sidenav-active' -%}
                 {%- endif -%}
 

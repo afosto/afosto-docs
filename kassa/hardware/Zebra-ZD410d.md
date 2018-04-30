@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Zebra labelprinter zd410d
-description: Voor het printen van productlabels ins combinatie met de 'raw label' plugin.
+description: Voor het printen van productlabels in combinatie met de 'raw label' plugin.
 group: hardware
 parent: kassa
 toc: true

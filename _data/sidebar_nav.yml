@@ -2,14 +2,14 @@
   pages:
     - title: Kassa installatie
       label: Installatie
-      slug: /kassa/hardware/zd410d
+      slug: /kassa/installatie
     - title: Hardware
       label: Hardware
-      slug: /kassa/hardware/zd410d
+      slug: /kassa/hardware/zebra-zd410d
       pages:
         - title: Zebra ZD410d labelprinter
           label: Zebra ZD410d
-          slug: /kassa/hardware/zd410d
+          slug: /kassa/hardware/zebra-zd410d
 
 
 
