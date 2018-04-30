@@ -5,6 +5,10 @@ description: Er vinden regelmatig updates plaats op het platform. Hier worden de
 group: releases 
 toc: true
 ---
+## 30-04-2018
+_Platform_
+* Nieuwe plugin 'extra orderstatus' toegevoegd: Met deze plugin is het mogelijk handmatig orderstatussen te kunnen opgeven. Documentatie is [hier](/plugins/extra-orderstatus) te vinden.
+
 ## 26-04-2018
 _Platform_
 * Toegevoegd bij onderdeel 'verkopen': Kunnen zoeken op datumrange voor zowel orderdatum als factuurdatum.

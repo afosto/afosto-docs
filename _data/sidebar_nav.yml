@@ -17,18 +17,11 @@
   pages:
     - title: Op het platform beheer je de instellingen voor de kassa
       label: Kassa
-      slug: /platform/pos/betaalmethode_toevoegen
+      slug: /platform/pos/betaalmethode-toevoegen
       pages:
         - title: Hier wordt uitgelegd hoe je een extra betaalmethode kunt toevoegen aan de kassa
           label: Betaalmethode toevoegen
-          slug: /platform/pos/betaalmethode_toevoegen
-    - title: Op het platform beheer je de instellingen voor de webshop
-      label: Webshop
-      slug: /platform/webshop/dns_instellingen_webshop
-      pages:
-        - title: Met de juiste DNS instellingen kun je de webshop online zetten
-          label: DNS instelingen webshop
-          slug: /platform/webshop/dns_instellingen_webshop
+          slug: /platform/pos/betaalmethode-toevoegen
     - title: Producten beheren in het Afosto Platform
       label: Producten
       slug: /platform/producten/importeren
@@ -38,11 +31,11 @@
           slug: /platform/producten/importeren
     - title: Batches uitvoeren
       label: Batches
-      slug: /platform/batches/coupons_wijzigen
+      slug: /platform/batches/coupons-wijzigen
       pages:
         - title: Coupons wijzigen als batch
           label: Coupons wijzigen
-          slug: /platform/batches/coupons_wijzigen
+          slug: /platform/batches/coupons-wijzigen
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
@@ -50,24 +43,34 @@
       label: FAQS
       slug: /platform/faqs
 
+- title: webshop
+  pages:
+    - title: Met de juiste DNS instellingen kun je de webshop online zetten
+      label: DNS instelingen webshop
+      slug: /webshop/dns-instellingen-webshop
+
 
 - title: plugins
   pages:
     - title: Overzicht van de plugins binnen het Afosto Platform
       label: Overzicht
       slug: /plugins/overzicht
-    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
-      label: Watermerk
-      slug: /plugins/watermerk
-    - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
-      label: Inventariseren
-      slug: /plugins/inventariseren
-    - title: Een tool om snel producten te zoeken en een barcode aan te passen
-      label: Product identificatie
-      slug: /plugins/pid
+    - title: Voeg een extra orderstatus toe
+      label: Extra orderstatus
+      slug: /plugins/extra-orderstatus
     - title: Een koppeling met Freshdesk
       label: Freshdesk koppeling
       slug: /plugins/freshdesk
+    - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
+      label: Inventariseren
+      slug: /plugins/inventariseren
+      label: Product identificatie
+      slug: /plugins/pid
+    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
+      label: Watermerk
+      slug: /plugins/watermerk
+
+
 
 
 

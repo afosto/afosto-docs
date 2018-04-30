@@ -2,7 +2,7 @@
 layout: docs
 title: Installatie
 description: Installeer eenvoudig in een aantal stappen de Afosto Kassa.
-group: installatie
+group: kassa
 parent: kassa
 toc: true
 redirect_from:
