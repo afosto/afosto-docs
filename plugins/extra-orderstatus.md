@@ -1,7 +1,7 @@
 ---
 layout: plugin
 title: Extra orderstatus
-description: Met deze plugin kun je een of meerdere orderstatussen toevoegen aan het orderoverzicht
+description: Met deze plugin kuin je een of meerdere orderstatussen toevoegen aan het orderoverzicht
 plugin_name: Extra orderstatus
 plugin_url: "https://app.afosto.com/plugins/100-extra-order-status" 
 group: extra orderstatus
@@ -62,7 +62,7 @@ Je kunt de status van 1 of meerdere orderregels wijzigen door:
 2. Onder de knop 'Acties' de gewenste statusoptie te selecteren.
 
 ## Detailpagina order/verkooporder
-Op de detailpagina van een order/verkoop zijn de orderstatussen en orderoptie zichtbaar. Deze zijn per orderstatus te wijzigen door op het potloodje achter de betreffende orderstatus te klikken.
+op de detailpagina van een order/verkoop zijn de orderstatussen en orderoptie zichtbaar. Deze zijn per orderstatus te wijzigen door op het potloodje achter de betreffende orderstatus te klikken.
 
 ## Mijn account
 De orderstatussen zijn beschikbaar in het  'Mijn Account' gedeelte van de webshop. Dit houdt in dat je eventueel de gewenste orderstatussen ook inzichtelijk kan maken voor je klanten.
