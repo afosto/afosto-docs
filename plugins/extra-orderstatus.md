@@ -62,7 +62,11 @@ Je kunt de status van 1 of meerdere orderregels wijzigen door:
 2. Onder de knop 'Acties' de gewenste statusoptie te selecteren.
 
 ## Detailpagina order/verkooporder
+<<<<<<< HEAD
 Op de detailpagina van een order/verkoop zijn de orderstatussen en orderoptie zichtbaar. Deze zijn per orderstatus te wijzigen door op het potloodje achter de betreffende orderstatus te klikken.
+=======
+op de detailpagina van een order/verkoop zijn de orderstatussen en orderoptie zichtbaar. Deze zijn per orderstatus te wijzigen door op het potloodje achter de betreffende orderstatus te klikken.
+>>>>>>> master
 
 ## Mijn account
 De orderstatussen zijn beschikbaar in het  'Mijn Account' gedeelte van de webshop. Dit houdt in dat je eventueel de gewenste orderstatussen ook inzichtelijk kan maken voor je klanten.
