@@ -9,12 +9,13 @@
       {%- for group in parent.pages -%}
         {%- assign link = group.pages | first -%}
         {%- assign group_slug = group.label|downcase -%}
-        {%- assign active = nil -%}
-        {%- if page.group == group_slug -%}
-          {%- assign active = 'active' -%}
+        {%- assign page_group = page.group|downcase -%}
+        {%- assign group_active = nil -%}
+        {%- if page_group == group_slug -%}
+          {%- assign group_active = 'active' -%}
         {%- endif -%}
 
-        <div class="af-toc-item{% unless active == nil %} {{ active }}{% endunless %}">
+        <div class="af-toc-item{% unless group_active == nil %} {{ group_active }}{% endunless %}">
           <a class="af-toc-link" href="{{ site.url | append: group.slug }}" title="{{ group.title }}">
             {{ group.label }}
           </a>
@@ -22,13 +23,14 @@
             <ul class="nav af-sidenav">
               {%- for doc in group.pages -%}
                 {%- assign doc_slug = doc.label|downcase |replace: ' ', '-' -%}
-                {%- assign active = nil -%}
+                {%- assign page_slug = page_slug|downcase -%}
+                {%- assign group_active = nil -%}
 
                 {%- if page.group == group_slug and page_slug == doc_slug -%}
-                  {%- assign active = 'active af-sidenav-active' -%}
+                  {%- assign page_active = 'active af-sidenav-active' -%}
                 {%- endif -%}
 
-                <li class="af-toc-subitem{% unless active == nil %} {{ active }}{% endunless %}">
+                <li class="af-toc-subitem{% unless page_active == nil %} {{ page_active }}{% endunless %}">
                   <a class="af-toc-link" href="{{ site.url | append: doc.slug }}" title="{{ doc.title }}">
                     {{ doc.label }}
                   </a>

@@ -1,8 +1,6 @@
 {%- assign default_paths = site.pages | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-
-
 <nav class="navbar navbar-expand-md navbar-dark bg-primary" id="main-navbar">
   <a class="navbar-brand" href="{{site.url}}" title="Go back to te homepage">
     <img src="{{ site.url | append: '/assets/img/afosto-logo-white.svg' }}" width="142.14px" height="32px" title="Afosto logo" alt="Afosto logo">
@@ -14,7 +12,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       {%- for item in site.data.main_nav -%}
-      <li class="nav-item">
+
+      {%- assign active = nil -%}
+      {%- assign page_parent = page.parent|downcase -%}
+      {%- assign item_label = item.label|downcase -%}
+
+      {%- if page_parent == item_label -%}
+        {%- assign active = 'active' -%}
+      {%- endif -%}
+
+      <li class="nav-item{% unless active == nil %} {{ active }}{% endunless %}">
         <a class="nav-link" href="{{ site.url | append: item.slug }}" title="{{item.title}}">
           {{ item.label }}
         </a>
