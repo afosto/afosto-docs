@@ -5,6 +5,20 @@ description: Er vinden regelmatig updates plaats op het platform. Hier worden de
 group: releases 
 toc: true
 ---
+
+## 02-05-2018
+_Platform_
+Het Platform draait vanaf vandaag op een nieuwe server.
+
+_Kassa_
+De kassa draait vanaf vandaag op een nieuwe server.
+
+_Webshop_
+De webshop kun je vanaf vandaag vanaf de nieuwe server laten draaien. Je dient deze instellingen voor 9 mei aangepast te hebben. Je kunt [hier](/webshop/dns-instellingen-webshop) de instellingen vinden. Beheert Afosto je domeinnaam, dan zullen wij dit voor je regelen.
+
+_API_
+De API draait vanaf vandaag op een nieuwe server.
+
 ## 30-04-2018
 _Platform_
 * Nieuwe plugin 'extra orderstatus' toegevoegd: Met deze plugin is het mogelijk handmatig orderstatussen te kunnen opgeven. Documentatie is [hier](/plugins/extra-orderstatus) te vinden.

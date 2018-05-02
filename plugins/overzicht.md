@@ -10,7 +10,7 @@ redirect_from:
 ---
 |Naam|Omschrijving|
 |---|---|
-|[Extra orderstatus](/plugins/extra-orderstatus)|Voeg een extra orderstatus toe aan de verkooporders|
+|[Extra orderstatus](/plugins/extra-orderstatussen)|Voeg een extra orderstatus toe aan de verkooporders|
 |[Freshdesk](/plugins/freshdesk)|Maak een koppeling met het ticketsysteeem Freshdesk|
 |[Inventariseren](/plugins/inventariseren)|Inventariseer je producten|
 |[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|

@@ -1,6 +1,6 @@
 ---
 layout: plugin
-title: Extra orderstatus
+title: Extra orderstatussen
 description: Met deze plugin kuin je een of meerdere orderstatussen toevoegen aan het orderoverzicht
 plugin_name: Extra orderstatus
 plugin_url: "https://app.afosto.com/plugins/100-extra-order-status" 
@@ -10,6 +10,7 @@ toc: true
 redirect_from:
 - /extra-orderstatus
 - /plugins/extra_orderstatus
+- /plugins/extra_orderstatussen
 ---
 
 ## Omschrijving
