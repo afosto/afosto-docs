@@ -57,7 +57,7 @@
       slug: /plugins/overzicht
     - title: Voeg een extra orderstatus toe
       label: Extra orderstatus
-      slug: /plugins/extra-orderstatus
+      slug: /plugins/extra-orderstatussen
     - title: Een koppeling met Freshdesk
       label: Freshdesk koppeling
       slug: /plugins/freshdesk
