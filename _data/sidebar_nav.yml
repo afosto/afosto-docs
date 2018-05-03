@@ -1,62 +1,53 @@
-- title: pos
+- title: kassa
   pages:
-    - title: POS installatie
+    - title: Kassa installatie
       label: Installatie
-      slug: /pos/installatie
-    - title: Afrekenen op de Afosto POS
-      label: Afrekenen
-      slug: /pos/afrekenen
-    - title: Reseveren op de Afosto POS
-      label: Reserveringen
-      slug: /pos/reserveringen
-    - title: POS menu
-      label: Menu
-      slug: /pos/menu
-    - title: POS hardware
+      slug: /kassa/installatie
+    - title: Hardware
       label: Hardware
-      slug: /pos/hardware
+      slug: /kassa/hardware/zebra-zd410d
       pages:
-        - title: Geschikte schermen voor de Afosto POS
-          label: Schermen
-          slug: /pos/hardware/schermen
-        - title: Geschikte printers voor de Afosto POS
-          label: Printers
-          slug: /pos/hardware/printers
-        - title: Geschikte scanners voor de Afosto POS
-          label: Scanners
-          slug: /pos/hardware/scanners
-        - title: Geschikte kassalades voor de Afosto POS
-          label: Kassalades
-          slug: /pos/hardware/kassalades
-        - title: Geschikte PIN-apparaten voor de Afosto POS
-          label: PIN-apparaten
-          slug: /pos/hardware/pin-apparaten
+        - title: Zebra ZD410d labelprinter
+          label: Zebra ZD410d
+          slug: /kassa/hardware/zebra-zd410d
+
 
 
 - title: platform
   pages:
-    - title: Paginas beheren in het Afosto Platform
-      label: Paginas
-      slug: /platform/paginas/toevoegen
+    - title: Op het platform beheer je de instellingen voor de kassa
+      label: Kassa
+      slug: /platform/pos/betaalmethode-toevoegen
       pages:
-        - title: Pagina's toevoegen in het Afosto Platform
-          label: Toevoegen
-          slug: /platform/paginas/toevoegen
-        - title: Pagina's verwijderen in het Afosto Platform
-          label: Verwijderen
-          slug: /platform/paginas/verwijderen
-
-
+        - title: Hier wordt uitgelegd hoe je een extra betaalmethode kunt toevoegen aan de kassa
+          label: Betaalmethode toevoegen
+          slug: /platform/pos/betaalmethode-toevoegen
     - title: Producten beheren in het Afosto Platform
       label: Producten
-      slug: /platform/producten/toevoegen
+      slug: /platform/producten/importeren
       pages:
-        - title: Producten toevoegen in het Afosto Platform
-          label: Toevoegen
-          slug: /platform/producten/toevoegen
-        - title: Producten verwijderen in het Afosto Platform
-          label: Verwijderen
-          slug: /platform/producten/verwijderen
+        - title: Producten importeren
+          label: Importeren
+          slug: /platform/producten/importeren
+    - title: Batches uitvoeren
+      label: Batches
+      slug: /platform/batches/coupons-wijzigen
+      pages:
+        - title: Coupons wijzigen als batch
+          label: Coupons wijzigen
+          slug: /platform/batches/coupons-wijzigen
+    - title: Punten sparen en verzilveren
+      label: loyaliteitsprogramma
+      slug: /platform/loyalty
+    - title: Platform Vaak gestelde vragen
+      label: FAQS
+      slug: /platform/faqs
+
+- title: webshop
+  pages:
+    - title: Met de juiste DNS instellingen kun je de webshop online zetten
+      label: DNS instellingen webshop
+      slug: /webshop/dns-instellingen-webshop
 
 
 - title: plugins
@@ -64,8 +55,25 @@
     - title: Overzicht van de plugins binnen het Afosto Platform
       label: Overzicht
       slug: /plugins/overzicht
+    - title: Voeg een extra orderstatus toe
+      label: Extra orderstatus
+      slug: /plugins/extra-orderstatussen
+    - title: Een koppeling met Freshdesk
+      label: Freshdesk koppeling
+      slug: /plugins/freshdesk
+    - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
+      label: Inventariseren
+      slug: /plugins/inventariseren
+      label: Product identificatie
+      slug: /plugins/pid
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
       label: Watermerk
       slug: /plugins/watermerk
+
+
+
+
+
+
 
 

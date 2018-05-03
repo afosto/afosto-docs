@@ -10,11 +10,23 @@
   <a class="navbar-brand" href="{{site.url}}" title="Go back to te homepage">
     <img src="{{ site.url | append: '/assets/img/afosto-logo-white.svg' }}" width="142.14px" height="32px" title="Afosto logo" alt="Afosto logo">
   </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
   <div class="main-nav d-none d-md-block">
     <ul class="navbar-nav">
       {%- for item in site.data.main_nav -%}
-      <li class="nav-item">
+
+      {%- assign active = nil -%}
+      {%- assign page_parent = page.parent|downcase -%}
+      {%- assign item_label = item.label|downcase -%}
+
+      {%- if page_parent == item_label -%}
+        {%- assign active = 'active' -%}
+      {%- endif -%}
+
+      <li class="nav-item{% unless active == nil %} {{ active }}{% endunless %}">
         <a class="nav-link" href="{{ site.url | append: item.slug }}" title="{{item.title}}">
           {{ item.label }}
         </a>
