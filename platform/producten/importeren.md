@@ -23,6 +23,8 @@ Het is aan te raden de naam volgens een patroon op te zetten, Voor een schoenenw
 **Voorbeeld:**
 > {Merk} {type} {categorie_enkelvoud} {kleur}  
 > Puma xjt sandaal zwart
+
+
 ### Korte beschrijving _(verplicht)_
 De korte beschrijving is de ondertitel van een product. Deze kan naar wens worden ingevuld. Wel geldt ook hier dat het raadzaam is om dit volgens een bepaald patroon te doen.
 

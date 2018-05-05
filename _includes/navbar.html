@@ -1,20 +1,11 @@
 {%- assign default_paths = site.pages | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 
-
-
 <nav class="navbar navbar-expand navbar-dark bg-primary flex-column flex-md-row" id="main-navbar">
-  <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="{{site.url}}" title="Go back to te homepage">
+  <a class="navbar-brand mr-0" href="{{site.url}}" title="Go back to te homepage">
     <img src="{{ site.url | append: '/assets/img/afosto-logo-white.svg' }}" width="142.14px" height="32px" title="Afosto logo" alt="Afosto logo">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="main-nav d-none d-md-block">
+  <div class="main-nav">
     <ul class="navbar-nav">
       {%- for item in site.data.main_nav -%}
 
@@ -35,6 +26,18 @@
     </ul>
   </div>
   <form class="af-doc-search ml-md-auto">
-    <input type="text" class="form-control" id="af-doc-search" placeholder="Zoek...">
+    {%- if page.layout == 'docs' or page.layout == 'plugin' -%}
+      <button class="navbar-toggler toggle-sidebar d-block d-md-none mr-2" type="button" data-menu="sidebar" data-menu-action="open">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    {% endif %}
+    <input type="text" class="form-control flex-fill" id="af-doc-search" placeholder="Zoek...">
   </form>
 </nav>
+<button class="navbar-toggler toggle-sidebar d-flex d-xl-none mr-2 af-menu-backdrop" type="button" data-menu="sidebar" data-menu-action="close-all">
+  <div class="navbar-toggler col-2">
+    <span>
+      &times;
+    </span>
+  </div>
+</button>

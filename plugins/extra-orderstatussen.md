@@ -47,12 +47,12 @@ Door op de overzichtspagina van orderstatussen op een orderstatus te klikken kun
     * kleur
     
 
-## Orderstatus activeren/deactiveren
+## Orderstatus activeren en deactiveren
 Op de overzichtspagina van orderstatussen kun je 1 of meerdere statussen activeren door:
 1. De status of statussen te selecteren.
 2. Onder het menu 'Acties' de gewenste actie te selecteren.
 
-## Overzichtspagina orders/verkopen
+## Overzichtspagina orders en verkopen
 Onder 'Selecteer kolommen' kun je de extra orderstatussen zichtbaar maken in het overzicht.
 ### Filteren
 Wanneer er een orderstatus is toegevoegd kan er ook op gefilterd worden. Dit doe je door de gewenste orderstatus te selecteren en 1 of meerdere statusopties te selecteren. Ook kun je op meerdere orderstatussen tegelijk filteren door op 'Nieuwe rij toevoegen' te klikken. 
@@ -61,8 +61,8 @@ Je kunt de status van 1 of meerdere orderregels wijzigen door:
 1. de te wijzigen orderregels te selecteren
 2. Onder de knop 'Acties' de gewenste statusoptie te selecteren.
 
-## Detailpagina order/verkooporder
-Op de detailpagina van een order/verkoop zijn de orderstatussen en orderoptie zichtbaar. Deze zijn per orderstatus te wijzigen door op het potloodje achter de betreffende orderstatus te klikken.
+## Detailpagina order of verkooporder
+Op de detailpagina van een order of verkoop zijn de orderstatussen en orderoptie zichtbaar. Deze zijn per orderstatus te wijzigen door op het potloodje achter de betreffende orderstatus te klikken.
 
 ## Mijn account
 De orderstatussen zijn beschikbaar in het  'Mijn Account' gedeelte van de webshop. Dit houdt in dat je eventueel de gewenste orderstatussen ook inzichtelijk kan maken voor je klanten.
