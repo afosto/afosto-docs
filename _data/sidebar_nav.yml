@@ -10,6 +10,12 @@
         - title: Zebra ZD410d labelprinter
           label: Zebra ZD410d
           slug: /kassa/hardware/zebra-zd410d
+    - title: Orders
+      label: Orders
+      slug: /kassa/orders
+    - title: Order retourneren
+      label: Order retourneren
+      slug: /kassa/order_retourneren
 
 
 
@@ -64,11 +70,21 @@
     - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
       label: Inventariseren
       slug: /plugins/inventariseren
+    - title: Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen.
       label: Product identificatie
       slug: /plugins/pid
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
       label: Watermerk
       slug: /plugins/watermerk
+    - title: Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA.
+      label: ReCAPTCHA
+      slug: /plugins/recaptcha
+    - title: Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa
+      label: Print product label
+      slug: /plugins/print_product_label
+
+
+
 
 
 
