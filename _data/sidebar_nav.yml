@@ -15,7 +15,7 @@
       slug: /kassa/orders
     - title: Order retourneren
       label: Order retourneren
-      slug: /kassa/order_retourneren
+      slug: /kassa/order-retourneren
 
 
 
@@ -54,6 +54,9 @@
     - title: Met de juiste DNS instellingen kun je de webshop online zetten
       label: DNS instellingen webshop
       slug: /webshop/dns-instellingen-webshop
+    - title: Het aanmaken en wijzigen van een menu
+      label: Menu
+      slug: /webshop/menu
 
 
 - title: plugins
@@ -81,7 +84,7 @@
       slug: /plugins/recaptcha
     - title: Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa
       label: Print product label
-      slug: /plugins/print_product_label
+      slug: /plugins/print-product-label
 
 
 
