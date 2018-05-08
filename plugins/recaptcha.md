@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: plugin
 title: ReCAPTCHA
 description: "Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA."
 plugin_name: ReCAPTCHA
@@ -36,7 +36,7 @@ De json van het formulier dient aangepast te worden om reCAPTCHA te ondersteunen
 
 ### Json
 [form_naam].json
-{% highlight ruby linenos %}
+{% highlight json linenos %}
 {% raw %}
         {
             "name": "recaptcha",
@@ -56,7 +56,7 @@ De json van het formulier dient aangepast te worden om reCAPTCHA te ondersteunen
 In dezelfde map dien je corresponderende twig bestand ook aan te passen. Vervang de code tussen de '<form>' tags met onderstaande code.
 
 [form_naam].twig
-{% highlight ruby linenos %}
+{% highlight twig linenos %}
 {% raw %}
  {% for field in fields %}
      <div class="form-group">
@@ -84,7 +84,7 @@ In dezelfde map dien je corresponderende twig bestand ook aan te passen. Vervang
 Als je bijvoorbeeld het formulier op de contact pagina hebt gemaakt, dien je de volgende code toe te voegen aan het formulier. Hiermee roep je het reCAPTCHA veld aan.
 
 contact.twig
-{% highlight ruby linenos %}
+{% highlight twig linenos %}
 {% raw %}
 	
  {{call("recaptcha")|first}}
