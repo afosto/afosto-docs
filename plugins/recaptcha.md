@@ -15,6 +15,7 @@ Niets zo vervelend als je mailbox vol spam, afkomstig van je contactformulier. M
 * Het aanmaken van credentials
 * Het instellen van de plugin
 * Het toevoegen van de velden aan formulieren
+
 ## Aanmaken Crendentials
 om gebruik te maken van reCAPTCHA dien je credentials aan te maken.Dit kan via de volgende URL. [https://www.google.com/recaptcha/admin#list](https://www.google.com/recaptcha/admin#list){:target="_blank"}.
 Onder 'Register a new site' vul je een herkenbaar label in, bijv.: afosto recaptcha.
