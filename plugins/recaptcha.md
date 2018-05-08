@@ -85,9 +85,7 @@ Als je bijvoorbeeld het formulier op de contact pagina hebt gemaakt, dien je de 
 
 contact.twig
 {% highlight twig linenos %}
-{% raw %}
-	
+{% raw %}	
  {{call("recaptcha")|first}}
-
 {% endraw %}
 {% endhighlight %}

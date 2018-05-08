@@ -6,6 +6,18 @@ group: releases
 toc: true
 ---
 
+## 07-05-2018
+_Platform_
+* Toegevoegd bij onderdeel 'kassa' > 'Algemene POS instellingen' - Leverorders: Items standaard weergegeven als geleverd.
+* Toegevoegd bij onderdeel 'kassa' > 'Algemene POS instellingen' - Reservering: Items standaard weergegeven als geleverd.
+
+_Kassa_
+* Toegevoegd bij onderdeel 'Leveringsorders'- Button met twee opties: 'Alles op niet geleverd zetten' / 'Alles op geleverd zetten'. Tevens kan de standaard waarde van deze button worden ingesteld onder instellingen. 
+* Er is een probleem verholpen m.b.t. kasmutaties, waarbij de kassalade niet altijd open gaat.
+* Indien je beschikt over de interfiliaal verkeer plugin, dan is er functionaliteit toegevoegd waarbij bij het nu mogelijk is om leverorders vanaf de kassa aan te maken.
+* Indien je beschikt over de print product labels plugin (POS), dan is er functionaliteit toegevoegd waarbij je vanaf de kassa per product een product label kunt laten genereren en downloaden.
+* Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
 ## 02-05-2018
 _Platform_  
 Het Platform draait vanaf vandaag op een nieuwe server.
