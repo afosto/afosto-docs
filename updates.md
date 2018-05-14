@@ -2,7 +2,7 @@
 layout: docs
 title: Platform updates
 description: Er vinden regelmatig updates plaats op het platform. Hier worden de releasenotes geplaatst.
-group: releases 
+group: updates 
 toc: true
 redirect_from:
     - /releases
