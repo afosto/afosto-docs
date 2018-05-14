@@ -9,6 +9,20 @@ $toc-level-padding: .75rem;
   overflow: auto;
   font-size: 14px;
   
+  @include media-breakpoint-down(lg) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1042;
+    height: 100%;
+    background-color: #fff;
+    transition: transform .3s ease;
+    transform: translateX(100%);
+
+    &.show-menu {
+      transform: translateX(0);
+    }
+  }
   
   .nav.af-page-toc {
     position: relative;
