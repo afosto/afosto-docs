@@ -2,9 +2,25 @@
 layout: docs
 title: Platform updates
 description: Er vinden regelmatig updates plaats op het platform. Hier worden de releasenotes geplaatst.
-group: releases 
+group: updates 
 toc: true
+redirect_from:
+    - /releases
 ---
+
+## 15-05-2018
+_Platform_
+* De Price Group Switch plugin is uitgebreid 
+  * Er is de mogelijkheid toegevoegd om bij een prijsgroep aan te geven dat de gebruiker ingelogd moet zijn om de shop te gebruiken.
+  * De tabel met e-mailadressen die toegang krijgen tot deze prijsgroep was op kleinere schermen niet meer te zien. Dat is nu verholpen door een minimale hoogte te geven aan de tabel.
+* De beschikbaarheid van verzendmethoden in andere landen op basis van het gewicht van de order is verbeterd.
+* Kopieën van orders die na de server migratie van 02-05-2018 niet meer werden verstuurd worden nu weer verstuurd.
+
+_Kassa_
+
+De kassa bevat een update van de PayNL SDK waardoor er een paar wijzigingen nodig waren.
+* Fashionchecks kunnen nu weer naar behoren gebruikt worden
+* De bon bevat bij een pin betaling meer informatie over de kaart waar mee is betaald en de transactie die ermee is volbracht. 
 
 ## 07-05-2018
 _Platform_
