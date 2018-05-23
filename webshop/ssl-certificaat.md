@@ -12,7 +12,7 @@ redirect from:
 ## Omschrijving
 
 1. Ga naar sslcertificaten.nl
-2. Kies het gewenste product
+2. Kies het gewenste product.
 3. Kies welk type certificaat.  
 Dit kan zowel een standaard certificaat zijn, een multidomein of een wildcard.
 In het geval van een website welke goed functioneert op www.domein.nl en domein.nl is het aan te raden een mulit domein certificaat aan te schaffen.
