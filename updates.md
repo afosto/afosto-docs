@@ -8,6 +8,24 @@ redirect_from:
     - /releases
 ---
 
+## 29-05-2018
+
+**In deze release**
+* Het zoeken van producten in zowel platform als webshop is verbeterd waardoor het zoeken op EAN en SKU betere resultaten geeft.
+* De plugin `clusterraportage` is herschreven om een beter overzicht te genereren in een excel bestand.
+* De BetaOut plugin is uitgebreid met ondersteuning voor desktop push berichten.
+
+**Fixes sinds de laatste release**
+* Mogelijkheid om voorraad te tonen per winkelgroep in het producten overzicht. Hierbij worden de aan de winkelgroep gekoppelde magazijnen gebruikt.
+* Door een bug in de pagina `Kortingsregels` konden deze niet opgeslagen worden, dit is opgelost en kan weer gebruikt worden.
+* Het zoeken op specificaties gaf een foutmelding wanneer de zoekterm een `‘` bevat, bijv. Levi’s. De ondersteuning voor speciale tekens in deze zoekopdracht is verbeterd.
+* Betaalmethodes van de kassa kunnen weer opgeslagen worden in het platform.
+* Het pagina overzicht is verwijderd. Je kan de pagina’s nu alleen bewerken via `Menu’s`.
+* Het uploaden van logo’s bij kassa en webshop administratie is weer gerepareerd.
+* Het zoeken op specificaties was tijdelijk uitgeschakeld. Doordat er een proces op de perfomance drukte zorgde dit voor problemen. Dit is nu gerepareerd en je kan weer zoeken op specificaties.
+* Het verwijderen van klanten waar een coupon code aan is gekoppeld is mogelijk gemaakt.
+
+
 ## 15-05-2018
 _Platform_
 * De Price Group Switch plugin is uitgebreid 
