@@ -33,6 +33,7 @@ redirect_from:
 - De nieuwe plugin **Order opmerkingen versturen** maakt het mogelijk om opmerkingen bij verkopen te versturen naar de klant in een opgemaakte email.
 - De **Google Analytics plugin** verstuurd ip-adressen nu geanonimiseerd naar Google om de privacy van uw klanten te waarborgen.
 - In het producten overzicht zijn de titels van de kolommen voor **Prijs incl.**, **Actie prijs incl.**, **Actief** en **BTW %** aangevuld met de naam van de prijsgroep waar deze bij horen. Ook zijn voor de taalgroepen de kolommen voor **Naam**, **Korte omschrijving** en **Omschrijving** aangevuld met de naam van de productgroep waar deze bij horen.
+- Een nieuwe plugin die een koppeling mogelijk maakt met [**Family Blend**](http://familyblend.nl/).
 
 ### Fixes sinds de laatste release
 
