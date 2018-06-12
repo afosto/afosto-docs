@@ -28,7 +28,7 @@ redirect_from:
 - De plugins waar wij al jaren aan werken zijn nu ook voor u inzichtelijk. De instellingen van de bij u geïnstalleerde plugins zijn nu beschikbaar op het dashboard of via het nieuwe icoontje bovenin de rode balk.
 - Het importeren van producten is omgezet naar jobs. Hierdoor is het aanzienlijk sneller geworden en worden zware processen op de achtergrond verwerkt. Daarbij is het ook mogelijk om de **product verrijker plugin** er aan te koppelen.
 - Nieuwe plugin om producten van het zelfde type te groeperen binnen een collectie pagina. Op basis van de filters wordt dan uit deze groep het meest overeenkomende product getoond.
-- Fietskoeriers is toegevoegd aan de Verzend koppelingen om het mogelijk te maken om Same Day Delivery te ondersteunen. 
+- **Fietskoeriers** is toegevoegd aan de **Verzend koppelingen** om het mogelijk te maken om Same Day Delivery te ondersteunen. 
 - Het probleem waarbij orders wel betaald waren maar geen factuur hadden is verholpen.
 - De nieuwe plugin **Order opmerkingen versturen** maakt het mogelijk om opmerkingen bij verkopen te versturen naar de klant in een opgemaakte email.
 - De **Google Analytics plugin** verstuurd ip-adressen nu geanonimiseerd naar Google om de privacy van uw klanten te waarborgen.
