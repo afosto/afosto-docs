@@ -1,0 +1,46 @@
+// SEARCHBOX
+$searchbox-config: (
+  input-width: 200px,
+  input-height: 32px,
+  border-width: 1px,
+  border-radius: 16px,
+  input-border-color: #ccc,
+  input-focus-border-color: #aaa,
+  input-background: #fff,
+  input-focus-background: #fff,
+  font-size: 12px,
+  placeholder-color: #aaa,
+  icon-size: 14px,
+  icon-position: left,
+  icon-color: #6d7e96,
+  icon-background: theme-color("primary"),
+  icon-background-opacity: 0,
+  icon-clear-size: 8px
+);
+
+// DROPDOWN
+$dropdown-config: (
+  main-color: theme-color("primary"),
+  layout-type: normal,
+  layout-width: normal,
+  layout-alignment: align,
+  background-color: #fff,
+  border-radius: 4,
+  border-width: 1,
+  border-color: #d9d9d9,
+  box-shadow: light,
+  branding-position: bottom,
+  spacing: normal,
+  include-desc: yes,
+  background-category-header: #fff,
+  font-size: normal,
+  header-color: #33363d,
+  title-color: #02060c,
+  subtitle-color: #a4a7ae,
+  text-color: #63676d,
+  highlight-color: theme-color("primary"),
+  highlight-opacity: .1,
+  highlight-type: underline
+);
+
+$builder-height: 260px;

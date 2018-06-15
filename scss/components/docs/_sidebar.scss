@@ -6,6 +6,20 @@
   overflow: auto;
   background-color: $gray-100;
   
+  @include media-breakpoint-down(sm) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1042;
+    height: 100%;
+    transition: transform .3s ease;
+    transform: translateX(-100%);
+    
+    &.show-menu {
+      transform: translateX(0);
+    }
+  }
+  
   a {
     color: $gray-700;
     text-decoration: none;

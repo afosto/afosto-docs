@@ -3,9 +3,9 @@
   padding-bottom: 2rem;
 
   //stylelint-disable selector-no-qualifying-type
-  > h2[id],
-  > h3[id],
-  > h4[id] {
+  > h2,
+  > h3,
+  > h4 {
     pointer-events: none;
 
     > div,
@@ -19,6 +19,11 @@
       margin-top: -6rem;
       visibility: hidden;
       content: "";
+      
+      @include media-breakpoint-down(sm) {
+        height: 9rem;
+        margin-top: -9rem;
+      }
     }
   }
 

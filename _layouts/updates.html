@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% include header.html %}
+</head>
+<body data-spy="scroll" data-target="#af-doc-toc">
+{% include navbar.html %}
+<div class="container-fluid">
+  <div class="row flex-xl-nowrap">
+    <div class="col-10 col-md-3 col-xl-2 af-sidebar">
+      {% include doc-sidebar.html %}
+    </div>
+
+    {% if page.toc %}
+    <div class="order-md-2 col-10 col-md-3 col-xl-2 af-sidebar-toc">
+      <nav id="af-doc-toc" class="nav">
+        {% capture itemClass %}toc-entry.nav-item.toc-h%level%.af-close-menus{% endcapture %}
+        {% include toc.html html=content class="nav.af-page-toc" item_class=itemClass h_min=2 h_max=2 %}
+      </nav>
+    </div>
+    {% endif %}
+
+    <main class="col-12 col-md-9 col-xl-8 pl-md-5 af-content" role="main">
+      <h1 class="af-title display-1" id="content">{{ page.title | smartify }}</h1>
+      <p class="af-lead lead">{{ page.description | smartify }}</p>
+      <!--<button class="navbar-toggler toggle-sidebar d-block d-xl-none mr-2" type="button" data-menu="sidebar-toc" data-menu-action="open" data-menu-side="right">-->
+      <!--<span class="navbar-toggler-icon"></span>-->
+      <!--</button>-->
+      {{ content }}
+    </main>
+  </div>
+</div>
+{% include scripts.html %}
+</body>
+</html>
