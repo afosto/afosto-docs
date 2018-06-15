@@ -15,7 +15,7 @@ destination: ./_gh_pages
 host: 0.0.0.0
 port: 9001
 baseurl: ""
-url: "http://help.afosto.com"
+url: "https://help.afosto.com"
 encoding: UTF-8
 exclude:
   - .git/
@@ -53,9 +53,7 @@ whitelist:
 title: Afosto Application Documentation
 email: support@afosto.com
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Afosto handleidingen en updates.
 github:             afosto
 twitter:            afosto
 twitter_url:        "https://twitter.com/afosto"
