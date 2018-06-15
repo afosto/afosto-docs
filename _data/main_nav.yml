@@ -1,15 +1,16 @@
-- title: Blog
-  label: Blog
-  slug: /blog
-- title: Afosto platform Documentatie
+- title: Afosto platform documentatie
   label: Platform
-  slug: /platform/producten/toevoegen
-- title: Afosto point of Sale Documentatie
-  label: POS
-  slug: /pos/installatie
-- title: Afosto thema editor Documentatie
-  label: Thema editor
-  slug: /thema-editor/basis-kennis
-- title: Afosto plugins Documentatie
+  slug: /platform/producten/importeren
+- title: Afosto webshop documentatie
+  label: Webshop
+  slug: /webshop/dns-instellingen-webshop
+- title: Afosto Kassa documentatie
+  label: Kassa
+  slug: /kassa/hardware/zebra-zd410d
+- title: Afosto plugins documentatie
   label: Plugins
   slug: /plugins/overzicht
+- title: Er vinden regelmatig updates plaats op het platform. Hier worden de releasenotes geplaatst.
+  label: Updates
+  slug: /releases
+

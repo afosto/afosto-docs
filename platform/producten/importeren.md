@@ -1,13 +1,13 @@
 ---
 layout: docs
-title: Opbouw importbestand
-description: Hier wordt uitgelegd hoe je een importbestand het beste kan opbouwen. 
+title: Producten importeren
+description: Hier wordt uitgelegd hoe je een importbestand voor je producten het beste kan opbouwen om deze te kunnen importeren. Daarnaast is het belangrijk de headers van je import juist te benoemen, dan worden deze automatisch overgenomen voor het importeren.
 group: producten
+parent: platform
 toc: true
 redirect_from:
+    - /platform/importeren
 ---
-_datum: 28 maart 2018 (bewerkt)_
-
 
 ### Artikelnummer _(verplicht)_  
 Dit kan een willekeurig nummer zijn, maar ook het artikelnummer van de leverancier.
@@ -18,11 +18,11 @@ Het is aan te raden om hier het nummer van de leverancier voor te gebruiken. Wan
 
 ### Naam _(verplicht)_  
 De naam van een product is belangrijk voor de zoekmachines, de url en natuurlijk klantvriendelijkheid.
-Het is aan te raden de naam volgens een patroon op te zetten, Voor een schoenenwinkel kan dit bijvoorbeeld zijn:
-> Voorbeeld:  
+Het is aan te raden de naam volgens een patroon op te zetten, Voor een schoenenwinkel kan dit bijvoorbeeld zijn: 
+ 
+**Voorbeeld:**
 > {Merk} {type} {categorie_enkelvoud} {kleur}  
 > Puma xjt sandaal zwart
-
 ### Korte beschrijving _(verplicht)_
 De korte beschrijving is de ondertitel van een product. Deze kan naar wens worden ingevuld. Wel geldt ook hier dat het raadzaam is om dit volgens een bepaald patroon te doen.
 
@@ -114,6 +114,7 @@ Het is mogelijk tot 50 specificaties aan te maken. Specificaties worden voor div
 
 ### Basisbestand
 Als basis kunnen de kolommen uit onderstaande tabel gebruikt worden.  
+
 |Kolomnaam|Toelichting|
 |---|---|
 |Artikelnummer||
@@ -128,6 +129,7 @@ Als basis kunnen de kolommen uit onderstaande tabel gebruikt worden.
 |Gewicht||
 |Groobtoekrekening||
 |Leverancier||
+{: .table.table-bordered}
 
 
 

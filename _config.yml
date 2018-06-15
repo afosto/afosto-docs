@@ -19,6 +19,7 @@ url: "http://help.afosto.com"
 encoding: UTF-8
 exclude:
   - .git/
+  - .idea/
   - .github/
   - assets/scss/
   - build/
