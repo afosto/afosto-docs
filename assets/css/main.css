@@ -8883,7 +8883,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .highlight {
-  background: #fff;
+  background: #f7f7f7;
 }
 
 .highlight .c {
@@ -9196,6 +9196,20 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* Literal.Number.Integer.Long */
+.highlight pre {
+  margin-bottom: 0;
+}
+
+.highlight .gutter {
+  padding: 16px;
+  border-right: 1px solid #eee;
+}
+
+.highlight .code {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 body {
   position: relative;
   -webkit-font-smoothing: antialiased;

@@ -8,6 +8,35 @@ redirect_from:
     - /releases
 ---
 
+## 26-06-2018
+
+### In deze release
+
+**Kassa (3.0.76)**
+- Er zijn verbeteringen doorgevoerd m.b.t het starten en controleren van pin transacties van de **Pay.nl** pin koppeling, bij wegvallende pin / internet verbindingen. Bij het starten van een nieuwe pin betaling, wordt nu altijd eerst de status van de laatste niet geslaagde pin transactie opnieuw opgehaald. In het geval dat een klant wel betaald heeft maar de kassa geen feedback heeft ontvangen, dan wordt deze pin transactie alsnog op betaald gezet. Indien de kassa wel feedback heeft gehad, wordt een nieuwe pin transactie gestart.
+- In het Afosto platform zijn voor de kassa voorraad instellingen toegevoegd waarbij kan worden ingesteld welke magazijnen worden weergegeven op de kassa. De weergave van de totale voorraad op de kassa is dan ook gebaseerd op de geselecteerde magazijnen.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
+**Platform (1.72)**
+
+- De **Facebook pixel plugin** is uitgebreid met een extra instelling. Er wordt dan extra data meegestuurd naar Facebook wanneer een klant een product aan de winkelwagen toevoegt. Om hier gebruik van te maken zijn aanpassingen aan de code van je webshop vereist. Neem contact op met je expert of met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20uitgebreide%20Facebook%20pixel%20implementatie). Ben je zelf handig met code? kijk dan naar [de handleiding](https://help.afosto.com/plugins/uitgebreide-facebook-pixel-implementatie){:target="_blank"} om dit te implementeren.
+- Het is nu mogelijk om een retourorder gedeeltelijk te retourneren. De **Betalingen terugboeken plugin** is hiervoor aangepast en maakt het nu mogelijk om terugbetalingen op te splitsen.
+- Er zijn twee nieuwe rapportage types bij gekomen. hierbij is het mogelijk om op basis van specificaties een overzicht te krijgen per specificatie / specificatie set. De tweede maakte het mogelijk om producten te filteren op basis van een specificatie zodat er alleen met producten die deze specificatie hebben een rapportage wordt opgemaakt.
+
+**Fixes sinds de laatste release**
+
+- Het downloaden van de foutmeldingen bij een import is weer werkend.
+- De **LetsEncrypt plugin** vult nu automatisch certificaat en bundel in.
+- Reserveringen / leverorders kunnen op de kassa weer verwijderd worden.
+- In de rode menubalk is het zoekveld vervangen voor een link naar [help.afosto.com](https://help.afosto.com/) en een overbodige link weggehaald.
+- Een bug waarbij de homepage verwijderd kon worden vanuit het menu is verholpen.
+- De **Producten gegroepeerd weergeven plugin** is verbeterd en kan gebruikt worden voor accounts met veel producten.
+- De pagina’s van de **Mijn wensenlijst plugin** hebben een `noindex folow` meta attribuut gekregen. Hierdoor wordt deze niet geïndexeerd voor Google Search maar wel gevolgd door Google Analytics.
+- Een bug in de **Google Analytics plugin** is na de release direct verholpen. Hierdoor werden events tijdelijk niet gevuurd naar Google Analytics.
+- Het zoeken op meerdere woorden op de webshops is gerepareerd.
+
+
+
 ## 12-06-2018
 
 ### In deze release
@@ -33,7 +62,7 @@ redirect_from:
 - De nieuwe plugin **Order opmerkingen versturen** maakt het mogelijk om opmerkingen bij verkopen te versturen naar de klant in een opgemaakte email.
 - De **Google Analytics plugin** verstuurd ip-adressen nu geanonimiseerd naar Google om de privacy van uw klanten te waarborgen.
 - In het producten overzicht zijn de titels van de kolommen voor **Prijs incl.**, **Actie prijs incl.**, **Actief** en **BTW %** aangevuld met de naam van de prijsgroep waar deze bij horen. Ook zijn voor de taalgroepen de kolommen voor **Naam**, **Korte omschrijving** en **Omschrijving** aangevuld met de naam van de productgroep waar deze bij horen.
-- Een nieuwe plugin die een koppeling mogelijk maakt met [**Family Blend**](http://familyblend.nl/).
+- Een nieuwe plugin die een koppeling mogelijk maakt met [**Family Blend**](http://familyblend.nl/){:target="_blank"}.
 
 ### Fixes sinds de laatste release
 
@@ -43,7 +72,7 @@ redirect_from:
 - Er is een verbetering doorgevoerd in het kiezen van de beste levermagazijnen.
 - De **Fashion Partner plugin** is uitgebreid met de mogelijkheid om de inhoud van dozen, die met een interne verzending zijn opgevraagd, in een keer op te boeken.
 - Na de server migratie van [02-05-2018](#02-05-2018) werden kopieën van facturen en orders niet altijd verstuurd naar de bij berichtgeving ingestelde e-mailadressen. Dit is nu weer verholpen.
-- Developers kunnen in de [API documentatie](https://docs.afosto.com/) weer de autorisatie om test calls te doen weer gebruiken.
+- Developers kunnen in de [API documentatie](https://docs.afosto.com/){:target="_blank"} weer de autorisatie om test calls te doen weer gebruiken.
 
 ## 29-05-2018
 
@@ -129,4 +158,4 @@ De API draait vanaf vandaag op een nieuwe server.
 * Toegevoegd bij onderdeel 'kassa > Betaalmethodes': Een extra betaalmethode kunnen toevoegen.
 
 ## Updates voor 25-04-2018
-_Oudere releasenotes zijn te vinden op [wiki.afosto.com](https://wiki.afosto.com/display/PUB/Updates)_
+_Oudere releasenotes zijn te vinden op [wiki.afosto.com](https://wiki.afosto.com/display/PUB/Updates){:target="_blank"}
