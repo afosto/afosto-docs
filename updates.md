@@ -20,7 +20,7 @@ redirect_from:
 **Platform (1.72)**
 
 - De **Facebook pixel plugin** is uitgebreid met een extra instelling. Er wordt dan extra data meegestuurd naar Facebook wanneer een klant een product aan de winkelwagen toevoegt. Om hier gebruik van te maken zijn aanpassingen aan de code van je webshop vereist. Neem contact op met je expert of met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20uitgebreide%20Facebook%20pixel%20implementatie). Ben je zelf handig met code? kijk dan naar [de handleiding](https://help.afosto.com/plugins/uitgebreide-facebook-pixel-implementatie){:target="_blank"} om dit te implementeren.
-- Het is nu mogelijk om een retourorder gedeeltelijk te retourneren. De **Betalingen terugboeken plugin** is hiervoor aangepast en maakt het nu mogelijk om terugbetalingen op te splitsen.
+- Het is nu mogelijk om een order gedeeltelijk te retourneren. De **Betalingen terugboeken plugin** is hiervoor ook aangepast en maakt het mogelijk om voor deze gedeeltelijke retour ook een terugbetaling aan te maken.
 - Er zijn twee nieuwe rapportage types bij gekomen. hierbij is het mogelijk om op basis van specificaties een overzicht te krijgen per specificatie / specificatie set. De tweede maakte het mogelijk om producten te filteren op basis van een specificatie zodat er alleen met producten die deze specificatie hebben een rapportage wordt opgemaakt.
 
 **Fixes sinds de laatste release**
