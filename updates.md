@@ -8,6 +8,27 @@ redirect_from:
     - /releases
 ---
 
+## 10-07-2018
+
+### In deze release
+
+**Platform (1.73)**
+
+- De nieuwe **2FA - Dubbele authenticatie plugin** maakt het mogelijk om two factor authenticatie toe te voegen voor je users. Hiermee voeg je een extra beveiliging toe aan je account. Je kan hiervoor gebruik maken van bijvoorbeeld de Google Authenticator app, maar je kan ook een sms laten sturen naar het ingestelde telefoonnummer.
+- Met de **2FA - Dubbele authenticatie plugin** word ook het nieuwe sms overzicht geïntroduceerd. Hierin kun je alle sms’jes zien die via jouw account zijn verstuurd.
+- Met de nieuwe **Verzendingen beheren plugin** kun je meerdere pakbonnen of facturen in één keer afdrukken. 
+- Het is nu mogelijk om per product aan te geven of het toegestaan is deze als backorder te bestellen. Deze zal de instelling van je shop dan overschrijven en het product op de shop bestelbaar houden.
+
+**Fixes sinds de laatste release**
+
+- Een fout waarbij de producten import aangaf dat een unieke SKU al gebruikt was is opgelost.
+- Een probleem met de weergave van producten in de orders binnen de mijn account pagina’s van de shops is verholpen.
+- Een bug waarbij foute url’s werden aangemaakt is verholpen.
+- Het aanmaken van interne verzendingen via de POS gaf in sommige gevallen foutmeldingen. Deze zijn verholpen en het aanmaken via de POS werkt weer.
+- Wanneer een, in een tekstveld, geüploade pdf beschadigd is wordt hier nu een melding van gemaakt binnen het platform. Je kan deze zien in het Logs overzicht.
+
+
+
 ## 26-06-2018
 
 ### In deze release
