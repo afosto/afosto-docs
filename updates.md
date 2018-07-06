@@ -21,11 +21,10 @@ redirect_from:
 
 **Fixes sinds de laatste release**
 
-- Een fout waarbij de producten import aangaf dat een unieke SKU al gebruikt was is opgelost.
 - Een probleem met de weergave van producten in de orders binnen de mijn account pagina’s van de shops is verholpen.
 - Een bug waarbij foute url’s werden aangemaakt is verholpen.
 - Het aanmaken van interne verzendingen via de POS gaf in sommige gevallen foutmeldingen. Deze zijn verholpen en het aanmaken via de POS werkt weer.
-- Wanneer een, in een tekstveld, geüploade pdf beschadigd is wordt hier nu een melding van gemaakt binnen het platform. Je kan deze zien in het Logs overzicht.
+- Wanneer een geüploade pdf beschadigd is wordt hier nu een melding van gemaakt binnen het platform. Je kan deze zien in het Logs overzicht.
 
 
 
