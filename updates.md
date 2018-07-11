@@ -8,7 +8,7 @@ redirect_from:
     - /releases
 ---
 
-## 10-07-2018
+## 11-07-2018
 
 ### In deze release
 
