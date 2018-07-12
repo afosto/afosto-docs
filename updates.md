@@ -8,6 +8,22 @@ redirect_from:
     - /releases
 ---
 
+## 17-07-2018
+
+### In deze release
+
+**Platform (1.74)**
+
+- Het is nu mogelijk icoontjes te uploaden voor filter opties. Bijvoorbeeld rondjes met de kleur van de optie. Je webshop dient hier wel voor aangepast te worden. Hiervoor kun je contact opnemen met onze [support afdeling](https://help.afosto.com/mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&body=Ik%20wil%20mijn%20shop%20aangepast%20hebben%20zodat%20ik%20icoontjes%20bij%20mijn%20filter%20opties%20kan%20tonen).
+- De **Interne verzendingen plugin** is aangepast met een verbeterde interface voor de automatische leverorder. Het maken van een selectie is nu makkelijker en uitgebreider.
+
+**Fixes sinds de laatste release**
+
+- De **Family Blend plugin** is aangepast zodat de noscript pixel altijd ingeladen wordt.
+- Bij het aanmaken van facturen kon het zijn dat deze op betaald kwam te staan wanneer je bij de betaald status voor `ja` koos en daarna terugzette naar `nee`. Dit ka nu niet meer voorkomen.
+- De kortingen in de **Specificatie rapportages plugin** worden nu goed doorberekend in de totalen wanneer de korting velden leeg zijn.
+
+
 ## 11-07-2018
 
 ### In deze release
