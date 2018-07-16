@@ -20,7 +20,7 @@ redirect_from:
 **Fixes sinds de laatste release**
 
 - De **Family Blend plugin** is aangepast zodat de noscript pixel altijd ingeladen wordt.
-- Bij het aanmaken van facturen kon het zijn dat deze op betaald kwam te staan wanneer je bij de betaald status voor `ja` koos en daarna terugzette naar `nee`. Dit ka nu niet meer voorkomen.
+- Bij het aanmaken van facturen kon het zijn dat deze op betaald kwam te staan wanneer je bij de betaald status voor `ja` koos en daarna terugzette naar `nee`. Dit kan nu niet meer voorkomen.
 - De kortingen in de **Specificatie rapportages plugin** worden nu goed doorberekend in de totalen wanneer de korting velden leeg zijn.
 
 
