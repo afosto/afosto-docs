@@ -1,8 +1,8 @@
 ---
 layout: plugin
 title: Print product Label
-description: "Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa"
-plugin_name: Print product label
+description: "Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa."
+plugin_name: Product labels printen op de kassa
 plugin_url: "https://app.afosto.com/plugins/101-print-product-label"
 group: print product label
 parent: plugins
