@@ -45,6 +45,9 @@
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
+    - title: Standaard rapportages
+      label: Rapportages
+      slug: /platform/rapportages
     - title: Platform Vaak gestelde vragen
       label: FAQS
       slug: /platform/faqs
@@ -85,6 +88,9 @@
     - title: Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA.
       label: ReCAPTCHA
       slug: /plugins/recaptcha
+    - title: Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties.
+      label: Specificatie rapportages
+      slug: /plugins/specificatie-rapportages
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform.
       label: Watermerk
       slug: /plugins/watermerk
