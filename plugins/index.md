@@ -6,7 +6,7 @@ group: overzicht
 parent: plugins
 toc: false
 redirect_from:
-  - /plugins
+  - /plugins/overzicht
 ---
 ## Platform  
 

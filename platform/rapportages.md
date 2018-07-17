@@ -119,5 +119,11 @@ De rapportage bestaat uit de onderstaande tabel en bevat de volgende kolommen.
 {: .table.table-bordered }
 
 
-## rapportage plugins
-TODO: list rapportage plugins
+## Rapportage plugins
+Om andere typen rapportages uit te kunnen draaien zijn er een aantal plugins beschikbaar gemaakt. Om gebruik te maken van onderstaande plugins, of voor meer informatie, kunt u contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20meer%20weten%20over%20de%20rapportage%20plugins).
+
+|**Rapportage voor producten** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Rapportage%20voor%20producten%20plugin) | |  
+|**Winkelgroep rapportages** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Winkelgroep%20rapportages%20plugin) | |
+|**Rapportage voor magazijn en verzendingen** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Rapportage%20voor%20magazijn%20en%20verzendingen%20plugin)| |
+|**Specificatie rapportages** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Specificatie%20rapportages%20plugin) | [handleiding]({site_url}/plugins/specificatie-rapportages)|  
+{: .table}
