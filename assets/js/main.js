@@ -16,6 +16,17 @@ $('.af-content > h2, .af-content > h3, .af-content > h4, .af-content > h5').wrap
 MenuToggle('.af-sidebar', '.navbar-toggler[data-menu="sidebar"]');
 MenuToggle('.af-sidebar-toc', '.navbar-toggler[data-menu="sidebar-toc"]');
 
+var options = {
+  strings: ["Vul een zoekterm in"],
+  startDelay: 750,
+  typeSpeed: 30,
+  backDelay: 1,
+  smartBackspace: true,
+  attr: 'placeholder'
+};
+
+var typed = new Typed("#af-home-search", options);
+
 function MenuToggle(menu, toggler) {
   menu = $(menu);
   toggler = $(toggler);
