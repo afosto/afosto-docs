@@ -118,3 +118,6 @@ De rapportage bestaat uit de onderstaande tabel en bevat de volgende kolommen.
 | **Marge** | Winst/Netto |
 {: .table.table-bordered }
 
+
+## rapportage plugins
+TODO: list rapportage plugins
