@@ -2,14 +2,27 @@
 <script type="text/javascript" src="{{ site.url }}/assets/js/popper.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/anchor.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/js/all.min.js"></script>
+{%- if page.layout == 'home' -%}
+  <script type="text/javascript" src="{{ site.url }}/assets/js/typed.min.js"></script>
+{%- endif -%}
 <script type="text/javascript" src="{{ site.url }}/assets/js/main.js"></script>
 
 <script type="text/javascript" src="{{ site.url }}/assets/js/docsearch.min.js"></script>
 <script>
-  var search = docsearch({
+  var search = new docsearch({
     apiKey: 'f344efcf92bc53a2f245d2531caeba0a',
     indexName: 'afosto',
     inputSelector: '#af-doc-search',
     debug: false // set to `true` if you want to inspect the dropdown menu's CSS
   });
+
+  {%- if page.layout == 'home' -%}
+  var homeSearch = new docsearch({
+    apiKey: 'f344efcf92bc53a2f245d2531caeba0a',
+    indexName: 'afosto',
+    inputSelector: '#af-home-search',
+    debug: false // set to `true` if you want to inspect the dropdown menu's CSS
+  });
+  {%- endif -%}
 </script>

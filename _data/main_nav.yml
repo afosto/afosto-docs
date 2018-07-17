@@ -1,12 +1,12 @@
 - title: Afosto platform documentatie
   label: Platform
   slug: /platform/producten/importeren
-- title: Afosto webshop documentatie
-  label: Webshop
-  slug: /webshop/dns-instellingen-webshop
 - title: Afosto Kassa documentatie
   label: Kassa
   slug: /kassa/hardware/zebra-zd410d
+- title: Afosto webshop documentatie
+  label: Webshop
+  slug: /webshop/dns-instellingen-webshop
 - title: Afosto plugins documentatie
   label: Plugins
   slug: /plugins

@@ -67,6 +67,9 @@
     - title: Overzicht van de plugins binnen het Afosto Platform.
       label: Overzicht
       slug: /plugins
+    - title: Met deze plugin dient de gebruiker met twee stappen in te loggen.
+      label: 2FA - Dubbele authenticatie
+      slug: /plugins/2fa-dubbele-authenticatie
     - title: Voeg een extra orderstatus toe.
       label: Extra orderstatus
       slug: /plugins/extra-orderstatussen
