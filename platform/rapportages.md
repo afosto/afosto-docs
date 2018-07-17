@@ -125,5 +125,5 @@ Om andere typen rapportages uit te kunnen draaien zijn er een aantal plugins bes
 |**Rapportage voor producten** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Rapportage%20voor%20producten%20plugin) | |  
 |**Winkelgroep rapportages** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Winkelgroep%20rapportages%20plugin) | |
 |**Rapportage voor magazijn en verzendingen** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Rapportage%20voor%20magazijn%20en%20verzendingen%20plugin)| |
-|**Specificatie rapportages** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Specificatie%20rapportages%20plugin) | [handleiding]({site_url}/plugins/specificatie-rapportages)|  
+|**Specificatie rapportages** | [Aanvragen](mailto:support@afosto.com?subject=Aanvraag%20plugin&amp;body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Specificatie%20rapportages%20plugin) | [handleiding](/plugins/specificatie-rapportages)|  
 {: .table}
