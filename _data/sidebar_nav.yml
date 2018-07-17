@@ -61,30 +61,33 @@
 
 - title: plugins
   pages:
-    - title: Overzicht van de plugins binnen het Afosto Platform
+    - title: Overzicht van de plugins binnen het Afosto Platform.
       label: Overzicht
       slug: /plugins/overzicht
-    - title: Voeg een extra orderstatus toe
+    - title: Voeg een extra orderstatus toe.
       label: Extra orderstatus
       slug: /plugins/extra-orderstatussen
-    - title: Een koppeling met Freshdesk
+    - title: Een koppeling met Freshdesk.
       label: Freshdesk koppeling
       slug: /plugins/freshdesk
-    - title: Hier wordt uitgelegd hoe je producten kunt inventariseren
+    - title: Hier wordt uitgelegd hoe je producten kunt inventariseren.
       label: Inventariseren
       slug: /plugins/inventariseren
+    - title: Met deze plugin kun je opmerkingen die bij een order zijn geplaatst naar de klant mailen.
+      label: Order opmerkingen versturen
+      slug: /plugins/order-opmerkingen-versturen
+    - title: Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa.
+      label: Print product label
+      slug: /plugins/print-product-label
     - title: Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen.
       label: Product identificatie
       slug: /plugins/pid
-    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform
-      label: Watermerk
-      slug: /plugins/watermerk
     - title: Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA.
       label: ReCAPTCHA
       slug: /plugins/recaptcha
-    - title: Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa
-      label: Print product label
-      slug: /plugins/print-product-label
+    - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform.
+      label: Watermerk
+      slug: /plugins/watermerk
 
 
 
