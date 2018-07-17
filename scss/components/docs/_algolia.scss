@@ -42,4 +42,46 @@ $searchbox: true !default;
   }
 }
 
+.home-search {
+  .algolia-autocomplete {
+    display: block !important;
+    
+    .form-control {
+      &[aria-expanded="true"] {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+        
+      &:focus {
+        ~ .ds-dropdown-menu [class^="ds-dataset-"] {
+          border-color: theme-color("info");
+        }
+      }
+    }
+    
+    .ds-dropdown-menu {
+      left: 0 !important;
+      margin-top: -1px !important;
+
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+        min-width: 0 !important;
+      }
+
+      [class^="ds-dataset-"] {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+      
+      &::before {
+        display: none;
+      }
+      
+      .algolia-docsearch-footer {
+        text-align: right;
+      }
+    }
+  }
+}
+
 /* enable-stylelint declaration-no-important */

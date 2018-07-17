@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@fortawesome/fontawesome-free@^5.1.1":
+  version "5.1.1"
+  resolved "https://npm.fontawesome.com/7B9B1917-BEE7-457A-A025-C136041337D9/@fortawesome/fontawesome-free/-/fontawesome-free-5.1.1.tgz#b2c8d73675e349062112c2795a6e9e146bf47e1e"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -3281,6 +3285,10 @@ tunnel-agent@~0.4.1:
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
+
+typed.js@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.8.tgz#299cf7de653c07ec0aa9b38c1e1f2fb2971f2c91"
 
 uid-number@^0.0.6:
   version "0.0.6"
