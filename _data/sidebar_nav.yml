@@ -70,6 +70,9 @@
     - title: Voeg een extra orderstatus toe.
       label: Extra orderstatus
       slug: /plugins/extra-orderstatussen
+    - title: Voeg filters toe aan je webshop.
+      label: Filters
+      slug: /plugins/filters
     - title: Een koppeling met Freshdesk.
       label: Freshdesk koppeling
       slug: /plugins/freshdesk
