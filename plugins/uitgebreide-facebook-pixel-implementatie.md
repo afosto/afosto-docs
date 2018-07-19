@@ -25,10 +25,10 @@ Is jouw shop gebouwd na 12-06-2018, dan hoef je niks te doen. Het template is al
 Om het simpel te houden maken we een javascript functie die we op de plekken waar het nodig kunnen aanroepen zodat het event aangeroepen.
 Plaats onderaan in het bestand `assets/js/product.js` onderstaande code.
 
-  {% highlight js linenos %}{% raw %}
-    function afAddToCartEvent(data) {
-        $(document).trigger('af.cart.add', [data]);
-    }{% endraw %}{% endhighlight %}
+{% highlight js linenos %}{% raw %}
+function afAddToCartEvent(data) {
+    $(document).trigger('af.cart.add', [data]);
+}{% endraw %}{% endhighlight %}
     
 
 De functie `afAddToCartEvent()` verwacht een object met data. Dit dient de data te zijn van de producten die worden gepost. Deze functie kun je nu aanroepen op twee manieren, afhankelijk van je implementatie.
@@ -40,73 +40,101 @@ Om de juiste data in alle gevallen op te sturen gebruiken we een functie om dit 
 Dit doen we door middel van een ingewikkelde functie die door de array heen gaat, ze groepeert wanneer er meerdere producten in één keer worden toegevoegd en in een nieuwe array zet. In deze array wordt per product een object gevuld met de velden die we nodig zijn. 
 Voeg onderstaande functie ook onderaan `assets/js/product.js` toe.
 
-  {% highlight js linenos %}{% raw %}
-    function retrieveFormInput(form) {
-        var approvedAttributes = ['product_id', 'price', 'quantity'];
-        var products = form.serializeArray().reduce(function(product, item) {
-            var val = 0;
-            
-            if (item.name.split('[')[1]) {
-                key = item.name.split('[')[1].replace(']', '');
-                attribute = item.name.split('[')[2].replace(']', '');
-            } else {
-                key = "0";
-                attribute = item.name;
-            }
-            
-            if ($.inArray(attribute, approvedAttributes) >= 0 && item.value !== "") {
-                product[key] = product[key] || {};
-                product[key][attribute] = item.value;
-            }
-            
-            return product;
-        }, []); 
-    
-        return products;
-    }{% endraw %}{% endhighlight %}
+{% highlight js linenos %}{% raw %}
+function retrieveFormInput(form) {
+    var approvedAttributes = ['product_id', 'price', 'quantity'];
+    var products = form.serializeArray().reduce(function(product, item) {
+        var val = 0;
+        
+        if (item.name.split('[')[1]) {
+            key = item.name.split('[')[1].replace(']', '');
+            attribute = item.name.split('[')[2].replace(']', '');
+        } else {
+            key = "0";
+            attribute = item.name;
+        }
+        
+        if ($.inArray(attribute, approvedAttributes) >= 0 && item.value !== "") {
+            product[key] = product[key] || {};
+            product[key][attribute] = item.value;
+        }
+        
+        return product;
+    }, []); 
+
+    return products;
+}{% endraw %}{% endhighlight %}
 
 
 ## AddToCartAjax functie
 
-Wanneer je shop gebruikt maakt van de AJAX functie om producten toe te voegen dien je het volgende te doen. Zoek, door ctrl+F in te drukken, naar `handleAddToCartAjax` in het bestand `assets/js/product.js`. Dit is de functie die de daadwerkelijke post afhandelt. 
+Wanneer je shop gebruikt maakt van de AJAX functie om producten toe te voegen dien je het volgende te doen. 
+Zoek, door ctrl+F in te drukken, naar `handleAddToCartAjax` in het bestand `assets/js/product.js`. 
+Dit is de functie die de daadwerkelijke post afhandelt. 
 In de `beforeSend` parameter voeg je op onderstaande manier de gemarkeerde regel toe.
 
-  {% highlight js linenos %}{% raw %}
-    handleAddToCartAjax(e) {
-      ...
-      var event_data = retrieveFormInput(form);
-      $.ajax({
-        ...
-      })
-    }{% endraw %}{% endhighlight %}
+{% highlight js linenos %}{% raw %}
+handleAddToCartAjax(e) {
+  // ...
+  
+  var event_data = retrieveFormInput(form);
+  $.ajax({
+    // ...
+  })
+}{% endraw %}{% endhighlight %}
     
 In de `success` parameter voeg je onderstaande regel bovenaan toe.
 
-  {% highlight js linenos %}{% raw %}
-    handleAddToCartAjax(e) {
-      ...
-      $.ajax({
-      ...
-        success: function (event, request, settings) {
-          afAddToCart(event_data);
-          ...
-        }
-      ...
-    }{% endraw %}{% endhighlight %}
+{% highlight js linenos %}{% raw %}
+handleAddToCartAjax(e) {
+  // ...
+  
+  $.ajax({
+  // ...
+  
+    success: function (event, request, settings) {
+      afAddToCart(event_data);
+      
+      // ...
+    }
     
-Hiermee roep je de trigger aan wanneer het toevoegen aan het winkelmandje gelukt is. Aan deze functie geef je de `event_data` die we voor het versturen hebben opgezet.
-In veel gevallen zal deze functionaliteit gebruikt worden, echter kan het ook zo zijn dat je formulier op de normale manier wordt gepost. Daarvoor is de implementatie iets anders.
+  // ...
+}{% endraw %}{% endhighlight %}
+    
+Hiermee roep je de trigger aan wanneer het toevoegen aan het winkelmandje gelukt is. 
+Aan deze functie geef je de `event_data` die we voor het versturen hebben opgezet.
+In veel gevallen zal deze functionaliteit gebruikt worden, echter kan het ook zo zijn dat je formulier op de normale manier wordt gepost. 
+Daarvoor is de implementatie iets anders.
 
 
 ## Normale formulier post
 
-Een formulier dat niet met AJAX wordt verwerkt zal op een andere manier afgevangen moeten worden. Hiervoor zal je per product formulier dat op deze wijze wordt verstuurd een event listener toe moeten voegen. Onderstaande code wordt uitgevoerd wanneer een gebruiker het formulier met de ID `product-form` verstuurt. Wanneer dit gebeurt voeren we onze trigger functie uit en vuren we het event.
+Een formulier dat niet met AJAX wordt verwerkt zal op een andere manier afgevangen moeten worden. 
+Hiervoor zal je per product formulier dat op deze wijze wordt verstuurd een event listener toe moeten voegen. 
+Onderstaande code wordt uitgevoerd wanneer een gebruiker het formulier met de ID `product-form` verstuurt. 
+Wanneer dit gebeurt voeren we onze trigger functie uit en vuren we het event.
 
-    {% highlight js linenos %}{% raw %}
-    $('#product-form').on('submit', function() {
-        afAddToCartEvent(retrieveFormInput($(this)));
-    });{% endraw %}{% endhighlight %}
-    
+{% highlight js linenos %}{% raw %}
+$('#product-form').on('submit', function() {
+    afAddToCartEvent(retrieveFormInput($(this)));
+});{% endraw %}{% endhighlight %}
+
+Zet deze code bij voorkeur binnen de `startProductPage()` functie. 
+Op deze manier wordt de event listener aangemaakt wanneer deze functie wordt uitgevoerd.
+Dit is bijvoorbeeld nodig voor producten met maten.
+Wanneer een gebruiker een maat kiest wordt de html vervangen.
+Hierdoor vervallen de bestaande event listeners en moeten deze opnieuw worden geïnitialiseerd.
+Dit gebeurt doordat na het laden van de html de functie `startProductPage()` wordt uitgevoerd, en dus de event listener opnieuw wordt toegevoegd.
+De code zal er ongeveer zo uit zien.
+
+{% highlight js linenos %}{% raw %}
+startProductPage() {
+  // ...
+  
+  $('#product-form').on('submit', function() {
+      afAddToCartEvent(retrieveFormInput($(this)));
+  });
+}{% endraw %}{% endhighlight %}
 
 ## Formulieren gereed maken
 
@@ -117,29 +145,29 @@ Nu de functies gereed zijn moeten alleen de formulieren nog geüpdatet worden. H
 **Product_id**
 Het eerste veld, dat al in je formulier moet staan, is de `product_id`. 
 
-    {% highlight twig linenos %}{% raw %}
-    <input type="hidden" value="{{id}}" name="product_id" />{% endraw %}{% endhighlight %}
+{% highlight twig linenos %}{% raw %}
+<input type="hidden" value="{{id}}" name="product_id" />{% endraw %}{% endhighlight %}
     
 **Quantity**
 Het tweede veld kan ook al in je formulier staan, namelijk `quantity`. Dit is de hoeveelheid de klant besteld van het product. Als er al een `<input>` of `<select>` aanwezig is voor dit veld hoef je niks te doen. Wij raden aan om er een number input voor te gebruiken, zoals onderstaande code.
 
-    {% highlight twig linenos %}{% raw %}
-    <div class="form-group">
-        <label for="count">{{"Aantal"|t}}</label>
-        <input type="number" id="count" name="quantity" class="form-control input-sm" value="1" min="1" {% if not available or not selected %} disabled {% endif %}>
-    </div>{% endraw %}{% endhighlight %}
+{% highlight twig linenos %}{% raw %}
+<div class="form-group">
+    <label for="count">{{"Aantal"|t}}</label>
+    <input type="number" id="count" name="quantity" class="form-control input-sm" value="1" min="1" {% if not available or not selected %} disabled {% endif %}>
+</div>{% endraw %}{% endhighlight %}
     
 
 Mocht je geen aantal veld willen tonen in de shop, dan kun je het veld ook toevoegen als een input van het type `hidden`. Dit gebruiken we ook voor de andere twee velden. Dit zorgt ervoor dat deze data wel mee wordt gestuurd maar niet zichtbaar is voor de gebruiker. 
 
-    {% highlight twig linenos %}{% raw %}
-    <input type="hidden" value="1" name="quantity" />{% endraw %}{% endhighlight %}
+{% highlight twig linenos %}{% raw %}
+<input type="hidden" value="1" name="quantity" />{% endraw %}{% endhighlight %}
     
 **Price**
 Als laatste veld die niet in je formulier zal staan hebben we `price` nodig. Het is handig om deze direct onder of boven de `product_id` input te plaatsen zodat je hem makkelijk terug vindt.
 
-    {% highlight twig linenos %}{% raw %}
-    <input type="hidden" value="{{price}}" name="price" />{% endraw %}{% endhighlight %}
+{% highlight twig linenos %}{% raw %}
+<input type="hidden" value="{{price}}" name="price" />{% endraw %}{% endhighlight %}
     
 Belangrijke plekken om te controleren of de velden aanwezig zijn:
 
@@ -155,11 +183,11 @@ In deze bestanden kun je met ctrl+F zoeken naar de de waarde van `name` van bove
 
 Om te testen of de velden allemaal doorkomen kun je de `afAddToCartEvent()` functie aanpassen zoals onderstaande code. De data die dan wordt verstuurd naar het event wordt dan gelogd in de console. Om je console te bekijken open je de dev tools van je browser. **Vergeet niet deze regel weer te verwijderen wanneer je klaar bent.**
 
-    {% highlight js linenos %}{% raw %}
-    function afAddToCartEvent(data) {
-        console.log(data);
-        $(document).trigger('af.cart.add', [data]);
-    }{% endraw %}{% endhighlight %}
+{% highlight js linenos %}{% raw %}
+function afAddToCartEvent(data) {
+    console.log(data);
+    $(document).trigger('af.cart.add', [data]);
+}{% endraw %}{% endhighlight %}
     
 
 Lukt het niet om alles werkend te krijgen? mail dan naar support@afosto.com. We zullen dan contact met je opnemen om je verder te helpen.

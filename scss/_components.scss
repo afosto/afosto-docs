@@ -3,7 +3,8 @@
 @import "components/navbar";
 
 // docs
+@import "components/docs/algolia";
 @import "components/docs/content";
 @import "components/docs/sidebar";
+@import "components/docs/syntax-highlighting";
 @import "components/docs/toc";
-@import "components/docs/algolia";
