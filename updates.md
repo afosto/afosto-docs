@@ -14,7 +14,7 @@ redirect_from:
 
 **Platform (1.74)**
 
-- Het is nu mogelijk icoontjes te uploaden voor filter opties. Bijvoorbeeld rondjes met de kleur van de optie. Je webshop dient hier wel voor aangepast te worden. Hiervoor kun je contact opnemen met onze [support afdeling](mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&body=Ik%20wil%20mijn%20shop%20aangepast%20hebben%20zodat%20ik%20icoontjes%20bij%20mijn%20filter%20opties%20kan%20tonen).
+- Het is nu mogelijk icoontjes te uploaden voor filter opties. Bijvoorbeeld rondjes met de kleur van de optie. Je webshop dient hier wel voor aangepast te worden. Hiervoor kun je contact opnemen met onze [support afdeling](mailto:support@afosto.com?subject=Aanvraag%20icoontjes%20bij%20filteropties%20in%20webshop&body=Ik%20wil%20mijn%20shop%20aangepast%20hebben%20zodat%20ik%20icoontjes%20bij%20mijn%20filter%20opties%20kan%20tonen).
 - De **Interne verzendingen plugin** is aangepast met een verbeterde interface voor de automatische leverorder. Het maken van een selectie is nu makkelijker en uitgebreider.
 
 **Fixes sinds de laatste release**
