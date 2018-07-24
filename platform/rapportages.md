@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: rapportages
+title: Rapportages
 description: "Binnen Afosto heb je verschillende mogelijkheden om rapportages uit te draaien."
 group: rapportages
 parent: platform
@@ -13,7 +13,7 @@ Je kunt standaard kiezen uit twee type rapportages. Andere rapportages zijn als 
 In deze handleiding behandelen we de standaard rapportages **groepen** en **producten**.
 
 ## Groepen
-Met dit type rapportage wordt een overzicht van de verschillende Grootboekrekeningen gegeneerd.
+Met dit type rapportage wordt een overzicht van de verschillende Grootboekrekeningen gegenereerd.
 
 ### Verkoopkanaal
 Hier kan worden opgegeven voor welk verkoopkanaal de rapportage gedraaid dient te worden.
