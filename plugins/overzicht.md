@@ -24,8 +24,9 @@ redirect_from:
 
 |Naam|Omschrijving|
 |---|---|
-|[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|
 |[ReCAPTCHA](/plugins/recaptcha)|Verifieer of je contactformulier niet wordt ingevuld door een robot|
+|[Verzendkoppelingen](/plugins/verzendkoppelingen)|Met deze koppeling kan een verzendlabel opgehaald worden bij Sendcloud of Fietskoeriers|
+|[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|
 {: .table.table-bordered }
 
 ## Kassa
