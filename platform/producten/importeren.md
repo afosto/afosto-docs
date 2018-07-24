@@ -21,8 +21,9 @@ De naam van een product is belangrijk voor de zoekmachines, de url en natuurlijk
 Het is aan te raden de naam volgens een patroon op te zetten, Voor een schoenenwinkel kan dit bijvoorbeeld zijn: 
  
 **Voorbeeld:**
+{% highlight js %}{% raw %}
 > {Merk} {type} {categorie_enkelvoud} {kleur}  
-> Puma xjt sandaal zwart
+> Puma xjt sandaal zwart{% endraw %}{% endhighlight %}{:class="p-3"}
 
 
 ### Korte beschrijving _(verplicht)_
