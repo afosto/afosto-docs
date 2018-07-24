@@ -19,7 +19,7 @@ redirect_from:
 |[Order opmerkingen versturen](/plugins/order-opmerkingen-versturen)|Verstuur opmerkingen die zijn geplaatst bij een order naar de klant|
 |[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|
 |[Specificatie rapportages](/plugins/specificatie-rapportages)| Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties|
-|[Verzendingen beheren](/plugins/verzendingen beheren)|Beheer al je verzendingen vanuit één overzicht|
+|[Verzendingen beheren](/plugins/verzendingen-beheren)|Beheer al je verzendingen vanuit één overzicht|
 {: .table.table-bordered }
 
 ## Webshop
@@ -35,6 +35,6 @@ redirect_from:
 
 |Naam|Omschrijving|
 |---|---|
-|[Print product label](/plugins/print_product_label)|Print vanaf de kassa een of meerdere barcodes|
+|[Print product label](/plugins/print-product-label)|Print vanaf de kassa een of meerdere barcodes|
 {: .table.table-bordered }
 
