@@ -15,8 +15,9 @@ redirect_from:
 |[Extra orderstatus](/plugins/extra-orderstatussen)|Voeg een extra orderstatus toe aan de verkooporders|
 |[Freshdesk](/plugins/freshdesk)|Maak een koppeling met het ticketsysteeem Freshdesk|
 |[Inventariseren](/plugins/inventariseren)|Inventariseer je producten|
-|[Order opmerkingen versturen](/plugins/order-opmerkingen-versturen)|Verstuur opmerkingen die zijn geplaatst bij een order naar de klant.|
+|[Order opmerkingen versturen](/plugins/order-opmerkingen-versturen)|Verstuur opmerkingen die zijn geplaatst bij een order naar de klant|
 |[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|
+|[2FA - Dubbele authenticatie](/plugins/2fa-dubbele-authenticatie)|Met deze plugin dient de gebruiker met twee stappen in te loggen|
 {: .table.table-bordered }
 
 ## Webshop
