@@ -17,8 +17,6 @@
       label: Order retourneren
       slug: /kassa/order-retourneren
 
-
-
 - title: platform
   pages:
     - title: Op het platform beheer je de instellingen voor de kassa
@@ -54,6 +52,9 @@
 
 - title: webshop
   pages:
+    - title: Webshop instellingen om backorders in het algemeen of per product toe te staan.
+      label: Backorder instellingen
+      slug: /webshop/backorder-instellingen
     - title: Met de juiste DNS instellingen kun je de webshop online zetten
       label: DNS instellingen webshop
       slug: /webshop/dns-instellingen-webshop
@@ -73,6 +74,9 @@
     - title: Voeg een extra orderstatus toe.
       label: Extra orderstatus
       slug: /plugins/extra-orderstatussen
+    - title: Voeg filters toe aan je webshop.
+      label: Filters
+      slug: /plugins/filters
     - title: Een koppeling met Freshdesk.
       label: Freshdesk koppeling
       slug: /plugins/freshdesk
@@ -94,6 +98,12 @@
     - title: Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties.
       label: Specificatie rapportages
       slug: /plugins/specificatie-rapportages
+    - title: Beheer je verzendingen vanuit één overzicht.
+      label: Verzendingen beheren
+      slug: /plugins/verzendingen-beheren
+    - title: Haal Pakketlabels op bij Sendcloud of Fietskoeriers.
+      label: Verzendkoppelingen
+      slug: /plugins/verzendkoppelingen
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform.
       label: Watermerk
       slug: /plugins/watermerk
