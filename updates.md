@@ -8,10 +8,16 @@ redirect_from:
     - /releases
 ---
 
+## 24-07-2018
+**Platform (1.75)**
+
+- Het is nu mogelijk om bij een betaalmethode een afbeelding te koppelen. Deze kan in de checkout van je webshop worden getoond. Je webshop zal hiervoor aangepast moeten worden. Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20afbeeldingen%20bij%20betaalmethoden&body=Ik%20wil%20graag%20gebruik%20maken%20van%20afbeeldingen%20bij%20de%20betaalmethoden) om te vragen naar de mogelijkheden.
+- Wanneer het product toevoegen via een AJAX request (op de achtergrond zonder pagina herladen) wordt uitgevoerd krijgt de browser een antwoordt van het Afosto platform. Dit antwoord is uitgebreid met de data van het laatst toegevoegde product.
+- Er zijn verbeteringen doorgevoerd waarbij de verwerking van producten is verfijnd. Hierbij zijn taken van de voorgrond naar de achtergrond verplaatst. Daardoor is het opslaan van de producten soepeler en beter geworden.
+- De **Up-selling, verwante producten en cross-selling plugin** is uitgebreid met de **Addon producten**.  Deze producten kunnen zowel op de productpagina als de cart pagina getoond worden. Hiermee kun je bijvoorbeeld uitbreidingen op een product instellen en aanbieden aan je klanten. Neem voor meer informatie contact op met [support@afosto.com](mailto:support@afosto.com?subject=Meer%20informatie%20over%20addon%20producten&body=Ik%20wil%20graag%20meer%20informatie%20over%20Addon%20producten).
+
+
 ## 17-07-2018
-
-### In deze release
-
 **Platform (1.74)**
 
 - Het is nu mogelijk icoontjes te uploaden voor filter opties. Bijvoorbeeld rondjes met de kleur van de optie. Je webshop dient hier wel voor aangepast te worden. Hiervoor kun je contact opnemen met onze [support afdeling](mailto:support@afosto.com?subject=Aanvraag%20icoontjes%20bij%20filteropties%20in%20webshop&body=Ik%20wil%20mijn%20shop%20aangepast%20hebben%20zodat%20ik%20icoontjes%20bij%20mijn%20filter%20opties%20kan%20tonen).
@@ -25,9 +31,6 @@ redirect_from:
 
 
 ## 11-07-2018
-
-### In deze release
-
 **Platform (1.73)**
 
 - De nieuwe **2FA - Dubbele authenticatie plugin** maakt het mogelijk om two factor authenticatie toe te voegen voor je users. Hiermee voeg je een extra beveiliging toe aan je account. Je kan hiervoor gebruik maken van bijvoorbeeld de Google Authenticator app, maar je kan ook een sms laten sturen naar het ingestelde telefoonnummer.
@@ -43,11 +46,7 @@ redirect_from:
 - Wanneer een geüploade pdf beschadigd is wordt hier nu een melding van gemaakt binnen het platform. Je kan deze zien in het Logs overzicht.
 
 
-
 ## 26-06-2018
-
-### In deze release
-
 **Kassa (3.0.76)**
 - Er zijn verbeteringen doorgevoerd m.b.t het starten en controleren van pin transacties van de **Pay.nl** pin koppeling, bij wegvallende pin / internet verbindingen. Bij het starten van een nieuwe pin betaling, wordt nu altijd eerst de status van de laatste niet geslaagde pin transactie opnieuw opgehaald. In het geval dat een klant wel betaald heeft maar de kassa geen feedback heeft ontvangen, dan wordt deze pin transactie alsnog op betaald gezet. Indien de kassa wel feedback heeft gehad, wordt een nieuwe pin transactie gestart.
 - In het Afosto platform zijn voor de kassa voorraad instellingen toegevoegd waarbij kan worden ingesteld welke magazijnen worden weergegeven op de kassa. De weergave van de totale voorraad op de kassa is dan ook gebaseerd op de geselecteerde magazijnen.
@@ -74,9 +73,6 @@ redirect_from:
 
 
 ## 12-06-2018
-
-### In deze release
-
 **Kassa (3.0.75)**
 
 - In het Afosto platform is een kassa-instelling toegevoegd waarbij een standaard termijn voor een reservering / leverorder kan worden ingesteld, indien gebruik wordt gemaakt van de **interne verzendingen plugin**.
@@ -100,7 +96,7 @@ redirect_from:
 - In het producten overzicht zijn de titels van de kolommen voor **Prijs incl.**, **Actie prijs incl.**, **Actief** en **BTW %** aangevuld met de naam van de prijsgroep waar deze bij horen. Ook zijn voor de taalgroepen de kolommen voor **Naam**, **Korte omschrijving** en **Omschrijving** aangevuld met de naam van de productgroep waar deze bij horen.
 - Een nieuwe plugin die een koppeling mogelijk maakt met [**Family Blend**](http://familyblend.nl/){:target="_blank"}.
 
-### Fixes sinds de laatste release
+**Fixes sinds de laatste release**
 
 - Het menu aan de linker kant kan nu omhoog en naar beneden gescrollt worden.
 - Een fout bij het zoeken op volledige EAN’s voor **Aanvullende, Upsell en impulsverkoop** producten is verholpen.
@@ -111,51 +107,49 @@ redirect_from:
 - Developers kunnen in de [API documentatie](https://docs.afosto.com/){:target="_blank"} weer de autorisatie om test calls te doen weer gebruiken.
 
 ## 29-05-2018
+- Het zoeken van producten in zowel platform als webshop is verbeterd waardoor het zoeken op EAN en SKU betere resultaten geeft.
+- De plugin **clusterraportage** is herschreven om een beter overzicht te genereren in een excel bestand.
+- De BetaOut plugin is uitgebreid met ondersteuning voor desktop push berichten.
 
-### In deze release
-* Het zoeken van producten in zowel platform als webshop is verbeterd waardoor het zoeken op EAN en SKU betere resultaten geeft.
-* De plugin **clusterraportage** is herschreven om een beter overzicht te genereren in een excel bestand.
-* De BetaOut plugin is uitgebreid met ondersteuning voor desktop push berichten.
-
-### Fixes sinds de laatste release 
-* Mogelijkheid om voorraad te tonen per winkelgroep in het producten overzicht. Hierbij worden de aan de winkelgroep gekoppelde magazijnen gebruikt.
-* Door een bug in de pagina **Kortingsregels** konden deze niet opgeslagen worden, dit is opgelost en kan weer gebruikt worden.
-* Het zoeken op specificaties gaf een foutmelding wanneer de zoekterm een `‘` bevat, bijv. Levi’s. De ondersteuning voor speciale tekens in deze zoekopdracht is verbeterd.
-* Betaalmethodes van de kassa kunnen weer opgeslagen worden in het platform.
-* Het pagina overzicht is verwijderd. Je kan de pagina’s nu alleen bewerken via **Menu’s**.
-* Het uploaden van logo’s bij kassa en webshop administratie is weer gerepareerd.
-* Het zoeken op specificaties was tijdelijk uitgeschakeld. Doordat er een proces op de perfomance drukte zorgde dit voor problemen. Dit is nu gerepareerd en je kan weer zoeken op specificaties.
-* Het verwijderen van klanten waar een coupon code aan is gekoppeld is mogelijk gemaakt.
+**Fixes sinds de laatste release** 
+- Mogelijkheid om voorraad te tonen per winkelgroep in het producten overzicht. Hierbij worden de aan de winkelgroep gekoppelde magazijnen gebruikt.
+- Door een bug in de pagina **Kortingsregels** konden deze niet opgeslagen worden, dit is opgelost en kan weer gebruikt worden.
+- Het zoeken op specificaties gaf een foutmelding wanneer de zoekterm een `‘` bevat, bijv. Levi’s. De ondersteuning voor speciale tekens in deze zoekopdracht is verbeterd.
+- Betaalmethodes van de kassa kunnen weer opgeslagen worden in het platform.
+- Het pagina overzicht is verwijderd. Je kan de pagina’s nu alleen bewerken via **Menu’s**.
+- Het uploaden van logo’s bij kassa en webshop administratie is weer gerepareerd.
+- Het zoeken op specificaties was tijdelijk uitgeschakeld. Doordat er een proces op de perfomance drukte zorgde dit voor problemen. Dit is nu gerepareerd en je kan weer zoeken op specificaties.
+- Het verwijderen van klanten waar een coupon code aan is gekoppeld is mogelijk gemaakt.
 
 
 ## 15-05-2018
 **Platform**
 
-* De Price Group Switch plugin is uitgebreid 
-  * Er is de mogelijkheid toegevoegd om bij een prijsgroep aan te geven dat de gebruiker ingelogd moet zijn om de shop te gebruiken.
-  * De tabel met e-mailadressen die toegang krijgen tot deze prijsgroep was op kleinere schermen niet meer te zien. Dat is nu verholpen door een minimale hoogte te geven aan de tabel.
-* De beschikbaarheid van verzendmethoden in andere landen op basis van het gewicht van de order is verbeterd.
-* Kopieën van orders die na de server migratie van 02-05-2018 niet meer werden verstuurd worden nu weer verstuurd.
+- De Price Group Switch plugin is uitgebreid 
+  - Er is de mogelijkheid toegevoegd om bij een prijsgroep aan te geven dat de gebruiker ingelogd moet zijn om de shop te gebruiken.
+  - De tabel met e-mailadressen die toegang krijgen tot deze prijsgroep was op kleinere schermen niet meer te zien. Dat is nu verholpen door een minimale hoogte te geven aan de tabel.
+- De beschikbaarheid van verzendmethoden in andere landen op basis van het gewicht van de order is verbeterd.
+- Kopieën van orders die na de server migratie van 02-05-2018 niet meer werden verstuurd worden nu weer verstuurd.
 
 **Kassa**
 
 De kassa bevat een update van de PayNL SDK waardoor er een paar wijzigingen nodig waren.
-* Fashionchecks kunnen nu weer naar behoren gebruikt worden
-* De bon bevat bij een pin betaling meer informatie over de kaart waar mee is betaald en de transactie die ermee is volbracht. 
+- Fashionchecks kunnen nu weer naar behoren gebruikt worden
+- De bon bevat bij een pin betaling meer informatie over de kaart waar mee is betaald en de transactie die ermee is volbracht. 
 
 ## 07-05-2018
 **Platform**
 
-* Toegevoegd bij onderdeel 'kassa' > 'Algemene POS instellingen' - Leverorders: Items standaard weergegeven als geleverd.
-* Toegevoegd bij onderdeel 'kassa' > 'Algemene POS instellingen' - Reservering: Items standaard weergegeven als geleverd.
+- Toegevoegd bij onderdeel 'kassa' > 'Algemene POS instellingen' - Leverorders: Items standaard weergegeven als geleverd.
+- Toegevoegd bij onderdeel 'kassa' > 'Algemene POS instellingen' - Reservering: Items standaard weergegeven als geleverd.
 
 **Kassa**
 
-* Toegevoegd bij onderdeel 'Leveringsorders'- Button met twee opties: 'Alles op niet geleverd zetten' / 'Alles op geleverd zetten'. Tevens kan de standaard waarde van deze button worden ingesteld onder instellingen. 
-* Er is een probleem verholpen m.b.t. kasmutaties, waarbij de kassalade niet altijd open gaat.
-* Indien je beschikt over de interfiliaal verkeer plugin, dan is er functionaliteit toegevoegd waarbij bij het nu mogelijk is om leverorders vanaf de kassa aan te maken.
-* Indien je beschikt over de print product labels plugin (POS), dan is er functionaliteit toegevoegd waarbij je vanaf de kassa per product een product label kunt laten genereren en downloaden.
-* Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+- Toegevoegd bij onderdeel 'Leveringsorders'- Button met twee opties: 'Alles op niet geleverd zetten' / 'Alles op geleverd zetten'. Tevens kan de standaard waarde van deze button worden ingesteld onder instellingen. 
+- Er is een probleem verholpen m.b.t. kasmutaties, waarbij de kassalade niet altijd open gaat.
+- Indien je beschikt over de interfiliaal verkeer plugin, dan is er functionaliteit toegevoegd waarbij bij het nu mogelijk is om leverorders vanaf de kassa aan te maken.
+- Indien je beschikt over de print product labels plugin (POS), dan is er functionaliteit toegevoegd waarbij je vanaf de kassa per product een product label kunt laten genereren en downloaden.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
 
 ## 02-05-2018
 **Platform**
@@ -177,21 +171,21 @@ De API draait vanaf vandaag op een nieuwe server.
 ## 30-04-2018
 **Platform**
 
-* Nieuwe plugin 'extra orderstatus' toegevoegd: Met deze plugin is het mogelijk handmatig orderstatussen te kunnen opgeven. Documentatie is [hier](/plugins/extra-orderstatus) te vinden.
+- Nieuwe plugin 'extra orderstatus' toegevoegd: Met deze plugin is het mogelijk handmatig orderstatussen te kunnen opgeven. Documentatie is [hier](/plugins/extra-orderstatus) te vinden.
 
 ## 26-04-2018
 **Platform**
 
-* Toegevoegd bij onderdeel 'verkopen': Kunnen zoeken op datumrange voor zowel orderdatum als factuurdatum.
-* Toegevoegd bij onderdeel 'producten': Kunnen zoeken op voorraad per verkoopkanaal.
-* Voor zowel onderdeel 'verkopen' als 'producten': View aangepast voor zoeken. Je kunt nu 'zoeken' en 'geavanceerd zoeken'.
+- Toegevoegd bij onderdeel 'verkopen': Kunnen zoeken op datumrange voor zowel orderdatum als factuurdatum.
+- Toegevoegd bij onderdeel 'producten': Kunnen zoeken op voorraad per verkoopkanaal.
+- Voor zowel onderdeel 'verkopen' als 'producten': View aangepast voor zoeken. Je kunt nu 'zoeken' en 'geavanceerd zoeken'.
 
 ## 25-04-2018
 **Kassa**
-* Beschikbaarheid extra betaalmethoden welke op het Platform zijn aangemaakt.
+- Beschikbaarheid extra betaalmethoden welke op het Platform zijn aangemaakt.
 
 **Platform**
-* Toegevoegd bij onderdeel 'kassa > Betaalmethodes': Een extra betaalmethode kunnen toevoegen.
+- Toegevoegd bij onderdeel 'kassa > Betaalmethodes': Een extra betaalmethode kunnen toevoegen.
 
 ## Updates voor 25-04-2018
 _Oudere releasenotes zijn te vinden op [wiki.afosto.com](https://wiki.afosto.com/display/PUB/Updates){:target="_blank"}

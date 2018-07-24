@@ -24,8 +24,9 @@ var options = {
   smartBackspace: true,
   attr: 'placeholder'
 };
-
-var typed = new Typed("#af-home-search", options);
+if ($("#af-home-search").length > 0) {
+  var typed = new Typed("#af-home-search", options);
+}
 
 function MenuToggle(menu, toggler) {
   menu = $(menu);
