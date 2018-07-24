@@ -43,6 +43,9 @@
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
+    - title: Standaard rapportages
+      label: Rapportages
+      slug: /platform/rapportages
     - title: Platform Vaak gestelde vragen
       label: FAQS
       slug: /platform/faqs
@@ -64,7 +67,7 @@
   pages:
     - title: Overzicht van de plugins binnen het Afosto Platform.
       label: Overzicht
-      slug: /plugins/overzicht
+      slug: /plugins
     - title: Met deze plugin dient de gebruiker met twee stappen in te loggen.
       label: 2FA - Dubbele authenticatie
       slug: /plugins/2fa-dubbele-authenticatie
@@ -92,6 +95,9 @@
     - title: Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA.
       label: ReCAPTCHA
       slug: /plugins/recaptcha
+    - title: Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties.
+      label: Specificatie rapportages
+      slug: /plugins/specificatie-rapportages
     - title: Beheer je verzendingen vanuit één overzicht.
       label: Verzendingen beheren
       slug: /plugins/verzendingen-beheren
