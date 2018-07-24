@@ -17,8 +17,6 @@
       label: Order retourneren
       slug: /kassa/order-retourneren
 
-
-
 - title: platform
   pages:
     - title: Op het platform beheer je de instellingen voor de kassa
@@ -51,6 +49,9 @@
 
 - title: webshop
   pages:
+    - title: Webshop instellingen om backorders in het algemeen of per product toe te staan.
+      label: Backorder instellingen
+      slug: /webshop/backorder-instellingen
     - title: Met de juiste DNS instellingen kun je de webshop online zetten
       label: DNS instellingen webshop
       slug: /webshop/dns-instellingen-webshop
