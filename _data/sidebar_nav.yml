@@ -88,6 +88,9 @@
     - title: Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA.
       label: ReCAPTCHA
       slug: /plugins/recaptcha
+    - title: Beheer je verzendingen vanuit één overzicht.
+      label: Verzendingen beheren
+      slug: /plugins/verzendingen-beheren
     - title: Voeg een watermerk toe aan afbeeldingen in het Afosto Platform.
       label: Watermerk
       slug: /plugins/watermerk
