@@ -83,6 +83,9 @@
     - title: Hier wordt uitgelegd hoe je producten kunt inventariseren.
       label: Inventariseren
       slug: /plugins/inventariseren
+    - title: Met deze plugin wordt automatisch een SSL certificaat gegenereerd en verlengd.
+      label: Lets Encrypt SSL certficaten
+      slug: /plugins/lets-encrypt-ssl-certificaten
     - title: Met deze plugin kun je opmerkingen die bij een order zijn geplaatst naar de klant mailen.
       label: Order opmerkingen versturen
       slug: /plugins/order-opmerkingen-versturen
