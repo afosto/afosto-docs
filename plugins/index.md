@@ -26,6 +26,7 @@ redirect_from:
 
 |Naam|Omschrijving|
 |---|---|
+|[Lets Encrypt SSL certificaten](/plugins/lets-encrypt-ssl-certificaten)|Aautomatisch een SSL certificaat genereren en verlengen|
 |[ReCAPTCHA](/plugins/recaptcha)|Verifieer of je contactformulier niet wordt ingevuld door een robot|
 |[Verzendkoppelingen](/plugins/verzendkoppelingen)|Met deze koppeling kan een verzendlabel opgehaald worden bij Sendcloud of Fietskoeriers|
 |[Watermerk](/plugins/watermerk)|Voeg een watermerk toe aan afbeeldingen|
