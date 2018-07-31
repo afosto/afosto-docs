@@ -25,7 +25,7 @@ In deze handleiding leggen we uit hoe je een menu kunt aanmaken of wijzigen in A
 3. Bij type kun je kiezen voor pagina of link:
    - Een link is een link naar een al bestaande pagina waarbij je een url op moet geven
    - Een pagina is een nieuwe pagina 
-4. Na het aanmaken van een nieuwe pagina kun je de verschillende velden invullen meer informatie hierover vind je in het manual [pagina aanmaken](help.afosto.com/pagina-aanmaken){:target="_blank"}
+4. Na het aanmaken van een nieuwe pagina kun je de verschillende velden invullen meer informatie hierover vind je in het manual [pagina aanmaken](/pagina-aanmaken){:target="_blank"}.
 5. Bij producten vink je de collecties aan die je op deze pagina wilt tonen.
 6. Onderaan de pagina vind je de verschillende producten op de pagina je kunt daar kiezen uit een bepaalde sortering of de sortering handmatig aanpassen naar eigen wens.
 

@@ -61,6 +61,9 @@
     - title: Met de juiste DNS instellingen kun je de webshop online zetten
       label: DNS instellingen webshop
       slug: /webshop/dns-instellingen-webshop
+    - title: Instellingen voor SSL certificaten en doorverwijzingen
+      label: Geavanceerde instellingen
+      slug: /webshop/geavanceerde-instellingen
     - title: Het aanmaken en wijzigen van een menu
       label: Menu
       slug: /webshop/menu
