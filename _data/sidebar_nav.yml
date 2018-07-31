@@ -19,6 +19,9 @@
 
 - title: platform
   pages:
+    - title: Alle facturen in één overzicht
+      label: Factuuroverzicht
+      slug: /platform/factuuroverzicht
     - title: Op het platform beheer je de instellingen voor de kassa
       label: Kassa
       slug: /platform/pos/betaalmethode-toevoegen

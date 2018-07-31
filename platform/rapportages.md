@@ -6,7 +6,7 @@ group: rapportages
 parent: platform
 toc: true
 redirect from:
-- /rapportages/
+- /rapportages
 ---
 
 Je kunt standaard kiezen uit twee type rapportages. Andere rapportages zijn als plugin beschikbaar, zoals een rapportage op basis van specificaties of een rapportage voor een winkelgroep. Wil je meer weten over de mogelijkheden in rapportages? Neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&amp;body=Ik%20wil%20graag%20meer%20weten%20over%20de%20rapportage%20plugins).  
