@@ -8,6 +8,22 @@ redirect_from:
     - /releases
 ---
 
+## 31-07-2018
+
+**Platform (1.76)**
+
+- De zichtbaarheid van product variant op de shop is vanaf nu gelijk aan die van het hoofdproduct. Het is niet meer mogelijk om de zichtbaarheid van varianten in te stellen.
+- Afbeeldingen worden vanaf nu standaard geserveerd vanaf een nieuwe <abbr title="Content Delivery Network">CDN</abbr>. Daarnaast is de **CDN plugin** beschikbaar gemaakt. Met deze plugin kun je een eigen CDN url opgeven waar de afbeeldingen vanaf worden geserveerd aan je webshop. Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Plugin%20aanvraag%3A%20CDN&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20CDN%20plugin.) voor de mogelijkheden.
+- Het is nu mogelijk producten als een set toe te voegen aan de winkelwagen. Bijvoorbeeld een camera met een SD-kaart, deze kunnen dan als één producten worden getoond. Dit kan bijvoorbeeld gebruikt worden om Addon producten uit de **Up-selling, verwante producten en cross-selling plugin** bij het hoofdproduct te zetten. Voor meer informatie kun je contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Informatie%20aanvraag%3A%20Product%20sets%20d.m.v.%20addon%20producten&body=Ik%20wil%20graag%20meer%20informatie%20over%20Product%20sets%20en%20de%20addon%20producten.).
+
+**Fixes sinds de laatste release**
+
+- Een kleine bug in het navigeren van de batch lijsten door middel van de tabjes is weggehaald. Hierdoor werd bij het klikken op een tabje de pagina een stuk naar beneden gescrold.
+- Een aantal kleine aanpassingen zijn doorgevoerd en een aantal typefouten zijn uit het platform gehaald.
+
+
+
+
 ## 24-07-2018
 **Platform (1.75)**
 
