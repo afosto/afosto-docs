@@ -8,6 +8,23 @@ redirect_from:
     - /releases
 ---
 
+## 14-08-2018
+**Platform (1.77)**
+
+- Met de nieuwe plugin **Dynamische filters** kun je binnen een menu item een extra filter toepassen. De twee opties die je op dit moment kunt gebruiken zijn filteren op een datum of tijdsvak, bijvoorbeeld een jaar of 30 dagen, en op afgeprijsde producten. Zo kun je dus gemakkelijk een sale pagina maken.
+- Voor diegene die de **Shop meer links** plugin geïnstalleerd hebben is het nu mogelijk deze te beheren. Je kan links uitsluiten van de lijst met shop meer links.
+- Voor developers is het nu mogelijk om prijs mutaties door te geven via webhooks door middel van de **Prijs mutatie bucket plugin**. Om hiervan gebruik te maken kun je contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20prijs%20mutatie%20bucket%20plugin&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Prijs%20mutatie%20bucket%20plugin)
+
+**Fixes sinds de laatste release**
+
+- Afbeeldingen en bestanden worden nu standaard geserveerd vanaf een nieuwe CDN. Hier hoef je niks voor aan te passen.
+- Een aantal plugins zijn aan de achterkant aangepast en verbeterd.
+
+
+
+
+
+
 ## 31-07-2018
 
 **Platform (1.76)**
