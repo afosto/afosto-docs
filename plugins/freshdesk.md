@@ -37,12 +37,12 @@ De ticketinformatie is ook beschikbaar in het 'mijn account' gedeelte van de web
 ## Plugin instellingen
 In de plugin kun je de onderstaande instellingen configureren.
 ### API key
-Hier vul je de API key in van Freshdesk.
+Hier vul je de API key in van Freshdesk. Deze API key kun je vinden onder je profielinstellingen. 
 ### freshdesk.com domein
 Hier vul je je freshdesk domeinnaam in.
 ### Aangepast URL veld voor klant link
-Binnen Freshdesk dien je een veld aan te maken waarin de afosto link naar de klant wordt geplaatst. Dit dien je te doen onder beheer > Algemen instellingen > Klantvelden.
-Als je dit gedaan hebt Wordt deze optie getoond binnen de instellingen van deze plugin. Selecteer het juiste veld.
+Binnen Freshdesk dien je een veld aan te maken waarin de afosto link naar de klant wordt geplaatst. Dit dien je te doen onder beheer > Algemene instellingen > Klantvelden. Het is belangrijk dat je hiervoor het type 'url' veld hiervoor gebruikt.
+Als je dit gedaan hebt wordt deze optie getoond binnen de instellingen van deze plugin. Selecteer het juiste veld.
 ### Download importbestand
 Hier kun je een klantenbestand downloaden vanuit Afosto welke je kunt importeren in Freshdesk. Dit gebruik je bij de start van het gebruik van freshdesk.
 
