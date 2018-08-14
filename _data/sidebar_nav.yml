@@ -3,6 +3,9 @@
     - title: Kassa installatie
       label: Installatie
       slug: /kassa/installatie
+    - title: kassagebruikers
+      label: Kassagebruikers
+      slug: /kassa/kassagebruikers
     - title: Hardware
       label: Hardware
       slug: /kassa/hardware/zebra-zd410d
