@@ -11,13 +11,19 @@ redirect_from:
 ## 14-08-2018
 **Platform (1.77)**
 
-- Met de nieuwe plugin **Dynamische filters** kun je binnen een menu item een extra filter toepassen. De twee opties die je op dit moment kunt gebruiken zijn filteren op een datum of tijdsvak, bijvoorbeeld een jaar of 30 dagen, en op afgeprijsde producten. Zo kun je dus gemakkelijk een sale pagina maken.
-- Voor diegene die de **Shop meer links** plugin geïnstalleerd hebben is het nu mogelijk deze te beheren. Je kan links uitsluiten van de lijst met shop meer links.
-- Voor developers is het nu mogelijk om prijs mutaties door te geven via webhooks door middel van de **Prijs mutatie bucket plugin**. Om hiervan gebruik te maken kun je contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20prijs%20mutatie%20bucket%20plugin&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Prijs%20mutatie%20bucket%20plugin)
+- Met de nieuwe plugin **Dynamische filters** kun je binnen een menu item een filter toepassen.
+De twee beschikbare opties zijn zijn datum of tijdsvak en op afgeprijsde producten.
+Zo kun je makkelijk een sale pagina maken of laatst toegevoegde producten tonen.
+- Bij de **Shop meer links** plugin is het nu mogelijk pagina's uit te sluiten.
+Je kan links uitsluiten van de lijst met shop meer links.
+- Voor developers is het nu mogelijk om prijs mutaties door te geven via webhooks door middel van de **Prijs mutatie bucket plugin**.
+Om hiervan gebruik te maken kun je contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20prijs%20mutatie%20bucket%20plugin&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Prijs%20mutatie%20bucket%20plugin).
 
 **Fixes sinds de laatste release**
 
-- Afbeeldingen en bestanden worden nu standaard geserveerd vanaf een nieuwe CDN. Hier hoef je niks voor aan te passen.
+- Afbeeldingen en bestanden worden nu standaard geserveerd vanaf een nieuwe CDN.
+Hier hoef je niks voor aan te passen. 
+Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden? Neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20custom%20cdn%20url&body=Ik%20wil%20graag%20een%20eigen%20cdn%20url%20voor%20mijn%20afbeeldingen).
 - Een aantal plugins zijn aan de achterkant aangepast en verbeterd.
 
 
