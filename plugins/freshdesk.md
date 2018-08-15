@@ -11,12 +11,11 @@ redirect_from:
 - /freshdesk
 ---
 ## Omschrijving
-De plugin zorgt ervoor dat een aantal zaken automatisch worden geregeld en specifieke informatie binnen Afosto op verschillende plekken beschikbaar komt.
+Deze plugin zorgt voor een koppeling met Freshdesk. Klanten kunnen in hun accountoverzicht tickets inzien. Daarnaast kan in Freshdesk orderinformatie teruggevonden worden en in Afosto Freshdesk informatie. 
 ### Klantinformatie freshdesk
-Stuurt klantinformatie naar Freshdesk, zodat de klant bekent is in Freshdesk.
-Zet in Freshdesk een link naar de klant in Afosto
+De plugin stuurt klantinformatie naar Freshdesk, zodat de klant bekend is in Freshdesk. In freshdesk komt een link te staan van de klant in Afosto.
 ### Klantenkaart Afosto
-Geeft bij de klant een overzicht van Freshdesk tickets. De volgende velden worden getoond.
+De plugin geeft bij een klant een overzicht van Freshdesk tickets. De volgende velden worden getoond.
 * Ticketnummer
 * Naam aanvrager
 * onderwerp
@@ -25,8 +24,8 @@ Geeft bij de klant een overzicht van Freshdesk tickets. De volgende velden worde
 * Bijgewerkt op
 * Link naar ticket in freshdesk
 
-### Mijn Account
-De ticketinformatie is ook beschikbaar in het 'mijn account' gedeelte van de webshop.
+### Webshop
+De ticketinformatie is ook beschikbaar voor de klant. Dit is te vinden in het 'mijn account' gedeelte van de webshop.
 * Ticketnummer
 * Naam aanvrager
 * onderwerp
@@ -35,14 +34,14 @@ De ticketinformatie is ook beschikbaar in het 'mijn account' gedeelte van de web
 * Bijgewerkt op
 
 ## Plugin instellingen
-In de plugin kun je de onderstaande instellingen configureren.
+De plugin zorgt voor de koppeling met Freshdesk door de volgende instellingen te configureren.
 ### API key
 Hier vul je de API key in van Freshdesk. Deze API key kun je vinden onder je profielinstellingen. 
 ### freshdesk.com domein
 Hier vul je je freshdesk domeinnaam in.
 ### Aangepast URL veld voor klant link
-Binnen Freshdesk dien je een veld aan te maken waarin de afosto link naar de klant wordt geplaatst. Dit dien je te doen onder beheer > Algemene instellingen > Klantvelden. Het is belangrijk dat je het type 'url' veld hiervoor gebruikt.
-Als je dit gedaan hebt wordt deze optie getoond binnen de instellingen van deze plugin. Selecteer nu het juiste veld.
+Zoals hiervoor genoemd kan vanuit Freshdesk de klant in Afosto benaderd worden. Hier moet een nieuw veld voor aangemaakt worden op de Freshdesk klantenkaart. Dit dien je te doen onder Beheer > Algemene instellingen > Klantvelden. Vervolgens kan je boven het getoonde formulier nieuwe velden toevoegen  (zie: [https://support.freshdesk.com/support/solutions/articles/203410-customizing-customer-fields] (https://support.freshdesk.com/support/solutions/articles/203410-customizing-customer-fields){:target="_blank"} ). Het is belangrijk dat je het type 'url' veld hiervoor gebruikt. Bij het veld label kan je een willekeurige waarde invullen. 
+Als je dit gedaan hebt wordt deze optie getoond in deze instelling van de Freshdesk plugin in Afosto. Deze dien je hier te selecteren.
 ### Download importbestand
-Hier kun je een klantenbestand downloaden vanuit Afosto welke je kunt importeren in Freshdesk. Dit gebruik je bij de start van het gebruik van freshdesk.
+Met deze optie kun je een klantenbestand downloaden vanuit Afosto welke je kunt importeren in Freshdesk. Dit kan je gebruiken bij de start met Freshdesk
 
