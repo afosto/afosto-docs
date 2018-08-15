@@ -12,9 +12,9 @@ redirect_from:
 ---
 ## Omschrijving
 Deze plugin zorgt voor een koppeling met Freshdesk. Klanten kunnen in hun accountoverzicht tickets inzien. Daarnaast kan in Freshdesk orderinformatie teruggevonden worden en in Afosto Freshdesk informatie. 
-### Klantinformatie freshdesk
+### In Freshdesk
 De plugin stuurt klantinformatie naar Freshdesk, zodat de klant bekend is in Freshdesk. In freshdesk komt een link te staan van de klant in Afosto.
-### Klantenkaart Afosto
+### In Afosto
 De plugin geeft bij een klant een overzicht van Freshdesk tickets. De volgende velden worden getoond.
 * Ticketnummer
 * Naam aanvrager
@@ -24,7 +24,7 @@ De plugin geeft bij een klant een overzicht van Freshdesk tickets. De volgende v
 * Bijgewerkt op
 * Link naar ticket in freshdesk
 
-### Webshop
+### Op de website
 De ticketinformatie is ook beschikbaar voor de klant. Dit is te vinden in het 'mijn account' gedeelte van de webshop.
 * Ticketnummer
 * Naam aanvrager
