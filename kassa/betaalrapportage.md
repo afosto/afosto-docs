@@ -106,8 +106,8 @@ De rapportage kan als XLS worden gedownload. Dit kun je doen door na het openen 
 Hier kan je aangeven van welke kassa of kassa’s je het beheer op de kassa wil doen waarvoor je de instellingen bewerkt. Zo kun je makkelijk een pinapparaat en kassalade delen met meerdere kassa’s. Wanneer een kassa geselecteerd wordt zal het volgende gebeuren:
 
 - De betaalrapportage voor de geselecteerde kassa zal niet meer aangemaakt kunnen worden. 
-- Onder ‘Betaalrapportage’ → ‘Instellingen’ zal een melding verschijnen: ‘De betaalrapportage van deze kassa wordt beheert door: [kassanaam]’
-- Aan de betaalrapportage van de kassa waarop de rapportage wordt beheert, wordt een overzicht van de kassa’s welke beheerd worden toegevoegd. 
+- Onder ‘Betaalrapportage’ → ‘Instellingen’ zal een melding verschijnen: ‘De betaalrapportage van deze kassa wordt beheerd door: [kassanaam]’
+- Aan de betaalrapportage van de kassa waarop de rapportage wordt beheerd, wordt een overzicht van de kassa’s welke beheerd worden toegevoegd. 
 
 **Algemene POS instellingen**
 Onder ‘Algemene POS instellingen’ kan onder ‘Betaalrapportage’ aangegeven worden of de beginstand verplicht ingevuld dient te worden, anders kan er niet met de kassa gewerkt worden. Het is aan te raden deze instellingen te activeren.
