@@ -1,8 +1,8 @@
 - title: kassa
   pages:
-    - title: Kassa installatie
-      label: Installatie
-      slug: /kassa/installatie
+    - title: Betaalrapportage
+      label: Betaalrapportage
+      slug: /kassa/betaalrapportage
     - title: Hardware
       label: Hardware
       slug: /kassa/hardware/zebra-zd410d
