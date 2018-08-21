@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Betaalrapportage
-description: Met de betaalrapportage kan er op de kassa een uitgebreide rapportage gemaakt worden voor het opmaken van de betaalmethoden.
+description: "Met de betaalrapportage kan er op de kassa een uitgebreide rapportage gemaakt worden voor het opmaken van de betaalmethoden."
 group: betaalrapportage
 parent: kassa
 toc: true
