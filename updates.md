@@ -8,6 +8,29 @@ redirect_from:
     - /releases
 ---
 
+## 21-08-2018
+**Platform (1.78)**
+
+- Bij het sorteren van filter opties en specificatie attributen is de optie toegevoegd om snel een voor sortering te doen. Door op een van de twee knoppen rechts bovenin te klikken kun je de opties oplopend of aflopend voorsorteren.
+- Bij het aanmaken van een interne verzending kun je nu een notificatie ontvangen op de kassa. Hiervoor kun je kassa’s koppelen aan magazijnen. Zodra er een interne verzending wordt aangemeld voor een magazijn, krijgen de gekoppelde kassa’s een notificatie.
+- Om de nieuwe **betaalrapportages** van de kassa in te kunnen zien is er in het platform de mogelijk deze te bekijken en downloaden.
+
+**Kassa (3.0.75)**
+
+- De dagtotaal functionaliteit en kasmutaties zijn vervangen door de **betaalrapportage**. Hiermee is het opmaken van een dagelijkse rapportage en het bijhouden van kasmutaties verwerkt in één omgeving. 
+  - Op deze rapportage is per betaalmethode de omzet berekening uitgesplitst.
+  - Het is nu ook mogelijk deze rapportage te delen met meerder kassalades. Zo kun je één dagelijkse rapportage opmaken voor je hele winkel.
+  - Ook is de mogelijkheid toegevoegd om opmerkingen toe te voegen en correcties in te voeren.
+
+**Fixes sinds de laatste release**
+
+- In het product formulier is een aanpassing gedaan op het invullen van magazijnlocaties. Deze worden nu niet meer vanaf boven overgenomen. 
+- Filters van het type **radio** werken nu ook goed samen met filtermenu items.
+- Berichten die door het platform naar de webshop worden gestuurd, bijvoorbeeld `[name] was added to cart`, zijn nu standaard ook te vinden in de vertaallijsten en te vertalen.
+- Bij de **Freshdesk plugin** is het downloaden van de import lijst weer gerepareerd.
+
+
+
 ## 14-08-2018
 **Platform (1.77)**
 
@@ -28,9 +51,6 @@ Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden? Neem dan c
 
 
 
-
-
-
 ## 31-07-2018
 
 **Platform (1.76)**
@@ -43,7 +63,6 @@ Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden? Neem dan c
 
 - Een kleine bug in het navigeren van de batch lijsten door middel van de tabjes is weggehaald. Hierdoor werd bij het klikken op een tabje de pagina een stuk naar beneden gescrold.
 - Een aantal kleine aanpassingen zijn doorgevoerd en een aantal typefouten zijn uit het platform gehaald.
-
 
 
 
