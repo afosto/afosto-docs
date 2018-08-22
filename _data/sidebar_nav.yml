@@ -1,5 +1,9 @@
 - title: kassa
   pages:
+
+    - title: kassagebruikers
+      label: Kassagebruikers
+      slug: /kassa/kassagebruikers
     - title: Betaalrapportage
       label: Betaalrapportage
       slug: /kassa/betaalrapportage
