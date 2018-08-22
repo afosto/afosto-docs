@@ -10,7 +10,7 @@ redirect_from:
 
 ## Algemene omschrijving
 
-Afosto is voorzien van een uitgebreide betaalrapportage. Binnen de rapportage kunnen gedurende de gehele dag opmerkingen en correcties worden geplaatst. Er wordt bijgehouden welke medewerker welke handelingen verricht. Zo kun je bijvoorbeeld bij het verkeerd aanslaan van een bepaalde betaalmethoden een correctie opgeven in de betaalrapportage, zodat kasverschillen beter verklaard kunnen worden en er voor collega’s, leidinggevenden en boekhouder een transparant beeld ontstaat.
+Afosto is voorzien van een uitgebreide betaalrapportage. Binnen de rapportage kunnen gedurende de gehele dag opmerkingen en correcties worden geplaatst. Er wordt bijgehouden welke medewerker welke handelingen verricht. Zo kun je bijvoorbeeld bij het verkeerd aanslaan op een bepaalde betaalmethode een correctie opgeven in de betaalrapportage, zodat kasverschillen beter verklaard kunnen worden en er voor collega’s, leidinggevenden en boekhouder een transparant beeld ontstaat.
 
 ## Opslaan en Afsluiten
 
@@ -62,7 +62,7 @@ Er zijn twee manieren om de beginstand van de kassalade op te geven.
 2. Klik op de regel ‘Beginstand kassalade’. Vervolgens heb je de actie ‘Kassalade tellen’ beschikbaar. Door hier op te klikken verschijnt een venster waar de kassalade geteld kan worden per munt en papiergeld.  Door op opslaan te klikken, worden deze waarden opgenomen in de rapportage.
 
 ### Overige betaalmethoden
-Voor alle betaalmethode behalve contant is voor de regel ‘Waarde (telling)’ de actie ‘Overnemen van subtotaal’ beschikbaar. Met deze actie kan je makkelijk de waarde van het subtotaal ook als waarde opnemen, zodat je deze niet los hoeft in te voeren. 
+Voor alle betaalmethoden behalve contant is voor de regel ‘Waarde (telling)’ de actie ‘Overnemen van subtotaal’ beschikbaar. Met deze actie kan je makkelijk de waarde van het subtotaal ook als waarde opnemen, zodat je deze niet los hoeft in te voeren. 
 
 ## Contant
 De betaalmethode contant heeft de volgende opbouw:
