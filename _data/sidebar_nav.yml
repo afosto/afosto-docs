@@ -1,11 +1,12 @@
 - title: kassa
   pages:
-    - title: Kassa installatie
-      label: Installatie
-      slug: /kassa/installatie
+
     - title: kassagebruikers
       label: Kassagebruikers
       slug: /kassa/kassagebruikers
+    - title: Betaalrapportage
+      label: Betaalrapportage
+      slug: /kassa/betaalrapportage
     - title: Hardware
       label: Hardware
       slug: /kassa/hardware/zebra-zd410d
@@ -93,7 +94,7 @@
       label: Inventariseren
       slug: /plugins/inventariseren
     - title: Met deze plugin wordt automatisch een SSL certificaat gegenereerd en verlengd.
-      label: Lets Encrypt SSL certficaten
+      label: Lets Encrypt SSL certificaten
       slug: /plugins/lets-encrypt-ssl-certificaten
     - title: Met deze plugin kun je opmerkingen die bij een order zijn geplaatst naar de klant mailen.
       label: Order opmerkingen versturen
@@ -110,6 +111,9 @@
     - title: Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties.
       label: Specificatie rapportages
       slug: /plugins/specificatie-rapportages
+    - title: Stuur automatisch order informatie door naar Trust Pilot en review aanvragen.
+      label: Trust Pilot
+      slug: /plugins/trust-pilot
     - title: Beheer je verzendingen vanuit één overzicht.
       label: Verzendingen beheren
       slug: /plugins/verzendingen-beheren
