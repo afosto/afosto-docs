@@ -78,6 +78,9 @@
     - title: Overzicht van de plugins binnen het Afosto Platform.
       label: Overzicht
       slug: /plugins
+    - title: Automatisch linken van up-sell, related, cross-sell of addon producten
+      label: up-sell, related, cross-sell of addon koppelen
+      slug: /plugins/automatisch-linken
     - title: Met deze plugin dient de gebruiker met twee stappen in te loggen.
       label: 2FA - Dubbele authenticatie
       slug: /plugins/2fa-dubbele-authenticatie
