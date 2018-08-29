@@ -108,6 +108,9 @@
     - title: Om spam op een contactformulier te voorkomen kun je gebruik maken van reCAPTCHA.
       label: ReCAPTCHA
       slug: /plugins/recaptcha
+    - title: Een plugin die het mogelijk maakt om shop meer links te tonen op de productpagina.
+      label: Shop meer links
+      slug: /plugins/shop-meer-links
     - title: Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties.
       label: Specificatie rapportages
       slug: /plugins/specificatie-rapportages
