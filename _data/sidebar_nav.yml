@@ -82,6 +82,9 @@
       label: 2FA - Dubbele authenticatie
       slug: /plugins/2fa-dubbele-authenticatie
     - title: Voeg een extra orderstatus toe.
+      label: Dynamische paginafilters
+      slug: /plugins/dynamische-paginafilters
+    - title: Voeg een extra orderstatus toe.
       label: Extra orderstatus
       slug: /plugins/extra-orderstatussen
     - title: Voeg filters toe aan je webshop.
