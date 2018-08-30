@@ -11,20 +11,26 @@ redirect_from:
 ## 21-08-2018
 **Platform (1.78)**
 
-- Bij het sorteren van filter opties en specificatie attributen is de optie toegevoegd om snel een voor sortering te doen. Door op een van de twee knoppen rechts bovenin te klikken kun je de opties oplopend of aflopend voorsorteren.
-- Bij het aanmaken van een interne verzending kun je nu een notificatie ontvangen op de kassa. Hiervoor kun je kassa’s koppelen aan magazijnen. Zodra er een interne verzending wordt aangemeld voor een magazijn, krijgen de gekoppelde kassa’s een notificatie.
+- Bij het sorteren van filter opties en specificatie attributen is de optie toegevoegd om snel een voor sortering te doen.
+Door op een van de twee knoppen rechts bovenin te klikken kun je de opties oplopend of aflopend voorsorteren.
+- Bij het aanmaken van een interne verzending kun je nu een notificatie ontvangen op de kassa.
+Hiervoor kun je kassa’s koppelen aan magazijnen.
+Zodra er een interne verzending wordt aangemeld voor een magazijn, krijgen de gekoppelde kassa’s een notificatie.
 - Om de nieuwe **betaalrapportages** van de kassa in te kunnen zien is er in het platform de mogelijk deze te bekijken en downloaden.
 
 **Kassa (3.0.75)**
 
-- De dagtotaal functionaliteit en kasmutaties zijn vervangen door de **betaalrapportage**. Hiermee is het opmaken van een dagelijkse rapportage en het bijhouden van kasmutaties verwerkt in één omgeving. 
+- De dagtotaal functionaliteit en kasmutaties zijn vervangen door de **betaalrapportage**.
+Hiermee is het opmaken van een dagelijkse rapportage en het bijhouden van kasmutaties verwerkt in één omgeving. 
   - Op deze rapportage is per betaalmethode de omzet berekening uitgesplitst.
-  - Het is nu ook mogelijk deze rapportage te delen met meerder kassalades. Zo kun je één dagelijkse rapportage opmaken voor je hele winkel.
+  - Het is nu ook mogelijk deze rapportage te delen met meerder kassalades.
+  Zo kun je één dagelijkse rapportage opmaken voor je hele winkel.
   - Ook is de mogelijkheid toegevoegd om opmerkingen toe te voegen en correcties in te voeren.
 
 **Fixes sinds de laatste release**
 
-- In het product formulier is een aanpassing gedaan op het invullen van magazijnlocaties. Deze worden nu niet meer vanaf boven overgenomen. 
+- In het product formulier is een aanpassing gedaan op het invullen van magazijnlocaties.
+Deze worden nu niet meer vanaf boven overgenomen. 
 - Filters van het type **radio** werken nu ook goed samen met filtermenu items.
 - Berichten die door het platform naar de webshop worden gestuurd, bijvoorbeeld `[name] was added to cart`, zijn nu standaard ook te vinden in de vertaallijsten en te vertalen.
 - Bij de **Freshdesk plugin** is het downloaden van de import lijst weer gerepareerd.
@@ -46,7 +52,8 @@ Om hiervan gebruik te maken kun je contact opnemen met [support@afosto.com](mail
 
 - Afbeeldingen en bestanden worden nu standaard geserveerd vanaf een nieuwe CDN.
 Hier hoef je niks voor aan te passen. 
-Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden? Neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20custom%20cdn%20url&body=Ik%20wil%20graag%20een%20eigen%20cdn%20url%20voor%20mijn%20afbeeldingen).
+Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden?
+Neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20custom%20cdn%20url&body=Ik%20wil%20graag%20een%20eigen%20cdn%20url%20voor%20mijn%20afbeeldingen).
 - Een aantal plugins zijn aan de achterkant aangepast en verbeterd.
 
 
@@ -55,13 +62,21 @@ Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden? Neem dan c
 
 **Platform (1.76)**
 
-- De zichtbaarheid van product variant op de shop is vanaf nu gelijk aan die van het hoofdproduct. Het is niet meer mogelijk om de zichtbaarheid van varianten in te stellen.
-- Afbeeldingen worden vanaf nu standaard geserveerd vanaf een nieuwe <abbr title="Content Delivery Network">CDN</abbr>. Daarnaast is de **CDN plugin** beschikbaar gemaakt. Met deze plugin kun je een eigen CDN url opgeven waar de afbeeldingen vanaf worden geserveerd aan je webshop. Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Plugin%20aanvraag%3A%20CDN&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20CDN%20plugin.) voor de mogelijkheden.
-- Het is nu mogelijk producten als een set toe te voegen aan de winkelwagen. Bijvoorbeeld een camera met een SD-kaart, deze kunnen dan als één producten worden getoond. Dit kan bijvoorbeeld gebruikt worden om Addon producten uit de **Up-selling, verwante producten en cross-selling plugin** bij het hoofdproduct te zetten. Voor meer informatie kun je contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Informatie%20aanvraag%3A%20Product%20sets%20d.m.v.%20addon%20producten&body=Ik%20wil%20graag%20meer%20informatie%20over%20Product%20sets%20en%20de%20addon%20producten.).
+- De zichtbaarheid van product variant op de shop is vanaf nu gelijk aan die van het hoofdproduct.
+Het is niet meer mogelijk om de zichtbaarheid van varianten in te stellen.
+- Afbeeldingen worden vanaf nu standaard geserveerd vanaf een nieuwe <abbr title="Content Delivery Network">CDN</abbr>.
+Daarnaast is de **CDN plugin** beschikbaar gemaakt.
+Met deze plugin kun je een eigen CDN url opgeven waar de afbeeldingen vanaf worden geserveerd aan je webshop.
+Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Plugin%20aanvraag%3A%20CDN&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20CDN%20plugin.) voor de mogelijkheden.
+- Het is nu mogelijk producten als een set toe te voegen aan de winkelwagen.
+Bijvoorbeeld een camera met een SD-kaart, deze kunnen dan als één producten worden getoond.
+Dit kan bijvoorbeeld gebruikt worden om Addon producten uit de **Up-selling, verwante producten en cross-selling plugin** bij het hoofdproduct te zetten.
+Voor meer informatie kun je contact opnemen met [support@afosto.com](mailto:support@afosto.com?subject=Informatie%20aanvraag%3A%20Product%20sets%20d.m.v.%20addon%20producten&body=Ik%20wil%20graag%20meer%20informatie%20over%20Product%20sets%20en%20de%20addon%20producten.).
 
 **Fixes sinds de laatste release**
 
-- Een kleine bug in het navigeren van de batch lijsten door middel van de tabjes is weggehaald. Hierdoor werd bij het klikken op een tabje de pagina een stuk naar beneden gescrold.
+- Een kleine bug in het navigeren van de batch lijsten door middel van de tabjes is weggehaald.
+Hierdoor werd bij het klikken op een tabje de pagina een stuk naar beneden gescrold.
 - Een aantal kleine aanpassingen zijn doorgevoerd en een aantal typefouten zijn uit het platform gehaald.
 
 
@@ -69,52 +84,82 @@ Wil je dat je afbeeldingen van een eigen subdomein geserveerd worden? Neem dan c
 ## 24-07-2018
 **Platform (1.75)**
 
-- Het is nu mogelijk om bij een betaalmethode een afbeelding te koppelen. Deze kan in de checkout van je webshop worden getoond. Je webshop zal hiervoor aangepast moeten worden. Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20afbeeldingen%20bij%20betaalmethoden&body=Ik%20wil%20graag%20gebruik%20maken%20van%20afbeeldingen%20bij%20de%20betaalmethoden) om te vragen naar de mogelijkheden.
-- Wanneer het product toevoegen via een AJAX request (op de achtergrond zonder pagina herladen) wordt uitgevoerd krijgt de browser een antwoordt van het Afosto platform. Dit antwoord is uitgebreid met de data van het laatst toegevoegde product.
-- Er zijn verbeteringen doorgevoerd waarbij de verwerking van producten is verfijnd. Hierbij zijn taken van de voorgrond naar de achtergrond verplaatst. Daardoor is het opslaan van de producten soepeler en beter geworden.
-- De **Up-selling, verwante producten en cross-selling plugin** is uitgebreid met de **Addon producten**.  Deze producten kunnen zowel op de productpagina als de cart pagina getoond worden. Hiermee kun je bijvoorbeeld uitbreidingen op een product instellen en aanbieden aan je klanten. Neem voor meer informatie contact op met [support@afosto.com](mailto:support@afosto.com?subject=Meer%20informatie%20over%20addon%20producten&body=Ik%20wil%20graag%20meer%20informatie%20over%20Addon%20producten).
+- Het is nu mogelijk om bij een betaalmethode een afbeelding te koppelen.
+Deze kan in de checkout van je webshop worden getoond. Je webshop zal hiervoor aangepast moeten worden.
+Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20afbeeldingen%20bij%20betaalmethoden&body=Ik%20wil%20graag%20gebruik%20maken%20van%20afbeeldingen%20bij%20de%20betaalmethoden) om te vragen naar de mogelijkheden.
+- Wanneer het product toevoegen via een AJAX request (op de achtergrond zonder pagina herladen) wordt uitgevoerd krijgt de browser een antwoordt van het Afosto platform.
+Dit antwoord is uitgebreid met de data van het laatst toegevoegde product.
+- Er zijn verbeteringen doorgevoerd waarbij de verwerking van producten is verfijnd.
+Hierbij zijn taken van de voorgrond naar de achtergrond verplaatst.
+Daardoor is het opslaan van de producten soepeler en beter geworden.
+- De **Up-selling, verwante producten en cross-selling plugin** is uitgebreid met de **Addon producten**.
+Deze producten kunnen zowel op de productpagina als de cart pagina getoond worden.
+Hiermee kun je bijvoorbeeld uitbreidingen op een product instellen en aanbieden aan je klanten.
+Neem voor meer informatie contact op met [support@afosto.com](mailto:support@afosto.com?subject=Meer%20informatie%20over%20addon%20producten&body=Ik%20wil%20graag%20meer%20informatie%20over%20Addon%20producten).
 
 
 ## 17-07-2018
 **Platform (1.74)**
 
-- Het is nu mogelijk icoontjes te uploaden voor filter opties. Bijvoorbeeld rondjes met de kleur van de optie. Je webshop dient hier wel voor aangepast te worden. Hiervoor kun je contact opnemen met onze [support afdeling](mailto:support@afosto.com?subject=Aanvraag%20icoontjes%20bij%20filteropties%20in%20webshop&body=Ik%20wil%20mijn%20shop%20aangepast%20hebben%20zodat%20ik%20icoontjes%20bij%20mijn%20filter%20opties%20kan%20tonen).
-- De **Interne verzendingen plugin** is aangepast met een verbeterde interface voor de automatische leverorder. Het maken van een selectie is nu makkelijker en uitgebreider.
+- Het is nu mogelijk icoontjes te uploaden voor filter opties.
+Bijvoorbeeld rondjes met de kleur van de optie.
+Je webshop dient hier wel voor aangepast te worden.
+Hiervoor kun je contact opnemen met onze [support afdeling](mailto:support@afosto.com?subject=Aanvraag%20icoontjes%20bij%20filteropties%20in%20webshop&body=Ik%20wil%20mijn%20shop%20aangepast%20hebben%20zodat%20ik%20icoontjes%20bij%20mijn%20filter%20opties%20kan%20tonen).
+- De **Interne verzendingen plugin** is aangepast met een verbeterde interface voor de automatische leverorder.
+Het maken van een selectie is nu makkelijker en uitgebreider.
 
 **Fixes sinds de laatste release**
 
 - De **Family Blend plugin** is aangepast zodat de noscript pixel altijd ingeladen wordt.
-- In een bepaald scenario werd bij het handmatig aanmaken van een factuur de betaalstatus niet correct opgeslagen. Dit kan nu niet meer voorkomen.
+- In een bepaald scenario werd bij het handmatig aanmaken van een factuur de betaalstatus niet correct opgeslagen.
+Dit kan nu niet meer voorkomen.
 - De kortingen in de **Specificatie rapportages plugin** worden nu goed doorberekend in de totalen wanneer de korting velden leeg zijn.
 
 
 ## 11-07-2018
 **Platform (1.73)**
 
-- De nieuwe **2FA - Dubbele authenticatie plugin** maakt het mogelijk om two factor authenticatie toe te voegen voor je users. Hiermee voeg je een extra beveiliging toe aan je account. Je kan hiervoor gebruik maken van bijvoorbeeld de Google Authenticator app, maar je kan ook een sms laten sturen naar het ingestelde telefoonnummer.
-- Met de **2FA - Dubbele authenticatie plugin** word ook het nieuwe sms overzicht geïntroduceerd. Hierin kun je alle sms’jes zien die via jouw account zijn verstuurd.
+- De nieuwe **2FA - Dubbele authenticatie plugin** maakt het mogelijk om two factor authenticatie toe te voegen voor je users.
+Hiermee voeg je een extra beveiliging toe aan je account.
+Je kan hiervoor gebruik maken van bijvoorbeeld de Google Authenticator app, maar je kan ook een sms laten sturen naar het ingestelde telefoonnummer.
+- Met de **2FA - Dubbele authenticatie plugin** word ook het nieuwe sms overzicht geïntroduceerd.
+Hierin kun je alle sms’jes zien die via jouw account zijn verstuurd.
 - Met de nieuwe **Verzendingen beheren plugin** kun je meerdere pakbonnen of facturen in één keer afdrukken. 
-- Het is nu mogelijk om per product aan te geven of het toegestaan is deze als backorder te bestellen. Deze zal de instelling van je shop dan overschrijven en het product op de shop bestelbaar houden.
+- Het is nu mogelijk om per product aan te geven of het toegestaan is deze als backorder te bestellen.
+Deze zal de instelling van je shop dan overschrijven en het product op de shop bestelbaar houden.
 
 **Fixes sinds de laatste release**
 
 - Een probleem met de weergave van producten in de orders binnen de mijn account pagina’s van de shops is verholpen.
 - Een bug waarbij foute url’s werden aangemaakt is verholpen.
-- Het aanmaken van interne verzendingen via de POS gaf in sommige gevallen foutmeldingen. Deze zijn verholpen en het aanmaken via de POS werkt weer.
-- Wanneer een geüploade pdf beschadigd is wordt hier nu een melding van gemaakt binnen het platform. Je kan deze zien in het Logs overzicht.
+- Het aanmaken van interne verzendingen via de POS gaf in sommige gevallen foutmeldingen.
+Deze zijn verholpen en het aanmaken via de POS werkt weer.
+- Wanneer een geüploade pdf beschadigd is wordt hier nu een melding van gemaakt binnen het platform.
+Je kan deze zien in het Logs overzicht.
 
 
 ## 26-06-2018
 **Kassa (3.0.76)**
-- Er zijn verbeteringen doorgevoerd m.b.t het starten en controleren van pin transacties van de **Pay.nl** pin koppeling, bij wegvallende pin / internet verbindingen. Bij het starten van een nieuwe pin betaling, wordt nu altijd eerst de status van de laatste niet geslaagde pin transactie opnieuw opgehaald. In het geval dat een klant wel betaald heeft maar de kassa geen feedback heeft ontvangen, dan wordt deze pin transactie alsnog op betaald gezet. Indien de kassa wel feedback heeft gehad, wordt een nieuwe pin transactie gestart.
-- In het Afosto platform zijn voor de kassa voorraad instellingen toegevoegd waarbij kan worden ingesteld welke magazijnen worden weergegeven op de kassa. De weergave van de totale voorraad op de kassa is dan ook gebaseerd op de geselecteerde magazijnen.
+- Er zijn verbeteringen doorgevoerd m.b.t het starten en controleren van pin transacties van de **Pay.nl** pin koppeling, bij wegvallende pin / internet verbindingen.
+Bij het starten van een nieuwe pin betaling, wordt nu altijd eerst de status van de laatste niet geslaagde pin transactie opnieuw opgehaald.
+In het geval dat een klant wel betaald heeft maar de kassa geen feedback heeft ontvangen, dan wordt deze pin transactie alsnog op betaald gezet.
+Indien de kassa wel feedback heeft gehad, wordt een nieuwe pin transactie gestart.
+- In het Afosto platform zijn voor de kassa voorraad instellingen toegevoegd waarbij kan worden ingesteld welke magazijnen worden weergegeven op de kassa.
+De weergave van de totale voorraad op de kassa is dan ook gebaseerd op de geselecteerde magazijnen.
 - Er zijn een aantal andere kleine verbeteringen doorgevoerd.
 
 **Platform (1.72)**
 
-- De **Facebook pixel plugin** is uitgebreid met een extra instelling. Er wordt dan extra data meegestuurd naar Facebook wanneer een klant een product aan de winkelwagen toevoegt. Om hier gebruik van te maken zijn aanpassingen aan de code van je webshop vereist. Neem contact op met je expert of met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20uitgebreide%20Facebook%20pixel%20implementatie). Ben je zelf handig met code? kijk dan naar [de handleiding](https://help.afosto.com/plugins/uitgebreide-facebook-pixel-implementatie){:target="_blank"} om dit te implementeren.
-- Het is nu mogelijk om een order gedeeltelijk te retourneren. De **Betalingen terugboeken plugin** is hiervoor ook aangepast en maakt het mogelijk om voor deze gedeeltelijke retour ook een terugbetaling aan te maken.
-- De nieuwe **Specificatie rapportages plugin** voegt twee nieuwe rapportage types toe. hierbij is het mogelijk om op basis van specificaties een overzicht te krijgen per specificatie / specificatie set. De tweede maakte het mogelijk om producten te filteren op basis van een of meerdere specificaties zodat alleen de producten die deze specificaties hebben, in de rapportage worden opgenomen.
+- De **Facebook pixel plugin** is uitgebreid met een extra instelling.
+Er wordt dan extra data meegestuurd naar Facebook wanneer een klant een product aan de winkelwagen toevoegt.
+Om hier gebruik van te maken zijn aanpassingen aan de code van je webshop vereist.
+Neem contact op met je expert of met [support@afosto.com](mailto:support@afosto.com?subject=Aanvraag%20uitgebruide%20Facebook%20implementatie&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20uitgebreide%20Facebook%20pixel%20implementatie).
+Ben je zelf handig met code? kijk dan naar [de handleiding](https://help.afosto.com/plugins/uitgebreide-facebook-pixel-implementatie){:target="_blank"} om dit te implementeren.
+- Het is nu mogelijk om een order gedeeltelijk te retourneren.
+De **Betalingen terugboeken plugin** is hiervoor ook aangepast en maakt het mogelijk om voor deze gedeeltelijke retour ook een terugbetaling aan te maken.
+- De nieuwe **Specificatie rapportages plugin** voegt twee nieuwe rapportage types toe.
+Hierbij is het mogelijk om op basis van specificaties een overzicht te krijgen per specificatie / specificatie set.
+De tweede maakte het mogelijk om producten te filteren op basis van een of meerdere specificaties zodat alleen de producten die deze specificaties hebben, in de rapportage worden opgenomen.
 
 **Fixes sinds de laatste release**
 
