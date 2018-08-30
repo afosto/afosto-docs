@@ -26,6 +26,7 @@ redirect_from:
 
 |Naam|Omschrijving|
 |---|---|
+|[Dynamische paginafilters](/plugins/dynamische-paginafilters)|Stel dynamische filters in voor een pagina op basis van tijd of sale|
 |[Lets Encrypt SSL certificaten](/plugins/lets-encrypt-ssl-certificaten)|Aautomatisch een SSL certificaat genereren en verlengen|
 |[ReCAPTCHA](/plugins/recaptcha)|Verifieer of je contactformulier niet wordt ingevuld door een robot|
 |[Trust Pilot](/plugins/trust-pilot)|Stuur automatisch order informatie door naar Trust Pilot en review aanvragen|
