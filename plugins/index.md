@@ -40,3 +40,33 @@ redirect_from:
 |[Print product label](/plugins/print-product-label)|Print vanaf de kassa een of meerdere barcodes|
 {: .table.table-bordered }
 
+
+<div class="row">
+  <div class="col-12 col-sm-6 col-lg-4">
+    <div class="card">
+      <div class="card-header">
+        <strong>Platform</strong>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="/plugins/2fa-dubbele-authenticatie" class="list-group-item list-group-item-action">
+          <strong>2FA - Dubbele authenticatie</strong><br>
+          <small class="text-muted">
+            Met deze plugin dient de gebruiker met twee stappen in te loggen
+          </small>
+        </a>
+        <a href="/plugins/extra-orderstatussen" class="list-group-item list-group-item-action">
+          Extra orderstatus
+        </a>
+        <a href="/plugins/freshdesk" class="list-group-item list-group-item-action">
+          Freshdesk
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-lg-4">
+    <h2>Webshop</h2>
+  </div>
+  <div class="col-12 col-sm-6 col-lg-4">
+    <h2>Kassa</h2>
+  </div>
+</div>
