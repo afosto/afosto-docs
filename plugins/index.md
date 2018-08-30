@@ -27,6 +27,7 @@ redirect_from:
 |Naam|Omschrijving|
 |---|---|
 |[Lets Encrypt SSL certificaten](/plugins/lets-encrypt-ssl-certificaten)|Automatisch een SSL certificaat genereren en verlengen|
+|[Dynamische paginafilters](/plugins/dynamische-paginafilters)|Stel dynamische filters in voor een pagina op basis van tijd of sale|
 |[ReCAPTCHA](/plugins/recaptcha)|Verifieer of je contactformulier niet wordt ingevuld door een robot|
 |[Shop meer links](/plugins/shop-meer-links)|Toon shop meer links op de product pagina|
 |[Trust Pilot](/plugins/trust-pilot)|Stuur automatisch order informatie door naar Trust Pilot en review aanvragen|
