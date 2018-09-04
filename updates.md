@@ -8,6 +8,32 @@ redirect_from:
     - /releases
 ---
 
+## 04-09-2018
+**Platform (1.79)**
+
+- De nieuwe plugin **Standaard land in de checkout op basis van IP** zet automatisch in de checkout de keuze voor het land.
+Dit gebeurd door de locatie van de gebruiker te controleren op basis van zijn/haar IP adres.
+- De webshops ondersteunen nu meerdere valuta. De weergave van de prijs zal op basis van de valuta en de taal van de webshop worden aangepast.
+De valuta kun je instellen bij de prijsgroepen.
+- De **Retourorders** plugin is uitgebreid met de ondersteuning voor het retourneren van spaarpunten.
+- In het producten grid is het nu mogelijk om per prijsgroep te tonen welke verkoopkanalen deze is gekoppeld.
+- De instellingen voor de **Betaalrapportage** op de kassa zijn uitgebreid. Hierbij is de optie toegevoegd om de eindstand van de vorige betaalrapportage, automatisch in te vullen bij de beginstand van een nieuwe betaalrapportage.
+Deze instelling staat standaard uit en is in het platform bij de kassa instellingen te wijzigen.
+
+**Kassa (****3.0.78****)**
+
+- Er zijn meerdere verbeteringen doorgevoerd m.b.t. de **betaalrapportage** functionaliteit. 
+  - Alle waarden die ingevuld moeten worden voordat een betaalrapportage kan worden afgerond, vallen nu meer op indien deze niet zijn ingevuld. 
+  - Op de regels voor het tellen van de kassalade / kasmutaties / afromen, is bij de betaalrapportage een knop bijgekomen waarmee de kassalade kan worden geopend. 
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
+**Fixes sinds de laatste release**
+
+- De specificaties en collecties rapportages zijn geoptimaliseerd.
+- Een aantal kleine bugs die naar voren kwamen na het uitrollen van de betaalrapportage zijn verholpen.
+Deze bugs hebben verder geen impact gehad op de uiteindelijke data in de rapportage.
+
+
 ## 21-08-2018
 **Platform (1.78)**
 
