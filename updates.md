@@ -8,6 +8,29 @@ redirect_from:
     - /releases
 ---
 
+# 18-09-2018
+**Platform (1.80)**
+
+- Het is nu mogelijk in Afosto een nieuwe type gebruiker aan te maken. 
+Het gebruiker type `Medewerker` geeft toegang tot het inloggen op de kassa. 
+Je hoeft dus nu niet meer het hoofd account te gebruiken.
+- Het is nu mogelijk om producten uit te sluiten van coupon korting en bon korting. 
+Dit is echter alleen van toepassing op de kassa. 
+Ondersteuning voor de webshop wordt aan gewerkt.
+- Bij het aanmaken van een retour order is het nu mogelijk om verzendkosten mee te rekenen in de credit.
+
+**Kassa (3.0.79)**
+
+- Het is nu mogelijk om producten uit te sluiten van coupon korting en bon korting.
+- Het is nu mogelijk om gebruikers (`medewerkers`) toe te voegen in het Afosto platform, zodat op de kassa niet meer ingelogd hoeft te worden met het hoofdaccount. 
+Deze gebruikers kunnen worden gekoppeld aan verkoopkanalen. 
+Hierdoor is het nu mogelijk om bijvoorbeeld per locatie een gebruiker aan te maken en deze alleen toegang te geven tot de bijbehorende verkoopkanalen van die locatie.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
+**Fixes sinds de laatste release**
+
+- In de redirect lijst is het mogelijk gemaakt om regels in bulk te verwijderen.
+
 ## 04-09-2018
 **Platform (1.79)**
 
