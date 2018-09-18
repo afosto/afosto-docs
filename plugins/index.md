@@ -39,6 +39,7 @@ redirect_from:
 
 |Naam|Omschrijving|
 |---|---|
+|[Notificaties van interne verzendingen](/plugins/notificaties-van-interne-verzendingen)|Ontvang notificaties op de kassa wanneer interne verzendingen worden verstuurd.|
 |[Print product label](/plugins/print-product-label)|Print vanaf de kassa een of meerdere barcodes|
 {: .table.table-bordered }
 

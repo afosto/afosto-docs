@@ -99,6 +99,9 @@
     - title: Met deze plugin wordt automatisch een SSL certificaat gegenereerd en verlengd.
       label: Lets Encrypt SSL certificaten
       slug: /plugins/lets-encrypt-ssl-certificaten
+    - title: Ontvang notificaties op de kassa wanneer interne verzendingen worden verstuurd.
+      label: Notificaties van interne verzendingen
+      slug: /plugins/notificaties-van-interne-verzendingen
     - title: Met deze plugin kun je opmerkingen die bij een order zijn geplaatst naar de klant mailen.
       label: Order opmerkingen versturen
       slug: /plugins/order-opmerkingen-versturen
