@@ -1,7 +1,7 @@
 ---
 layout: plugin
 title: Notificaties van interne verzendingen
-description: Als er gebruik gemaakt wordt van interne verzendingen bestaat er de mogelijkheid om een notificatie te ontvangen wanneer er een zending onderweg is naar het filiaal waar de kassa staat waar je notificaties op wilt ontvangen.
+description: Als er gebruik gemaakt wordt van interne verzendingen bestaat er de mogelijkheid om een notificatie te ontvangen wanneer er een interne leveringsorders is geplaatst voor het filiaal waar de kassa staat waar je notificaties op wilt ontvangen.
 plugin_name: Notificaties van interne verzendingen
 plugin_url: "https://app.afosto.com/plugins/113-internal-shipment-notification"
 group: notificaties van interne verzendingen
@@ -11,8 +11,8 @@ redirect_from:
 ---
 
 **Voorbeeld**  
-Winkel 1 stuurt een doos producten naar winkel 2.
-Op het moment dat deze verzending verwerkt is krijgt winkel 2 een notificatie op het kassascherm. 
+Winkel 1 plaatst een bestelling van een paar schoenen bij winkel 2.
+Op het moment dat deze bestelling verwerkt is is krijgt winkel 2 een notificatie op het kassascherm dat de order gepakt moet worden. 
 
 
 ## Hoe stel ik het in?
@@ -28,8 +28,13 @@ Klik vervolgens op `opslaan` om de instellingen op te slaan.
 
 **Voorbeeld**  
 In onderstaand overzicht zie je een voorbeeld.
-In dit voorbeeld zal de kassa in `Arnhem` notificaties ontvangen als er zendingen onderweg zijn vanaf de magazijnen in Tilburg, Enschede en Rotterdam.
+In dit voorbeeld zal de kassa in `Arnhem` notificaties ontvangen als er bestellingen of reserveringen (interne leveringsorders) geplaatst zijn vanaf de magazijnen in Tilburg, Enschede en Rotterdam.
 
 ![]({{site.url}}/assets/img/pos-internal-shipment-notifications-1.png){: .shadow-sm.img-fluid }
+
+## Voor welke interne leveringsorders geldt dit?
+Dit geldt voor alle interne leveringsorders en reserveringen van winkels waarbij de winkel die de order of reservering ontvangt een actie dient te ondernemen. 
+
+De notificaties zijn te zien in het notificatie overzicht van de kassa.
 
 
