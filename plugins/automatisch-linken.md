@@ -1,7 +1,7 @@
 ---
 layout: plugin
 title: Automatisch linken
-description: "Deze plugin maakt een Up-sell, Related, Cross-sell of Addon product aan op basis van een specificatie" 
+description: "Deze plugin maakt een Up-sell, Related, Cross-sell of Addon product aan op basis van een specificatie." 
 plugin_name: Automatisch Up-Sell, Related, Cross-Sell of Addon producten vullen
 plugin_url: "https://app.afosto.com/plugins/103-auto-link-products" 
 group: up-sell, related, cross-sell of addon koppelen
