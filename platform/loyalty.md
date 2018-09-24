@@ -6,7 +6,7 @@ group: loyaliteitsprogramma
 parent: platform
 toc: true
 redirect from:
-- /loyalty/
+- /loyalty
 ---
 ## Instellingen
 De instellingen van de de loyalty zijn te vinden in het bovenste menu.  

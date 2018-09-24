@@ -2,7 +2,7 @@
 layout: plugin
 title: Watermerk
 description: "Deze plugin zorgt ervoor dat afbeeldingen voorzien worden van een watermerk. Dit gebeurt op grond van een aantal instellingen."
-plugin_name: Watermark images
+plugin_name: Afbeeldingen watermerk
 plugin_url: "https://app.afosto.com/plugins/78-watermark-image"
 group: watermerk
 parent: plugins

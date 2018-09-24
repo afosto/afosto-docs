@@ -6,7 +6,7 @@ group: faqs
 parent: platform
 toc: true
 redirect_from:
-  - /platform/
+  - /platform
 ---
 ##  Stel ik stop met Afosto, kan ik data veilig en zonder risico overzetten?
 Het is mogelijk om producten en klanten te exporteren naar excel.

@@ -36,28 +36,24 @@ De json van het formulier dient aangepast te worden om reCAPTCHA te ondersteunen
 
 ### Json
 [form_naam].json
-{% highlight json linenos %}
-{% raw %}
+{% highlight json linenos %}{% raw %}
         {
             "name": "recaptcha",
             "type": "hidden",
             "rules": [
-                    {
-                        "length" : {
-                            "is" : 0
-                        }
+                {
+                    "length" : {
+                        "is" : 0
                     }
+                }
             ]
-        }
-{% endraw %}
-{% endhighlight %}
+        }{% endraw %}{% endhighlight %}
 
 ### Twig
 In dezelfde map dien je corresponderende twig bestand ook aan te passen. Vervang de code tussen de '<form>' tags met onderstaande code.
 
 [form_naam].twig
-{% highlight twig linenos %}
-{% raw %}
+{% highlight twig linenos %}{% raw %}
  {% for field in fields %}
      <div class="form-group">
          {% if field.name == "recaptcha" %}
@@ -77,15 +73,9 @@ In dezelfde map dien je corresponderende twig bestand ook aan te passen. Vervang
  {% endfor %}
  <button type="submit" class="btn btn-success">
      {{'Verstuur'|t}}
- </button>
- {% endraw%}
-{% endhighlight %}
+ </button>{% endraw %}{% endhighlight %}
 
 Als je bijvoorbeeld het formulier op de contact pagina hebt gemaakt, dien je de volgende code toe te voegen aan het formulier. Hiermee roep je het reCAPTCHA veld aan.
 
 contact.twig
-{% highlight twig linenos %}
-{% raw %}	
- {{call("recaptcha")|first}}
-{% endraw %}
-{% endhighlight %}
+{% highlight twig linenos %}{% raw %}{{call("recaptcha")|first}}{% endraw %}{% endhighlight %}

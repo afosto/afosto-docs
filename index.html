@@ -1,33 +1,63 @@
 ---
 layout: home
-title: homepage afosto docs
+title: Alles wat je moet weten over Afosto op één plek.
 ---
 
-<div class="container-fluid pt-4">
-  <div class="row">
-    <div class="col-12 col-md-7">
-      <div class="row">
-        {% for post in site.posts %}
-        <div class="col-12 {% if forloop.first == false %}col-md-6{% endif %}">
-          <div class="card h-100">
-            <div class="card-body">
-              {% assign date_format = site.afosto.date_format | default: "%-d-%m-%Y" %}
-              <h3>
-                <a class="post-link" href="{{ site.url | append: post.url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              <span class="post-meta d-block">{{ post.sub_title }}</span>
-              <small class="post-meta text-muted">{{ post.date | date: date_format }}</small>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-
+<section class="py-3 py-md-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="display-1 text-center mt-1 mt-md-5 mb-4 col-12">
+        Waar kunnen we je mee helpen?
       </div>
+      <form class="home-search col-12 col-md-6 mb-3 mb-md-5">
+        <input type="text" class="form-control form-control-lg" id="af-home-search">
+      </form>
+      <small class="col-12 text-center text-muted">
+        Laatste update<br> <a href="{{ site.url }}/updates">18 september 2018</a>
+      </small>
     </div>
-    <div class="col-12 col-md-5">
+  </div>
+</section>
 
+<div class="container-fluid pt-5">
+  <div class="h1 display-1 text-center">
+    Onderwerpen
+  </div>
+  <p class="lead text-center">
+    Kies een van de onderstaande onderwerpen om de handleidingen in desbetreffende categorie te bekijken.
+  </p>
+  <div class="row py-5">
+    <div class="col-12 col-sm-6 col-lg-3 pb-3">
+      <a class="card text-decoration-none" href="{{ site_url }}/platform">
+        <div class="px-5 py-4 card-img text-center">
+          <i class="fal fa-desktop fa-5x text-primary"></i>
+          <h2 class="display-3 mt-3 text-body">Platform</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 pb-3">
+      <a class="card text-decoration-none" href="{{ site_url }}/kassa">
+        <div class="px-5 py-4 card-img text-center">
+          <i class="fal fa-receipt fa-5x text-primary"></i>
+          <h2 class="display-3 mt-3 text-body">Kassa</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 pb-3">
+      <a class="card text-decoration-none" href="{{ site_url }}/webshop">
+        <div class="px-5 py-4 card-img text-center">
+          <i class="fal fa-shopping-cart fa-5x text-primary"></i>
+          <h2 class="display-3 mt-3 text-body">webshop</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 pb-3">
+      <a class="card text-decoration-none" href="{{ site_url }}/plugins">
+        <div class="px-5 py-4 card-img text-center">
+          <i class="fal fa-plug fa-5x text-primary"></i>
+          <h2 class="display-3 mt-3 text-body">Plugins</h2>
+        </div>
+      </a>
     </div>
   </div>
 </div>

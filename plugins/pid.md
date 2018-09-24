@@ -8,7 +8,6 @@ group: product identificatie
 parent: plugins
 toc: true
 redirect_from:
-- /inventariseren
 ---
 ## Omschrijving
 In de fashion is het vaak zo dat producten op het moment van bestellen nog geen barcode hebben, maar deze pas op het laatste moment wordt toegevoegd. Op het moment dat de producten binnenkomen in de winkel of distributiecentrum dient het product in Afosto gekoppeld te worden aan de juiste barcode. Deze Plugin zorgt ervoor dat je een product snel kan opzoeken en voorzien van de barcode welke de leverancier heeft verschaft.  

@@ -6,6 +6,7 @@ group: dns instellingen webshop
 parent: webshop
 toc: true
 redirect_from:
+- /webshop
 - /dns-instellingen-webshop
 - /platform/webshop/dns_instellingen_webshop
 ---
