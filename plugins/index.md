@@ -19,6 +19,7 @@ redirect_from:
 |[Order opmerkingen versturen](/plugins/order-opmerkingen-versturen)|Verstuur opmerkingen die zijn geplaatst bij een order naar de klant|
 |[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|
 |[Specificatie rapportages](/plugins/specificatie-rapportages)| Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties|
+|[up-sell, related, cross-sell of addon koppelen](/plugins/automatisch-linken)|Deze plugin maakt een Up-sell, Related, Cross-sell of Addon product aan op basis van een specificatie|
 |[Verzendingen beheren](/plugins/verzendingen-beheren)|Beheer al je verzendingen vanuit één overzicht|
 {: .table.table-bordered }
 
