@@ -1,17 +1,18 @@
 ---
 layout: docs
-title: Coupons wijzigen
+title: Coupons batch
 description: Het is mogelijk om in een batch instellingen van Coupons te wijzigen. 
 group: batches
 parent: platform
 toc: true
 redirect_from:
     - /platform/coupons_wijzigen
+    - /platform/coupons-wijzigen
+
 ---
 
 ## Naam
-Coupons wijzigen
-_Te vinden onder 'Batches' -> 'klanten'._
+Coupons wijzigen als batch is te vinden onder 'Batches' -> 'klanten'.
 
 ## Referentie
 Hier kun je een referentie van je actie opgeven, bijvoorbeeld "Coupons einddatum wijzigen".

@@ -17,6 +17,7 @@ redirect_from:
 |[Freshdesk](/plugins/freshdesk)|Maak een koppeling met het ticketsysteeem Freshdesk|
 |[Inventariseren](/plugins/inventariseren)|Inventariseer je producten|
 |[Order opmerkingen versturen](/plugins/order-opmerkingen-versturen)|Verstuur opmerkingen die zijn geplaatst bij een order naar de klant|
+|[Prijs groep switch](/plugins/prijs-groep-switch)|Toon een andere prijsgroep voor (geselecteerde) ingelogde gebruikers|
 |[Product Identificatie](/plugins/pid)|Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen|
 |[Specificatie rapportages](/plugins/specificatie-rapportages)| Een plugin die het mogelijk maakt rapportages te maken op basis van specificaties|
 |[up-sell, related, cross-sell of addon koppelen](/plugins/automatisch-linken)|Deze plugin maakt een Up-sell, Related, Cross-sell of Addon product aan op basis van een specificatie|

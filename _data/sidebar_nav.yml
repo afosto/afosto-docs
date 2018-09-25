@@ -1,6 +1,5 @@
 - title: kassa
   pages:
-
     - title: kassagebruikers
       label: Kassagebruikers
       slug: /kassa/kassagebruikers
@@ -42,11 +41,14 @@
           slug: /platform/producten/importeren
     - title: Batches uitvoeren
       label: Batches
-      slug: /platform/batches/coupons-wijzigen
+      slug: /platform/batches/actieprijzen-batch
       pages:
+        - title: Actieprijzen wijzigen als batch
+          label: Actieprijzen batch
+          slug:  /platform/batches/actieprijzen-batch
         - title: Coupons wijzigen als batch
-          label: Coupons wijzigen
-          slug: /platform/batches/coupons-wijzigen
+          label: Coupons batch
+          slug: /platform/batches/coupons-batch
     - title: Punten sparen en verzilveren
       label: loyaliteitsprogramma
       slug: /platform/loyalty
@@ -55,7 +57,11 @@
       slug: /platform/rapportages
     - title: Platform Vaak gestelde vragen
       label: FAQS
-      slug: /platform/faqs
+      slug: /platform/faqs/faqs
+      pages:
+        - title: Uitverkoop instellen
+          label: Uitverkoop
+          slug: /platform/faqs/uitverkoop
 
 - title: webshop
   pages:
@@ -111,6 +117,9 @@
     - title: Met deze plugin kun je van een product een of meerdere barcodes printen vanaf de kassa.
       label: Print product label
       slug: /plugins/print-product-label
+    - title: Toon een andere prijsgroep voor (geselecteerde) ingelogde gebruikers.
+      label: Prijs groep switch
+      slug: /plugins/prijs-groep-switch
     - title: Een tool om snel producten op te kunnen zoeken en een EAN(Barcode) toe te voegen.
       label: Product identificatie
       slug: /plugins/pid
