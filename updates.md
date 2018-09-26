@@ -26,7 +26,9 @@ Dit werkt op de zelfde manier als het sorteren van betaalmethoden.
 
 **Kassa (3.0.80)**
 
-- Kassa updates
+- Het is nu mogelijk om orders in te zien (niet bewerken) van de overige verkoopkanalen, zoals webshop orders en kassa orders die bij een andere kassa zijn afgerond.
+- Het is nu mogelijk om een aantal standaard rechten toe te kennen aan de kassamedewerkers, zodat deze bijvoorbeeld niet de rapportages kunnen inzien, indien dat niet wenselijk is.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
 
 **Fixes sinds de laatste release**
 
