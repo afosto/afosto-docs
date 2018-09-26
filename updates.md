@@ -8,7 +8,30 @@ redirect_from:
     - /releases
 ---
 
-# 18-09-2018
+## 02-10-2018
+
+**Platform (1.81)**
+
+- Het is nu mogelijk om bij het menu overzicht ook te zoeken binnen het actieve menu. Het zoekveld deed dit voorheen alleen voor pagina’s zonder menu items. Ook staat achter elk menu item de slug van de pagina.
+- Voor webshops is nu mogelijk de verzendmethoden te sorteren. Dit werkt op de zelfde manier als het sorteren van betaalmethoden.
+- In de Inventarisatie plugin zijn een aantal aanpassingen gedaan.
+  - De producten staan nu in twee tabellen in plaats van drie. Hierbij bevat een van de tabellen de 3 laatst gescande producten.
+  - Het is nu mogelijk om een opmerking te plaatsen per regel .
+- Bij het voorraadmutaties overzicht is het nu ook mogelijk opmerkingen te plaatsen per regel.
+- In de overzichten voor klanten, producten, orders en pakbonnen kun je nu een export maken van de aangevinkte regels.
+
+**Kassa (3.0.80)**
+
+- Kassa updates
+
+**Fixes sinds de laatste release**
+
+- Er is een verbetering gedaan in de **Interne verzendingen plugin**.
+- In het producten overzicht is er per verkoopkanaal een kolom beschikbaar gemaakt genaamd `Publicatie datum`. Deze geeft aan wanneer een product voor het eerst beschikbaar is gekomen op dat verkoopkanaal.
+
+
+
+## 18-09-2018
 **Platform (1.80)**
 
 - Het is nu mogelijk in Afosto een nieuwe type gebruiker aan te maken. 
