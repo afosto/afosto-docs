@@ -8,6 +8,12 @@ redirect_from:
     - /releases
 ---
 
+## 16-10-2018
+
+**Kassa (3.0.81)**
+- **Belangrijk**: Voor het opstarten / refreshen / kassa resetten en het uitvoeren van kassa updates, is een stabiele internetverbinding nu een vereiste. Indien er op deze momenten geen sprake is van een stabiele internetverbinding, dan kan de kassa niet worden geladen.
+- Het opstarten van de kassa (indien deze niet al is opgestart) zou iets langer kunnen duren dan normaal, afhankelijk van de stabiliteit en snelheid van de internetverbinding.
+
 ## 02-10-2018
 
 **Platform (1.81)**
