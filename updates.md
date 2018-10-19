@@ -17,8 +17,13 @@ redirect_from:
 
 **Kassa (3.0.82)**
 
-- notificaties gegroepeerd
-- verloopdatum klantenkaart inzien
+- Notificaties zijn nu gegroepeerd in de volgende basis groepen: `Updates`, `Nieuws` en `Orders` .
+Tevens zijn er groepen aangemaakt voor de plugins, zoals `Reserveringen / Leverorders` en het printen van labels.
+- In de **leverorder / reserveringen plugin**, is een instelling toegevoegd waarbij voor het aanmaken van een leverorder, het oorsprongsmagazijn wordt vastgezet.
+- Er zijn kleine verbeteringen doorgevoerd m.b.t. de afhandeling van leverorders / reserveringen (plugin).
+- Verlopen coupons zijn nu wel zichtbaar op de kassa, zodat inzichtelijk is wanneer een coupon precies is verlopen.
+Tevens wordt op het betaalscherm getoond hoe lang een coupon nog geldig is.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
 
 **Fixes sinds de laatste release**
 
