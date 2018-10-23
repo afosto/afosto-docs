@@ -8,6 +8,30 @@ redirect_from:
     - /releases
 ---
 
+## 23-10-2018
+**Platform (1.82)**
+
+- De **interne verzendingen plugin** is uitgebreid. Bij het aanmaken van een automatische leverorder heb je een veld beschikbaar om het maximaal te verzenden aantal kunt instellen.
+- De **Google Data Studio plugin** verstuurd nu realtime nieuwe orders door naar Data Studio. 
+- Voor de webshop bouwers: de snelheid van het compileren van javascript en scss is verbeterd.
+
+**Kassa (3.0.82)**
+
+- Notificaties zijn nu gegroepeerd in de volgende basis groepen: `Updates`, `Nieuws` en `Orders` .
+Tevens zijn er groepen aangemaakt voor de plugins, zoals `Reserveringen / Leverorders` en het printen van labels.
+- In de **leverorder / reserveringen plugin**, is een instelling toegevoegd waarbij voor het aanmaken van een leverorder, het oorsprongsmagazijn wordt vastgezet.
+- Er zijn kleine verbeteringen doorgevoerd m.b.t. de afhandeling van leverorders / reserveringen (plugin).
+- Verlopen coupons zijn nu wel zichtbaar op de kassa, zodat inzichtelijk is wanneer een coupon precies is verlopen.
+Tevens wordt op het betaalscherm getoond hoe lang een coupon nog geldig is.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
+**Fixes sinds de laatste release**
+
+- Importeren van producten met afbeeldingen via een csv is verbeterd.
+- Het verwerken van prijs mutaties via de **prijs mutatie bucket plugin** is geoptimaliseerd.
+
+
+
 ## 16-10-2018
 
 **Kassa (3.0.81)**
