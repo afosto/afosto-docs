@@ -8,6 +8,20 @@ redirect_from:
     - /releases
 ---
 
+## 05-11-2018
+**Platform (1.83)**
+
+- Het zoeken is aanzienlijk verbeterd, dit geldt voor zowel je shop als het platform.
+- Het sorteren van producten op een menu item is aangepast. Je kan nu een selectie maken van producten die je handmatig sorteert en boven aan komen te staan. De overige producten kun je automatisch sorteren.
+- Er zijn kleine verbeteringen doorgevoerd in het valideren van coupon codes en in de api.
+
+**Fixes sinds de laatste release**
+
+- Het zoeken naar menu items is verbeterd zodat elk menu doorzocht kan worden.
+- Er zijn meerderen aanpassingen gedaan aan het compileren van de assets in de template editor.
+
+
+
 ## 23-10-2018
 **Platform (1.82)**
 
