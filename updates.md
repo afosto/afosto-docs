@@ -8,6 +8,25 @@ redirect_from:
     - /releases
 ---
 
+## 20-11-2018
+**Platform (1.74)**
+
+- De gegenereerde pdf facturen kunnen nu uitgebreidere informatie tonen van betalingen. Bijvoorbeeld de factuur van een kassa order kan nu informatie over de pin betalingen tonen. Mocht je deze informatie op je factuur willen tonen, neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Factuur%20data%20uitbreiden&body=Ik%20wil%20graag%20mijn%20factuur%20data%20uitbreiden%20met%20payment%20data.).
+- De nieuwe **Uitgebreide email plugin** maakt het mogelijk om je berichtgeving emails op te maken. Hiervoor is een nieuwe code editor geïntroduceerd waarin email templates gemaakt kunnen worden. Heb je geen kennis van HTML, CSS en Twig? neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20wil%20graag%20opgemaakte%20emails&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Uitgebreide%20emails%20plugin.) en vraag naar de mogelijk.
+
+**Kassa (3.0.83)**
+
+- Er is functionaliteit toegevoegd waardoor nu RMA's (Return merchandise authorization), zoals klachtafhandeling / reparaties, kunnen worden aangemaakt vanaf de kassa. (**plugin**)
+- De sortering van de producten lijst bij het zoeken van producten is verbeterd. Hierdoor komen producten met de meest relevante score, nu bovenaan te staan.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
+**Fixes sinds de laatste release**
+
+- Er zijn veel verbeteringen gedaan aan zoekmachine.
+- Bij de **verzendkoppelingen plugin** is het nu mogelijk te koppelen met `Veloyd`. Dit platform is onderdeel van de pakket dienst [Raas Koeriers](https://raaskoeriers.nl/).
+
+
+
 ## 05-11-2018
 **Platform (1.83)**
 
