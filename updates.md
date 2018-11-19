@@ -24,7 +24,7 @@ redirect_from:
 
 **Fixes sinds de laatste release**
 
-- Er zijn veel verbeteringen gedaan aan zoekmachine.
+- Er zijn veel verbeteringen gedaan aan de zoekmachine.
 
 
 
