@@ -11,10 +11,16 @@ redirect_from:
 ## 04-12-2018
 **Platform (1.85)**
 
-- De **bundel plugin** is aanzienlijk verbeterd. Je maakt nu pakketen waarin één hoofd product zit en meerdere andere producten aan gekoppeld kunnen worden. Aan deze producten kun je afzonderlijk kortingen toekennen. Wil je meer weten? Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20meer%20weten%20over%20de%20Bundel%20plugin&body=Ik%20wil%20graag%20meer%20weten%20over%20de%20bundel%20plugin.)
+- De **bundel plugin** is aanzienlijk verbeterd. 
+Je maakt nu pakketen waarin één hoofd product zit en meerdere andere producten aan gekoppeld kunnen worden. 
+Aan deze producten kun je afzonderlijk kortingen toekennen. 
+Wil je meer weten? Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20wil%20meer%20weten%20over%20de%20Bundel%20plugin&body=Ik%20wil%20graag%20meer%20weten%20over%20de%20bundel%20plugin.).
 - Het is nu mogelijk om ook icoontjes bij verzendmethodes toe te voegen.
+Wil je meer weten? Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20wil%20meer%20weten%20over%20de%20icoontjes%20bij%20verzendmethodes&body=Ik%20wil%20graag%20meer%20weten%20over%20de%20icoontjes%20bij%20verzendmethodes.).
 - Wanneer je gebruik maakt van een andere valuta dan de Euro, wordt nu ook het juiste teken in het platform gehanteerd.
-- De codebase is opgeschoond.
+- De SEO instellingen bij collecties zijn uit het platform gehaald. 
+Deze hadden al geen effect meer op je webshop.
+De SEO instellingen zijn nu alleen te beheren per pagina en per product.
 
 **Fixes sinds de laatste release**
 
