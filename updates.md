@@ -8,6 +8,20 @@ redirect_from:
     - /releases
 ---
 
+## 04-12-2018
+**Platform (1.85)**
+
+- De **bundel plugin** is aanzienlijk verbeterd. Je maakt nu pakketen waarin één hoofd product zit en meerdere andere producten aan gekoppeld kunnen worden. Aan deze producten kun je afzonderlijk kortingen toekennen. Wil je meer weten? Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20meer%20weten%20over%20de%20Bundel%20plugin&body=Ik%20wil%20graag%20meer%20weten%20over%20de%20bundel%20plugin.)
+- Het is nu mogelijk om ook icoontjes bij verzendmethodes toe te voegen.
+- Wanneer je gebruik maakt van een andere valuta dan de Euro, wordt nu ook het juiste teken in het platform gehanteerd.
+- De codebase is opgeschoond.
+
+**Fixes sinds de laatste release**
+
+- Het compileren van de css voor webshops is verbeterd.
+- Er zijn controles toegevoegd aan de product import functionaliteit om fouten in het bestand te herkennen.
+- Er zijn een aantal andere verbeteringen doorgevoerd.
+
 ## 20-11-2018
 **Platform (1.74)**
 
