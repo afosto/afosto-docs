@@ -29,7 +29,7 @@ De SEO instellingen zijn nu alleen te beheren per pagina en per product.
 - Er zijn een aantal andere verbeteringen doorgevoerd.
 
 ## 20-11-2018
-**Platform (1.74)**
+**Platform (1.84)**
 
 - De gegenereerde pdf facturen kunnen nu uitgebreidere informatie tonen van betalingen. Bijvoorbeeld de factuur van een kassa order kan nu informatie over de pin betalingen tonen. Mocht je deze informatie op je factuur willen tonen, neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Factuur%20data%20uitbreiden&body=Ik%20wil%20graag%20mijn%20factuur%20data%20uitbreiden%20met%20payment%20data.).
 - De nieuwe **Uitgebreide email plugin** maakt het mogelijk om je berichtgeving emails op te maken. Hiervoor is een nieuwe code editor geïntroduceerd waarin email templates gemaakt kunnen worden. Heb je geen kennis van HTML, CSS en Twig? neem dan contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20wil%20graag%20opgemaakte%20emails&body=Ik%20wil%20graag%20gebruik%20maken%20van%20de%20Uitgebreide%20emails%20plugin.) en vraag naar de mogelijk.
