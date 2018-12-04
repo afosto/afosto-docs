@@ -1,9 +1,6 @@
 - title: kassa
   pages:
 
-    - title: kassagebruikers
-      label: Kassagebruikers
-      slug: /kassa/kassagebruikers
     - title: Betaalrapportage
       label: Betaalrapportage
       slug: /kassa/betaalrapportage
@@ -14,6 +11,9 @@
         - title: Zebra ZD410d labelprinter
           label: Zebra ZD410d
           slug: /kassa/hardware/zebra-zd410d
+    - title: kassagebruikers
+      label: Kassagebruikers
+      slug: /kassa/kassagebruikers
     - title: Orders
       label: Orders
       slug: /kassa/orders
