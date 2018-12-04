@@ -17,6 +17,7 @@ Aan deze producten kun je afzonderlijk kortingen toekennen.
 Wil je meer weten? Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20wil%20meer%20weten%20over%20de%20Bundel%20plugin&body=Ik%20wil%20graag%20meer%20weten%20over%20de%20bundel%20plugin.).
 - Het is nu mogelijk om ook icoontjes bij verzendmethodes toe te voegen.
 Wil je meer weten? Neem contact op met [support@afosto.com](mailto:support@afosto.com?subject=Ik%20wil%20meer%20weten%20over%20de%20icoontjes%20bij%20verzendmethodes&body=Ik%20wil%20graag%20meer%20weten%20over%20de%20icoontjes%20bij%20verzendmethodes.).
+- Het is nu mogelijk om het sparen van loyalty punten bij bonkorting op de kassa uit te zetten. Wil je meer weten? Neem contact op met support@afosto.com.
 - Wanneer je gebruik maakt van een andere valuta dan de Euro, wordt nu ook het juiste teken in het platform gehanteerd.
 - De SEO instellingen bij collecties zijn uit het platform gehaald. 
 Deze hadden al geen effect meer op je webshop.
