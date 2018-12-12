@@ -28,6 +28,7 @@ redirect_from:
 
 - Er zijn aanpassingen gedaan voor de Bundel plugin.
 - Ondersteuning voor Klarna in Oostenrijk is toegevoegd.
+- Het zoeken op EAN’s en artikelnummers op de kassa is verbeterd.
 
 ## 04-12-2018
 **Platform (1.85)**
