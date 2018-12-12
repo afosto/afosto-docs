@@ -16,6 +16,9 @@ redirect_from:
 - De Afbeelding importer plugin is uitgebreid met de optie om te identificeren op basis van de SKU.
 - Er zijn een aantal aanpassingen gedaan omtrent de beveiliging van je webshop. Uw klanten shoppen nu nog veiliger.
 - Een aantal foutmeldingen van de product importer zijn aangepast zodat ze beter te begrijpen zijn.
+- De email templates voor de nieuwsbrieven plugin, verjaardagsemail plugin, pakbonnen automatisch mailen plugin zijn omgezet naar de nieuwe structuur.
+- Ook de product verrijker plugin is omgezet naar de nieuwe editor.
+- De Google Tag Manager plugin heeft nu ook ondersteuning voor een tracking categorie.
 
 **Kassa (3.0.84)**
 
