@@ -19,6 +19,7 @@ redirect_from:
 - De email templates voor de nieuwsbrieven plugin, verjaardagsemail plugin, pakbonnen automatisch mailen plugin zijn omgezet naar de nieuwe structuur.
 - Ook de product verrijker plugin is omgezet naar de nieuwe editor.
 - De Google Tag Manager plugin heeft nu ook ondersteuning voor een tracking categorie.
+- Het is nu mogelijk om voor de batch opdrachten ‘Interne verzendingen aanmaken voor meerdere magazijnen’, om de magazijnen te selecteren waarnaar je wilt verzenden. Deze komen als kolommen in het overzicht te staan.
 
 **Kassa (3.0.84)**
 
