@@ -8,6 +8,32 @@ redirect_from:
     - /releases
 ---
 
+## 18-12-2018
+
+**Platform (1.86)**
+
+- Het product formulier is onder de loop genomen en geoptimaliseerd. Er is veel tijd gestoken in het verbeteren van de laadtijd van de pagina. Hierdoor werk je een stuk sneller producten bij.
+- De Afbeelding importer plugin is uitgebreid met de optie om te identificeren op basis van de SKU.
+- Er zijn een aantal aanpassingen gedaan omtrent de beveiliging van je webshop. Uw klanten shoppen nu nog veiliger.
+- Een aantal foutmeldingen van de product importer zijn aangepast zodat ze beter te begrijpen zijn.
+- De email templates voor de nieuwsbrieven plugin, verjaardagsemail plugin, pakbonnen automatisch mailen plugin zijn omgezet naar de nieuwe structuur.
+- Ook de product verrijker plugin is omgezet naar de nieuwe editor.
+- De Google Tag Manager plugin heeft nu ook ondersteuning voor een tracking categorie.
+- Het is nu mogelijk om voor de batch opdrachten ‘Interne verzendingen aanmaken voor meerdere magazijnen’, om de magazijnen te selecteren waarnaar je wilt verzenden. Deze komen als kolommen in het overzicht te staan.
+
+**Kassa (3.0.84)**
+
+- Er is functionaliteit toegevoegd waardoor bij het aanmaken van een nieuwe RMA, de bijbehorende retourorder direct aan de RMA wordt gekoppeld. Hierdoor is het mogelijk om zowel vanuit platform als kassa via de retourorder de bijbehorende RMA's in te zien en vice versa. (Interne verzendingen plugin)
+- Er is functionaliteit toegevoegd waardoor het nu mogelijk is om bij het aanmaken van een leverorder, reservering of RMA, eerst een product pagina te openen i.p.v. het product direct via het zoeken toe te voegen. Dit heeft als voordeel dat de volledige voorraad van het product kan worden ingezien, voordat het product  wordt toegevoegd. Het direct toevoegen is nog steeds mogelijk d.m.v. de knop die aan het einde van de rij staat, bij het zoeken naar producten. (Interne verzendingen plugin)
+- Er is een probleem verholpen waarbij tijdens het zoeken van producten de voorraad niet zichtbaar was of deze visueel op 0 bleef staan, wanneer er tegelijkertijd een synchronisatie van producten plaats vond.
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
+**Fixes sinds de laatste release**
+
+- Er zijn aanpassingen gedaan voor de Bundel plugin.
+- Ondersteuning voor Klarna in Oostenrijk is toegevoegd.
+- Het zoeken op EAN’s en artikelnummers op de kassa is verbeterd.
+
 ## 04-12-2018
 **Platform (1.85)**
 
