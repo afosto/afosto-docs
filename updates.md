@@ -8,6 +8,20 @@ redirect_from:
     - /releases
 ---
 
+
+## 02-01-2019
+**Platform (1.87)**
+
+- Op de kassa is het nu mogelijk om orders van andere verkoopkanalen in te zien. Als deze nog niet betaald zijn kun je ze afrekenen op de kassa.
+- Clean filter menu pagina’s zijn nu bereikbaar via elke combinatie. Voorheen was dit alleen het pad waarop de pagina was aangemaakt.
+- Bij het bekijken van de leveringen van een sale kun je nu op het track&trace nummer klikken om de status te bekijken.
+- De koppeling met Sendcloud is uitgebreid met de ondersteuning voor pickup points via PostNL en DHL.
+
+**Fixes sinds de laatste release**
+
+- Het informeren van de klant wanneer zijn/haar bestelling klaar ligt in de winkel is verbeterd.
+- De icoontjes van de betaalmethoden en verzendmethoden kunnen weer worden verwijderd.
+
 ## 18-12-2018
 
 **Platform (1.86)**
