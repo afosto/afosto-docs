@@ -1,12 +1,20 @@
 ---
 layout: updates
 title: Platform updates
-description: Er vinden regelmatig updates plaats op het platform. Hier worden de releasenotes geplaatst.
+description: Er vinden regelmatig updates plaats op het platform. Hieronder vindt je de notities van alle belangrijke wijzigingen in Afosto.
 group: updates 
 toc: true
 redirect_from:
     - /releases
 ---
+
+## 08-01-2019
+**Kassa (3.0.85)**
+
+- Er is functionaliteit toegevoegd voor het toevoegen van een product aan de bon met een daarbij behorende kostprijs. (Kassa kostprijs plugin)
+- Er zijn verbeteringen doorgevoerd met betrekking tot de functionaliteit, voor het afhandelen van verkopen van andere verkoopkanalen (webshop / instore / kassa)
+- Er zijn een aantal andere kleine verbeteringen doorgevoerd.
+
 
 
 ## 02-01-2019
