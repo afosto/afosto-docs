@@ -14,7 +14,7 @@ redirect_from:
 - De magazijn volgorde instellingen zijn verplaatst van **Administratie** naar **Voorraadinstellingen**.
 - Met de nieuwe **Collectie uitsluiten van zoekresultaten plugin** is het mogelijk om een collectie te maken die buiten de zoekfunctionaliteit van de shop blijft. Zo kun je bijvoorbeeld aanvullende producten aanbieden die niet los te vinden zijn.
 - Het overzicht van de Coupons is uitgebreid met een filter om alleen actieve coupons te tonen en een filter voor een tijdspan. Standaard worden nu alleen actieve coupons getoond.
-- welkom mail
+- Wanneer een gebruiker een account aanmaakt krijgen ze een welkomst mail toegestuurd.
 - Met de nieuwe **Datatrics** plugin koppel je jouw Afosto webshop gemakkelijk aan je Datatrics account.
 - Het product overzicht is uitgebreid met kolommen voor SEO. Hierdoor kun je de SEO instellingen van een product ook exporteren.
 - De SEO titel, beschrijving en keywords zijn uit de **Product beschrijvingen wijzigen** batch job gehaald. Deze zijn te wijzigen door middel van de **Product SEO** batch job.
