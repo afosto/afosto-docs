@@ -8,6 +8,28 @@ redirect_from:
     - /releases
 ---
 
+## 15-01-2019
+**Platform (1.88)**
+
+- De magazijn volgorde instellingen zijn verplaatst van **Administratie** naar **Voorraadinstellingen**.
+- Met de nieuwe **Collectie uitsluiten van zoekresultaten plugin** is het mogelijk om een collectie te maken die buiten de zoekfunctionaliteit van de shop blijft. Zo kun je bijvoorbeeld aanvullende producten aanbieden die niet los te vinden zijn.
+- Het overzicht van de Coupons is uitgebreid met een filter om alleen actieve coupons te tonen en een filter voor een tijdspan. Standaard worden nu alleen actieve coupons getoond.
+- Wanneer een gebruiker een account aanmaakt krijgen ze een welkomst mail toegestuurd.
+- Met de nieuwe **Datatrics** plugin koppel je jouw Afosto webshop gemakkelijk aan je Datatrics account.
+- Het product overzicht is uitgebreid met kolommen voor SEO. Hierdoor kun je de SEO instellingen van een product ook exporteren.
+- De SEO titel, beschrijving en keywords zijn uit de **Product beschrijvingen wijzigen** batch job gehaald. Deze zijn te wijzigen door middel van de **Product SEO** batch job.
+- Het verzendingen overzicht is uitgebreid met een filter voor de status van de betaling.
+- Wanneer je een andere prijsgroep selecteert bij een winkelgroep, worden de gekoppelde kassa’s nu standaard gesynchroniseerd.
+
+**Fixes sinds de laatste release**
+
+- Wanneer wij geen pickup point kunnen vinden, op basis van de informatie uit Sendcloud, wordt er nu een bericht getoond dat de verzending handmatig in Sendcloud aangemaakt dient te worden.
+- De link in de email voor het wijzigen van het wachtwoord via login.afosto.com leidt weer naar de juiste pagina.
+- Het berekenen van het subtotaal van een bundel die meerdere keren in je cart zit is gerepareerd.
+- Er is een perfomance verbetering gedaan aan de api.
+
+
+
 ## 08-01-2019
 **Kassa (3.0.85)**
 
